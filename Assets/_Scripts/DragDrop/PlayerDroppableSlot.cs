@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class PlayerSlot : MonoBehaviour, IDropHandler
+public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
 {
-    [SerializeField] private PlayerPlacementSlot slotID;
+    [SerializeField] private PlayerSlot slotID;
 
     public void OnDrop(PointerEventData eventData)
     {

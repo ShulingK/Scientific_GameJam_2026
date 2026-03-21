@@ -1,8 +1,7 @@
-public enum PlayerPlacementSlot
+public enum PlayerSlot
 {
     None,
     Tete,
     Coeur,
     Ventre,
-
 }
