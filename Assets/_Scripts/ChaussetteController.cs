@@ -8,6 +8,7 @@ public class ChaussetteController : MonoBehaviour
 {
     private Animator chaussetteAnimator;
     [SerializeField] private GameObject inventaire;
+    [SerializeField] private GameObject dialogue;
     [SerializeField] float onEnterTime;
 
     private void Awake()
@@ -30,9 +31,13 @@ public class ChaussetteController : MonoBehaviour
     {
         HideInventory();
 
+        ShowDialogue();
+
         chaussetteAnimator.SetTrigger("OnEnterScene");
 
         yield return new WaitForSeconds(onEnterTime);
+
+        HideDialogue();
 
         ShowInventory();
 
@@ -46,6 +51,16 @@ public class ChaussetteController : MonoBehaviour
     private void ShowInventory()
     {
         inventaire.SetActive(true);
+    }
+
+    private void HideDialogue()
+    {
+        dialogue.SetActive(false);
+    }
+
+    private void ShowDialogue()
+    {
+        dialogue.SetActive(true);
     }
 
     public void BadEndAnimation()

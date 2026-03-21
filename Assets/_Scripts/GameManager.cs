@@ -37,6 +37,15 @@ public class GameManager : MonoBehaviour
 
     public Action OnSuccess; 
 
+    private enum litleEmotion
+    {
+        JOIE, 
+        COLERE,
+        PEUR,
+        TRISTESSE
+    }
+
+
     void CheckSuccessRound()
     {
         if (GetActiveRound().GetRounds().Count != _emotionAlreadyPlaced.Count)
@@ -61,6 +70,8 @@ public class GameManager : MonoBehaviour
 
         if (temp == GetActiveRound().GetRounds().Count)
         {
+            
+
             OnSuccess?.Invoke();
 
             _level.Next();
@@ -75,6 +86,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    /*private litleEmotion FoundEmotion()
+    {
+        
+    }*/
 
     #endregion
 
