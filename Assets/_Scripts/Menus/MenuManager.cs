@@ -1,3 +1,5 @@
+using FMOD.Studio;
+using FMODUnity;
 using System.Collections;
 using UnityEngine;
 
@@ -6,6 +8,19 @@ public class MenuManager : MonoBehaviour
     [SerializeField] SceneLoader _sceneLoader;
 
     [SerializeField] Level _level;
+
+    private EventInstance musicEventInstance;
+
+    private void Start()
+    {
+        InitializeMusic(FMODEvents.Instance._mainMenu);
+    }
+
+    public void InitializeMusic(EventReference musicEventReference)
+    {
+        musicEventInstance = AudioManager.Instance.CreateInstance(musicEventReference);
+        musicEventInstance.start();
+    }
 
     public void Play()
     {

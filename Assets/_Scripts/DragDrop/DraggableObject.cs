@@ -28,6 +28,8 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         ReturnToParent();
         GetComponent<Image>().maskable = false;
         GetComponent<Image>().raycastTarget = false;
+
+        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._takeEmotion);
         // transform.SetParent(panel);
     }
 

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEditor.VisionOS;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -24,8 +25,6 @@ public class GameManager : MonoBehaviour
 
     void CheckSuccessRound()
     {
-        Debug.Log(GetActiveRound());
-
         if (GetActiveRound().GetRounds().Count != _emotionAlreadyPlaced.Count)
             return;
 
@@ -56,6 +55,50 @@ public class GameManager : MonoBehaviour
             Debug.Log("Lose");
         }
     }
+
+
+    #endregion
+
+    #region Bad Emotions
+    List<BadEmotion> _currentBadEmotions;
+    public void SetActiveBadEmotions(List<BadEmotion> badEmotions) => _currentBadEmotions = badEmotions;
+    public List<BadEmotion> GetActiveBadEmotions() => _currentBadEmotions;
+
+    Action OnBadEmotionSuccess;
+
+    void CheckBadEmotions()
+    {
+        foreach (BadEmotion badEmotion in GetActiveBadEmotions())
+        {
+
+            if (badEmotion.GetBadEmotions().Count != _emotionAlreadyPlaced.Count)
+                return;
+
+            int temp = 0;
+
+            for (int i = 0; i < _emotionAlreadyPlaced.Count; i++)
+            {
+                for (int j = 0; j < badEmotion.GetBadEmotions().Count; j++)
+                {
+                    if (j > badEmotion.GetBadEmotions().Count)
+                        continue;
+
+                    if (_emotionAlreadyPlaced[i].emotion == badEmotion.GetBadEmotions()[j].emotion &&
+                        _emotionAlreadyPlaced[i].slot == badEmotion.GetBadEmotions()[j].slot)
+                    {
+                        temp++;
+                    }
+                }
+            }
+
+            if (temp == badEmotion.GetBadEmotions().Count)
+            {
+                OnBadEmotionSuccess?.Invoke();
+                Debug.LogWarning("Bad EMOTION !!!!");
+            }
+        }
+    }
+
 
     #endregion
 
@@ -104,6 +147,7 @@ public class GameManager : MonoBehaviour
         }
 
         CheckSuccessRound();
+        CheckBadEmotions();
     }
     #endregion
 }

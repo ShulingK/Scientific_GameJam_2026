@@ -7,6 +7,7 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
     [SerializeField] private PlayerSlot slotID;
 
     [SerializeField] private GameObject leftHand;
+
     private Image leftHandImage;
 
     private DraggableObject stockedEmotion;
@@ -47,6 +48,8 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
         Debug.Log(stockedEmotion.GetEmotionID() + " placé sur " + slotID);
         DuplicateOnLeftHand();
         placementEvent.RaiseEvent(stockedEmotion.GetEmotionID(), slotID, true);
+
+        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._dropEmotion);
 
     }
 
