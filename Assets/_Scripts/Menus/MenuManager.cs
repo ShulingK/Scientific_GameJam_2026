@@ -27,40 +27,64 @@ public class MenuManager : MonoBehaviour
         _sceneLoader.LoadScene(_level.level);
     }
 
+    public void ButtonSound()
+    {
+        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._clickButton);
+    }
+
     #region Settings
+
+    [Header("Settings")]
+    [SerializeField] GameObject _settingsPanel;
+
     public void OpenSettings(bool isOpen)
     {
-
+        if (isOpen) 
+            StartCoroutine(COpenSettings());
+        else 
+            StartCoroutine(CCloseSettings());
     }
 
     IEnumerator COpenSettings()
     {
         yield return null;
 
+        _settingsPanel.SetActive(true);
     }
 
     IEnumerator CCloseSettings()
     {
         yield return null;
 
+        _settingsPanel.SetActive(false);
     }
     #endregion
 
     #region Credits
+
+    [Header("Credits")]
+    [SerializeField] GameObject _creditsPanel;
     public void OpenCredits(bool isOpen)
     {
-        // 
+        if (isOpen)
+            StartCoroutine(COpenCredits());
+        else
+            StartCoroutine(CCloseCredits());
     }
 
     IEnumerator COpenCredits()
     {
         yield return null;
 
+        _creditsPanel.SetActive(true);
     }
 
     IEnumerator CCloseCredits()
     {
         yield return null;
+
+        _creditsPanel.SetActive(false);
     }
+
     #endregion
 }
