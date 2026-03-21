@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
 {
     [SerializeField] private PlayerSlot slotID;
 
-    //private Emotion stockedEmotion = Emotion.None;
+    [SerializeField] private GameObject leftHand;
+
     private DraggableObject stockedEmotion;
 
     public PlacementEventChannel placementEvent;
@@ -20,8 +22,8 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
         if (transform.childCount == 0 && stockedEmotion != null)
         {
             Debug.Log(stockedEmotion.GetEmotionID() + " enlevé de " + slotID);
+            DeleteOnLeftHand();
             placementEvent.RaiseEvent(stockedEmotion.GetEmotionID(), slotID, false);
-
             stockedEmotion = null;
         }
     }
@@ -32,6 +34,7 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
         {
             stockedEmotion.ReturnToParent();
             Debug.Log(stockedEmotion.GetEmotionID() + " enlevé de " + slotID);
+            DeleteOnLeftHand();
             placementEvent.RaiseEvent(stockedEmotion.GetEmotionID(), slotID, false);
         }
 
@@ -41,8 +44,26 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
         stockedEmotion.transform.position = transform.position;
 
         Debug.Log(stockedEmotion.GetEmotionID() + " placé sur " + slotID);
+        DuplicateOnLeftHand();
         placementEvent.RaiseEvent(stockedEmotion.GetEmotionID(), slotID, true);
 
     }
+
+    private void DuplicateOnLeftHand()
+    {
+        if (slotID == PlayerSlot.Main && leftHand != null)
+        {
+            leftHand.GetComponent<Image>().sprite = stockedEmotion.GetObjectSprite();
+        }
+    }
+
+    private void DeleteOnLeftHand()
+    {
+        if (slotID == PlayerSlot.Main && leftHand != null)
+        {
+            leftHand.GetComponent<Image>().sprite = null;
+        }
+    }
+
 
 }

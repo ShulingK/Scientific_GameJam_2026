@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(RectTransform))]
 public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
@@ -41,5 +42,10 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         {
             transform.position = parentBoardSlotTransform.position;
         }
+    }
+
+    public Sprite GetObjectSprite()
+    {
+        return GetComponentInChildren<Image>().sprite;
     }
 }

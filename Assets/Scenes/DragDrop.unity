@@ -1109,7 +1109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7a938e0f352d944e844c6f9bc98c73d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDroppableSlot
-  slotID: 3
+  slotID: 5
   placementEvent: {fileID: 11400000, guid: f4a218af9ee9ac64890bf5b5c47486fc, type: 2}
 --- !u!114 &2065406811
 MonoBehaviour:
