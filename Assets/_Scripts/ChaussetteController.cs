@@ -8,6 +8,7 @@ public class ChaussetteController : MonoBehaviour
 {
     private Animator chaussetteAnimator;
     [SerializeField] private GameObject inventaire;
+    [SerializeField] float onEnterTime;
 
     private void Awake()
     {
@@ -16,9 +17,7 @@ public class ChaussetteController : MonoBehaviour
 
     private void Start()
     {
-        //OnEnterSceneAnimation();
-
-        chaussetteAnimator.SetTrigger("OnEnterScene");
+        OnEnterSceneAnimation();
     }
 
 
@@ -29,16 +28,11 @@ public class ChaussetteController : MonoBehaviour
 
     private IEnumerator OnEnterSceneAnimationCoroutine()
     {
-
         HideInventory();
 
         chaussetteAnimator.SetTrigger("OnEnterScene");
 
-        while(chaussetteAnimator.GetCurrentAnimatorStateInfo(0).IsName("OnEnterScene"))
-        {
-            Debug.Log("Still on Enter Scene");
-            yield return null;
-        }
+        yield return new WaitForSeconds(onEnterTime);
 
         ShowInventory();
 
@@ -46,7 +40,7 @@ public class ChaussetteController : MonoBehaviour
 
     private void HideInventory()
     {
-        inventaire.SetActive(true);
+        inventaire.SetActive(false);
     }
 
     private void ShowInventory()
