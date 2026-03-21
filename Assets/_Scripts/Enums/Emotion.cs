@@ -1,9 +1,13 @@
 public enum Emotion
 {
     None,
-    Joie,
-    Frustration,
-    Peur,
-    Degout,
-    Tristesse
+    JoieTete,
+    JoiePoitrine,
+    ColereBasTete,
+    ColereMain,
+    ColerePoitrine,
+    TristesseGorge,
+    TristessePoitrine,
+    TristesseYeux,
+    TristesseMain,
 }
