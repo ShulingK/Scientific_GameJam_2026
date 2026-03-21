@@ -8,7 +8,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] Level _level;
     [SerializeField] SceneLoader _sceneLoader;
 
+    [SerializeField] ChaussetteController chaussette;
+
     public static GameManager Instance { get; private set; }
+
+    public bool lockDrag = false;
     
     public void Awake()
     {
@@ -62,6 +66,7 @@ public class GameManager : MonoBehaviour
 
             _level.Next();
             _sceneLoader.LoadScene(_level.level);
+            lockDrag = true;
 
             Debug.Log("Win");
         }
