@@ -4,11 +4,21 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] List<Round> _allRouds;
+
+
     public void Awake()
     {
         if (_placementEventChannel != null)
             SubscribePlacementEventChannel();
     }
+
+
+    void Update()
+    {
+        Debug.Log(_emotionAlreadyPlaced.Count);
+    }
+
 
     #region Rounds
     Round _currentRound;
@@ -19,6 +29,8 @@ public class GameManager : MonoBehaviour
 
     void CheckSuccessRound()
     {
+
+
         if (GetActiveRound().GetRounds().Count != _emotionAlreadyPlaced.Count)
             return;
 
