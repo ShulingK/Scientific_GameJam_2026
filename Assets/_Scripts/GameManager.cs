@@ -8,14 +8,21 @@ public class GameManager : MonoBehaviour
     [SerializeField] Level _level;
     [SerializeField] SceneLoader _sceneLoader;
 
+    public static GameManager Instance { get; private set; }
+    
     public void Awake()
     {
+        if (Instance != null)
+        {
+            Debug.Log("Found plusieurs AudioManager");
+            return;
+        }
+        Instance = this;
+
         if (_placementEventChannel != null)
             SubscribePlacementEventChannel();
         SetActiveRound(_round);
     }
-
-
 
 
     #region Rounds
