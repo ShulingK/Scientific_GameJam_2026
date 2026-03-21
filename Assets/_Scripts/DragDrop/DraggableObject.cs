@@ -17,11 +17,15 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     }
     public Emotion GetEmotionID() => emotionID;
 
+    public void ReturnToParent()
+    {
+        transform.SetParent(parentBoardSlotTransform);
+        transform.position = parentBoardSlotTransform.position;
+    }
+
     public void OnBeginDrag(PointerEventData eventData)
     {
-        //Debug.Log("Begin Drag");
-
-        transform.SetParent(parentBoardSlotTransform);
+        ReturnToParent();
     }
 
     public void OnDrag(PointerEventData eventData)
