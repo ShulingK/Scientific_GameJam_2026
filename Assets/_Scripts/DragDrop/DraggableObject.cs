@@ -1,0 +1,41 @@
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+[RequireComponent(typeof(RectTransform))]
+public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+{
+    [SerializeField] private Emotion emotionID;
+    [SerializeField] private Transform parentBoardSlotTransform;
+
+
+    private RectTransform draggingPlane;
+
+
+    private void Awake()
+    {
+        draggingPlane = GetComponent<RectTransform>();
+    }
+    public Emotion GetEmotionID() => emotionID;
+
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        //Debug.Log("Begin Drag");
+
+        transform.SetParent(parentBoardSlotTransform);
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        RectTransformUtility.ScreenPointToWorldPointInRectangle(draggingPlane, eventData.position, eventData.pressEventCamera, out Vector3 globabPointerPosition);
+        transform.position = globabPointerPosition;
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+
+        if (!transform.parent.CompareTag("PlayerLayer"))
+        {
+            transform.position = parentBoardSlotTransform.position;
+        }
+    }
+}
