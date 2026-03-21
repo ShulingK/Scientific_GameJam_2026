@@ -20,9 +20,9 @@ public class GameManager : MonoBehaviour
         List<SRound> _tempRound = new List<SRound>();
         _tempRound = GetActiveRound().GetRounds();
 
-        foreach(EmotionPlacement emotions in _emotionAlreadyPlaced)
+        for (int i = 0; i < _emotionAlreadyPlaced.Count; i++)
         {
-            if (emotion)
+
         }
     }
 

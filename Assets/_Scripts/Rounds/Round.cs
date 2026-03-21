@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 
@@ -9,9 +10,7 @@ using UnityEngine;
 [Serializable]
 public struct SRound
 {
-    [SerializeField] public int i;
-    // ItemType 
-    // Body Part
+    BodyPart body;
 }
 
 
