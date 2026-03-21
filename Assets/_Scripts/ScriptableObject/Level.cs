@@ -1,11 +1,20 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [CreateAssetMenu(fileName = "Level", menuName = "Scriptable Objects/Level")]
 public class Level : ScriptableObject
 {
     public int level;
 
-    public void Next() => level++;
+    private int maxLevel;
 
-    public void Reset() => level = 1;
+    public void Next()
+    {
+        level++;
+
+        if (level >= SceneManager.sceneCountInBuildSettings) 
+            Reset();
+    }
+
+    public void Reset() => level = 0;
 }

@@ -9,6 +9,8 @@ public class MenuManager : MonoBehaviour
 
     public void Play()
     {
+        _level.Reset();
+        _level.Next();
         _sceneLoader.LoadScene(_level.level);
     }
 

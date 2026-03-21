@@ -5,6 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] Round _round;
+    [SerializeField] Level _level;
+    [SerializeField] SceneLoader _sceneLoader;
 
     public void Awake()
     {
@@ -12,6 +14,7 @@ public class GameManager : MonoBehaviour
             SubscribePlacementEventChannel();
         SetActiveRound(_round);
     }
+
 
 
 
@@ -49,6 +52,10 @@ public class GameManager : MonoBehaviour
         if (temp == GetActiveRound().GetRounds().Count)
         {
             OnSuccess?.Invoke();
+
+            _level.Next();
+            _sceneLoader.LoadScene(_level.level);
+
             Debug.Log("Win");
         }
         else

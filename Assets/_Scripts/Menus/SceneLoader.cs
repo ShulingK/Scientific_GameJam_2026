@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+
+    [SerializeField] private float timeBetweenScenes = 2f;
     public void LoadScene(int index)
     {
         StartCoroutine(LoadSceneCoroutine(index));
@@ -12,7 +14,7 @@ public class SceneLoader : MonoBehaviour
 
     IEnumerator LoadSceneCoroutine(int index)
     {
-        yield return new WaitForSeconds(0);
+        yield return new WaitForSeconds(timeBetweenScenes);
 
         SceneManager.LoadScene(index);
     }
