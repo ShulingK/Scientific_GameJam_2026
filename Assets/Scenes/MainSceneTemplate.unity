@@ -386,6 +386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDroppableSlot
   slotID: 1
+  leftHand: {fileID: 0}
   placementEvent: {fileID: 11400000, guid: f4a218af9ee9ac64890bf5b5c47486fc, type: 2}
 --- !u!114 &106116292
 MonoBehaviour:
@@ -515,6 +516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DraggableObject
   emotionID: 1
   parentBoardSlotTransform: {fileID: 661112771}
+  panel: {fileID: 0}
 --- !u!1 &177774902
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,6 +928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DraggableObject
   emotionID: 1
   parentBoardSlotTransform: {fileID: 661112771}
+  panel: {fileID: 0}
 --- !u!1 &554724244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1016,6 +1019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DraggableObject
   emotionID: 1
   parentBoardSlotTransform: {fileID: 661112771}
+  panel: {fileID: 0}
 --- !u!1 &611138330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,6 +1071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDroppableSlot
   slotID: 3
+  leftHand: {fileID: 0}
   placementEvent: {fileID: 11400000, guid: f4a218af9ee9ac64890bf5b5c47486fc, type: 2}
 --- !u!114 &611138333
 MonoBehaviour:
@@ -1321,6 +1326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DraggableObject
   emotionID: 1
   parentBoardSlotTransform: {fileID: 661112771}
+  panel: {fileID: 0}
 --- !u!1 &906880016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1490,6 +1496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DraggableObject
   emotionID: 1
   parentBoardSlotTransform: {fileID: 661112771}
+  panel: {fileID: 0}
 --- !u!1 &990632598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1580,6 +1587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DraggableObject
   emotionID: 1
   parentBoardSlotTransform: {fileID: 661112771}
+  panel: {fileID: 0}
 --- !u!1 &1049176156
 GameObject:
   m_ObjectHideFlags: 0
@@ -1670,6 +1678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DraggableObject
   emotionID: 1
   parentBoardSlotTransform: {fileID: 661112771}
+  panel: {fileID: 0}
 --- !u!1 &1050112841
 GameObject:
   m_ObjectHideFlags: 0
@@ -1721,6 +1730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDroppableSlot
   slotID: 2
+  leftHand: {fileID: 0}
   placementEvent: {fileID: 11400000, guid: f4a218af9ee9ac64890bf5b5c47486fc, type: 2}
 --- !u!114 &1050112844
 MonoBehaviour:
@@ -1790,6 +1800,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2003203972}
   - {fileID: 177774903}
   m_Father: {fileID: 1406968630}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1926,6 +1937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DraggableObject
   emotionID: 1
   parentBoardSlotTransform: {fileID: 661112771}
+  panel: {fileID: 0}
 --- !u!1 &1176756662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1980,7 +1992,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 0.35283017, b: 0.35283017, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2016,6 +2028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DraggableObject
   emotionID: 1
   parentBoardSlotTransform: {fileID: 661112771}
+  panel: {fileID: 2003203972}
 --- !u!1 &1192879596
 GameObject:
   m_ObjectHideFlags: 0
@@ -2106,6 +2119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DraggableObject
   emotionID: 1
   parentBoardSlotTransform: {fileID: 661112771}
+  panel: {fileID: 0}
 --- !u!1 &1325242585
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,6 +2210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DraggableObject
   emotionID: 1
   parentBoardSlotTransform: {fileID: 661112771}
+  panel: {fileID: 0}
 --- !u!1 &1370785512
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,6 +2301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DraggableObject
   emotionID: 1
   parentBoardSlotTransform: {fileID: 661112771}
+  panel: {fileID: 0}
 --- !u!1 &1396394875
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,7 +2459,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1590326923}
-  - {fileID: 2003203972}
   - {fileID: 1087612740}
   m_Father: {fileID: 1503263609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2679,6 +2694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDroppableSlot
   slotID: 1
+  leftHand: {fileID: 0}
   placementEvent: {fileID: 11400000, guid: f4a218af9ee9ac64890bf5b5c47486fc, type: 2}
 --- !u!114 &1571527101
 MonoBehaviour:
@@ -2752,8 +2768,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.02735669, y: 0.27555558}
   m_AnchorMax: {x: 0.68200004, y: 0.9394663}
-  m_AnchoredPosition: {x: 2.7052002, y: -2.516693}
-  m_SizeDelta: {x: 1.1204, y: 5.0335}
+  m_AnchoredPosition: {x: 10.976013, y: -4.1044006}
+  m_SizeDelta: {x: -21.9517, y: -8.2088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1590326924
 MonoBehaviour:
@@ -2768,15 +2784,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 2164202090136960037, guid: 6ff68d082b52805478d612f0776b50b1, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2893,7 +2909,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003203971}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2902,12 +2918,12 @@ RectTransform:
   - {fileID: 611138331}
   - {fileID: 1050112842}
   - {fileID: 106116290}
-  m_Father: {fileID: 1406968630}
+  m_Father: {fileID: 1087612740}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.69866663, y: 0.04759259}
   m_AnchorMax: {x: 0.97300005, y: 0.94985193}
-  m_AnchoredPosition: {x: -3.395996, y: -2.823761}
-  m_SizeDelta: {x: -1.3692627, y: 1.486084}
+  m_AnchoredPosition: {x: 431.92065, y: 363.72467}
+  m_SizeDelta: {x: 161.03894, y: 808.4208}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2003203973
 MonoBehaviour:

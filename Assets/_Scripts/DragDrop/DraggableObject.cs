@@ -8,7 +8,6 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     [SerializeField] private Emotion emotionID;
     [SerializeField] private Transform parentBoardSlotTransform;
 
-
     private RectTransform draggingPlane;
 
 
@@ -21,13 +20,15 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     public void ReturnToParent()
     {
         transform.SetParent(parentBoardSlotTransform);
-        transform.position = parentBoardSlotTransform.position;
+        //transform.position = parentBoardSlotTransform.position;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
         ReturnToParent();
-        //GetComponent<Image>().maskable = false;
+        GetComponent<Image>().maskable = false;
+        GetComponent<Image>().raycastTarget = false;
+        // transform.SetParent(panel);
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -38,11 +39,13 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        GetComponent<Image>().raycastTarget = true;
         GetComponent<Image>().maskable = true;
 
         if (!transform.parent.CompareTag("PlayerLayer"))
         {
-            transform.position = parentBoardSlotTransform.position;
+            ReturnToParent();
+            LayoutRebuilder.ForceRebuildLayoutImmediate(parentBoardSlotTransform as RectTransform);
         }
     }
 
