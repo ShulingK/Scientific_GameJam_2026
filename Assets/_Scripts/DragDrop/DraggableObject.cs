@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(RectTransform))]
 public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
@@ -26,6 +27,7 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     public void OnBeginDrag(PointerEventData eventData)
     {
         ReturnToParent();
+        //GetComponent<Image>().maskable = false;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -36,6 +38,7 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        GetComponent<Image>().maskable = true;
 
         if (!transform.parent.CompareTag("PlayerLayer"))
         {
