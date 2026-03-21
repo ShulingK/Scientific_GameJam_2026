@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: ac2495264a7693144aab049da63d9b3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1493109079338769791
+    second: fear_spritesheet_0
+  - first:
+      213: 7590454957232072456
+    second: fear_spritesheet_1
+  - first:
+      213: -5662073643835338545
+    second: fear_spritesheet_2
+  - first:
+      213: 6755289924402073237
+    second: fear_spritesheet_3
+  - first:
+      213: -3688182319555323913
+    second: fear_spritesheet_4
+  - first:
+      213: 1957291566940413952
+    second: fear_spritesheet_5
+  - first:
+      213: 5296200559578796778
+    second: fear_spritesheet_6
+  - first:
+      213: -452011992069805098
+    second: fear_spritesheet_7
+  - first:
+      213: -8125865487864062423
+    second: fear_spritesheet_8
+  - first:
+      213: -339213520104662832
+    second: fear_spritesheet_9
+  - first:
+      213: 5097196830989053068
+    second: fear_spritesheet_10
+  - first:
+      213: -7365541206476366118
+    second: fear_spritesheet_11
+  - first:
+      213: 2682950994946022064
+    second: fear_spritesheet_12
+  - first:
+      213: -6994273370250256255
+    second: fear_spritesheet_13
+  - first:
+      213: 3546511995237050741
+    second: fear_spritesheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fear_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1822a130439674be0800000000000000
+      internalID: -1493109079338769791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807ab615196b65960800000000000000
+      internalID: 7590454957232072456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0d71715064c61b0800000000000000
+      internalID: -5662073643835338545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ec2ca256c9fbd50800000000000000
+      internalID: 6755289924402073237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f75700a8b1f0dcc0800000000000000
+      internalID: -3688182319555323913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000e9595f42b92b10800000000000000
+      internalID: 1957291566940413952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae25be43952ef7940800000000000000
+      internalID: 5296200559578796778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db6672fc712ab9f0800000000000000
+      internalID: -452011992069805098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e914734602b3f80800000000000000
+      internalID: -8125865487864062423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8d627c91fda4bf0800000000000000
+      internalID: -339213520104662832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3950
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c695df281ecb640800000000000000
+      internalID: 5097196830989053068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4345
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade59790c4758c990800000000000000
+      internalID: -7365541206476366118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bad98b07b1cb3520800000000000000
+      internalID: 2682950994946022064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 5135
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18062405d695fee90800000000000000
+      internalID: -6994273370250256255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fear_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 5530
+        y: 0
+        width: 395
+        height: 395
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57924c39eddb73130800000000000000
+      internalID: 3546511995237050741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a23a078a4033d7d4187330da309632bb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":15.0,"y":1.0},"gridSpriteSize":{"x":395.0,"y":395.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":1,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      fear_spritesheet_0: -1493109079338769791
+      fear_spritesheet_1: 7590454957232072456
+      fear_spritesheet_10: 5097196830989053068
+      fear_spritesheet_11: -7365541206476366118
+      fear_spritesheet_12: 2682950994946022064
+      fear_spritesheet_13: -6994273370250256255
+      fear_spritesheet_14: 3546511995237050741
+      fear_spritesheet_2: -5662073643835338545
+      fear_spritesheet_3: 6755289924402073237
+      fear_spritesheet_4: -3688182319555323913
+      fear_spritesheet_5: 1957291566940413952
+      fear_spritesheet_6: 5296200559578796778
+      fear_spritesheet_7: -452011992069805098
+      fear_spritesheet_8: -8125865487864062423
+      fear_spritesheet_9: -339213520104662832
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

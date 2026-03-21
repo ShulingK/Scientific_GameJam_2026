@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: 3a202f062699be14eba2d43c9300f1c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -42711715720815971
+    second: joy_spritesheet_0
+  - first:
+      213: -2362409893451090621
+    second: joy_spritesheet_1
+  - first:
+      213: -9211406388766245892
+    second: joy_spritesheet_2
+  - first:
+      213: 4718717817765253665
+    second: joy_spritesheet_3
+  - first:
+      213: 7700436831394683474
+    second: joy_spritesheet_4
+  - first:
+      213: -5711269598365818153
+    second: joy_spritesheet_5
+  - first:
+      213: 9199221297235907125
+    second: joy_spritesheet_6
+  - first:
+      213: 1279023130760362251
+    second: joy_spritesheet_7
+  - first:
+      213: 6034244306917577862
+    second: joy_spritesheet_8
+  - first:
+      213: 5744885043424619628
+    second: joy_spritesheet_9
+  - first:
+      213: -6695388297740606068
+    second: joy_spritesheet_10
+  - first:
+      213: -5476122898256350626
+    second: joy_spritesheet_11
+  - first:
+      213: -9012724325692522884
+    second: joy_spritesheet_12
+  - first:
+      213: 9025901100401153852
+    second: joy_spritesheet_13
+  - first:
+      213: -2349716081243875169
+    second: joy_spritesheet_14
+  - first:
+      213: -2816980619524329249
+    second: joy_spritesheet_15
+  - first:
+      213: -7512766941638267657
+    second: joy_spritesheet_16
+  - first:
+      213: -720853151269036138
+    second: joy_spritesheet_17
+  - first:
+      213: 8959135662432878370
+    second: joy_spritesheet_18
+  - first:
+      213: -4854368573548865296
+    second: joy_spritesheet_19
+  - first:
+      213: -521530252391625926
+    second: joy_spritesheet_20
+  - first:
+      213: -31983840466732137
+    second: joy_spritesheet_21
+  - first:
+      213: -6789288584982314293
+    second: joy_spritesheet_22
+  - first:
+      213: -306826399888853055
+    second: joy_spritesheet_23
+  - first:
+      213: -4929345090902446931
+    second: joy_spritesheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: joy_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a96bcbbe1486ff0800000000000000
+      internalID: -42711715720815971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345bafee7b8073fd0800000000000000
+      internalID: -2362409893451090621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbf2db81b28a2080800000000000000
+      internalID: -9211406388766245892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122543bbad04c7140800000000000000
+      internalID: 4718717817765253665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a5d9edf727dda60800000000000000
+      internalID: 7700436831394683474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2eae45f8e7db0b0800000000000000
+      internalID: -5711269598365818153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53254ffb7033aaf70800000000000000
+      internalID: 9199221297235907125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09ba78c2c000c110800000000000000
+      internalID: 1279023130760362251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684deb1f931fdb350800000000000000
+      internalID: 6034244306917577862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c67c0628ee9bf40800000000000000
+      internalID: 5744885043424619628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 4020
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c852ddf11d33513a0800000000000000
+      internalID: -6695388297740606068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4422
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e523c0fdc37e004b0800000000000000
+      internalID: -5476122898256350626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 4824
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e339c2afe5ce280800000000000000
+      internalID: -9012724325692522884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 5226
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37d733ca31724d70800000000000000
+      internalID: 9025901100401153852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: joy_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 5628
+        y: 0
+        width: 402
+        height: 402
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f989f666ca1246fd0800000000000000
+      internalID: -2349716081243875169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3c900ec487756ce4fbd82dd1fa7b4611
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":15.0,"y":1.0},"gridSpriteSize":{"x":402.0,"y":402.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":1,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      joy_spritesheet_0: -42711715720815971
+      joy_spritesheet_1: -2362409893451090621
+      joy_spritesheet_10: -6695388297740606068
+      joy_spritesheet_11: -5476122898256350626
+      joy_spritesheet_12: -9012724325692522884
+      joy_spritesheet_13: 9025901100401153852
+      joy_spritesheet_14: -2349716081243875169
+      joy_spritesheet_2: -9211406388766245892
+      joy_spritesheet_3: 4718717817765253665
+      joy_spritesheet_4: 7700436831394683474
+      joy_spritesheet_5: -5711269598365818153
+      joy_spritesheet_6: 9199221297235907125
+      joy_spritesheet_7: 1279023130760362251
+      joy_spritesheet_8: 6034244306917577862
+      joy_spritesheet_9: 5744885043424619628
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,569 @@
+fileFormatVersion: 2
+guid: 9d316771b0c2a114d839ae864b36ebbc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6496138128880945953
+    second: anger_spritesheet_0
+  - first:
+      213: -1060153660764896412
+    second: anger_spritesheet_1
+  - first:
+      213: 7609379570048801875
+    second: anger_spritesheet_2
+  - first:
+      213: 5311510372487395569
+    second: anger_spritesheet_3
+  - first:
+      213: 9188214855700299693
+    second: anger_spritesheet_4
+  - first:
+      213: -3678927652381316447
+    second: anger_spritesheet_5
+  - first:
+      213: -7036596730770637139
+    second: anger_spritesheet_6
+  - first:
+      213: -2704454567726167186
+    second: anger_spritesheet_7
+  - first:
+      213: 2344981265133438885
+    second: anger_spritesheet_8
+  - first:
+      213: 6204096069936156825
+    second: anger_spritesheet_9
+  - first:
+      213: -5824396039869853789
+    second: anger_spritesheet_10
+  - first:
+      213: 2853942596376920487
+    second: anger_spritesheet_11
+  - first:
+      213: -2095508502202067019
+    second: anger_spritesheet_12
+  - first:
+      213: 5749293962435322331
+    second: anger_spritesheet_13
+  - first:
+      213: -3549406174962073477
+    second: anger_spritesheet_14
+  - first:
+      213: 6677229372370745975
+    second: anger_spritesheet_15
+  - first:
+      213: 3009989488360387925
+    second: anger_spritesheet_16
+  - first:
+      213: -7347189455134588068
+    second: anger_spritesheet_17
+  - first:
+      213: 5050486375007427185
+    second: anger_spritesheet_18
+  - first:
+      213: -4849664157229919014
+    second: anger_spritesheet_19
+  - first:
+      213: -2792996025501675026
+    second: anger_spritesheet_20
+  - first:
+      213: 2827432175377531544
+    second: anger_spritesheet_21
+  - first:
+      213: 3084237146563854089
+    second: anger_spritesheet_22
+  - first:
+      213: 8614149183780413242
+    second: anger_spritesheet_23
+  - first:
+      213: -5972336384809922456
+    second: anger_spritesheet_24
+  - first:
+      213: 1398825351008550712
+    second: anger_spritesheet_25
+  - first:
+      213: 3783396036170867374
+    second: anger_spritesheet_26
+  - first:
+      213: -6493973092945607236
+    second: anger_spritesheet_27
+  - first:
+      213: -6010541582797618605
+    second: anger_spritesheet_28
+  - first:
+      213: -4299972382019314867
+    second: anger_spritesheet_29
+  - first:
+      213: -7203502080720248889
+    second: anger_spritesheet_30
+  - first:
+      213: -6482008572947427358
+    second: anger_spritesheet_31
+  - first:
+      213: -7950789466687494120
+    second: anger_spritesheet_32
+  - first:
+      213: 888899513868153006
+    second: anger_spritesheet_33
+  - first:
+      213: -4816562168836921698
+    second: anger_spritesheet_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anger_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bc1dfc53be62a50800000000000000
+      internalID: 6496138128880945953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46347caccd39941f0800000000000000
+      internalID: -1060153660764896412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c9fd91762f99960800000000000000
+      internalID: 7609379570048801875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8f9ecca8646b940800000000000000
+      internalID: 5311510372487395569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafbbf1eab8138f70800000000000000
+      internalID: 9188214855700299693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa237dbac2d1fcc0800000000000000
+      internalID: -3678927652381316447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daebdba0e8cf85e90800000000000000
+      internalID: -7036596730770637139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6bcf7346e8d77ad0800000000000000
+      internalID: -2704454567726167186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a78931590c0b8020800000000000000
+      internalID: 2344981265133438885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99011f04180691650800000000000000
+      internalID: 6204096069936156825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af8d5429a69b2fa0800000000000000
+      internalID: -5824396039869853789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4752
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1076aabad3b9720800000000000000
+      internalID: 2853942596376920487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b75f66ae124be2e0800000000000000
+      internalID: -2095508502202067019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 5616
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd16144d56899cf40800000000000000
+      internalID: 5749293962435322331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 6048
+        y: 0
+        width: 432
+        height: 432
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70cec1b3e9fdbec0800000000000000
+      internalID: -3549406174962073477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 00fe9a961dc6c56448d0804e9a8bf6f8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":15.0,"y":1.0},"gridSpriteSize":{"x":432.0,"y":432.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":1,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      anger_spritesheet_0: 6496138128880945953
+      anger_spritesheet_1: -1060153660764896412
+      anger_spritesheet_10: -5824396039869853789
+      anger_spritesheet_11: 2853942596376920487
+      anger_spritesheet_12: -2095508502202067019
+      anger_spritesheet_13: 5749293962435322331
+      anger_spritesheet_14: -3549406174962073477
+      anger_spritesheet_2: 7609379570048801875
+      anger_spritesheet_3: 5311510372487395569
+      anger_spritesheet_4: 9188214855700299693
+      anger_spritesheet_5: -3678927652381316447
+      anger_spritesheet_6: -7036596730770637139
+      anger_spritesheet_7: -2704454567726167186
+      anger_spritesheet_8: 2344981265133438885
+      anger_spritesheet_9: 6204096069936156825
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
