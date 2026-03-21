@@ -5,7 +5,8 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
 {
     [SerializeField] private PlayerSlot slotID;
 
-    private Emotion stockedEmotion = Emotion.None;
+    //private Emotion stockedEmotion = Emotion.None;
+    private DraggableObject stockedEmotion;
 
     public PlacementEventChannel placementEvent;
 
@@ -16,29 +17,32 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
 
     private void Update()
     {
-        if (transform.childCount == 0 && stockedEmotion != Emotion.None)
+        if (transform.childCount == 0 && stockedEmotion != null)
         {
-            Debug.Log(stockedEmotion.ToString() + " enlevé de " + slotID.ToString());
-            placementEvent.RaiseEvent(stockedEmotion, slotID, false);
+            Debug.Log(stockedEmotion.GetEmotionID() + " enlevé de " + slotID);
+            placementEvent.RaiseEvent(stockedEmotion.GetEmotionID(), slotID, false);
 
-            stockedEmotion = Emotion.None;
+            stockedEmotion = null;
         }
     }
     public void OnDrop(PointerEventData eventData)
     {
-        //Debug.Log("Slot OnDrop");
-        var emotionObject = eventData.pointerDrag.GetComponent<DraggableObject>();
 
-        if (emotionObject != null)
+        if (stockedEmotion != null)
         {
-
-            emotionObject.transform.SetParent(transform);
-            emotionObject.transform.position = transform.position;
-
-            Debug.Log(emotionObject.GetEmotionID().ToString() + " placé sur " + slotID.ToString());
-            stockedEmotion = emotionObject.GetEmotionID();
-            placementEvent.RaiseEvent(stockedEmotion, slotID, true);
+            stockedEmotion.ReturnToParent();
+            Debug.Log(stockedEmotion.GetEmotionID() + " enlevé de " + slotID);
+            placementEvent.RaiseEvent(stockedEmotion.GetEmotionID(), slotID, false);
         }
+
+        stockedEmotion = eventData.pointerDrag.GetComponent<DraggableObject>();
+
+        stockedEmotion.transform.SetParent(transform);
+        stockedEmotion.transform.position = transform.position;
+
+        Debug.Log(stockedEmotion.GetEmotionID() + " placé sur " + slotID);
+        placementEvent.RaiseEvent(stockedEmotion.GetEmotionID(), slotID, true);
+
     }
 
 }
