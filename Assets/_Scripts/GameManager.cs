@@ -15,15 +15,34 @@ public class GameManager : MonoBehaviour
     public void SetActiveRound(Round round) => _currentRound = round;
     public Round GetActiveRound() => _currentRound;
 
+    public Action OnSuccess; 
+
     void CheckSuccessRound()
     {
+        if (GetActiveRound().GetRounds().Count != _emotionAlreadyPlaced.Count)
+            return;
+
         List<SRound> _tempRound = new List<SRound>();
         _tempRound = GetActiveRound().GetRounds();
 
+
         for (int i = 0; i < _emotionAlreadyPlaced.Count; i++)
         {
+            for (int j = 0; j < _tempRound.Count; j++)
+            {
+                if (j > _tempRound.Count)
+                    continue;
 
+                if (_emotionAlreadyPlaced[i].emotion == _tempRound[j].emotion &&
+                    _emotionAlreadyPlaced[i].slot == _tempRound[j].slot)
+                {
+                    _tempRound.RemoveAt(j);
+                }
+            }
         }
+
+        if (_tempRound.Count == 0)
+            OnSuccess?.Invoke();
     }
 
     #endregion

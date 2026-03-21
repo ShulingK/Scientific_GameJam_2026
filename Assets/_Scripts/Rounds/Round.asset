@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Round
   m_EditorClassIdentifier: Assembly-CSharp::Round
   _rounds:
-  - i: 10
+  - emotion: 0
+    slot: 1

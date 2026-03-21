@@ -10,7 +10,8 @@ using UnityEngine;
 [Serializable]
 public struct SRound
 {
-    BodyPart body;
+    public Emotion emotion;
+    public PlayerSlot slot;
 }
 
 
