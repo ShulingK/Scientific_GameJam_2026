@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] Round _round;
+
     public void Awake()
     {
         if (_placementEventChannel != null)
             SubscribePlacementEventChannel();
+        SetActiveRound(_round);
     }
+
+
 
     #region Rounds
     Round _currentRound;
@@ -19,30 +24,37 @@ public class GameManager : MonoBehaviour
 
     void CheckSuccessRound()
     {
+        Debug.Log(GetActiveRound());
+
         if (GetActiveRound().GetRounds().Count != _emotionAlreadyPlaced.Count)
             return;
 
-        List<SRound> _tempRound = new List<SRound>();
-        _tempRound = GetActiveRound().GetRounds();
-
+        int temp = 0;
 
         for (int i = 0; i < _emotionAlreadyPlaced.Count; i++)
         {
-            for (int j = 0; j < _tempRound.Count; j++)
+            for (int j = 0; j < GetActiveRound().GetRounds().Count; j++)
             {
-                if (j > _tempRound.Count)
+                if (j > GetActiveRound().GetRounds().Count)
                     continue;
 
-                if (_emotionAlreadyPlaced[i].emotion == _tempRound[j].emotion &&
-                    _emotionAlreadyPlaced[i].slot == _tempRound[j].slot)
+                if (_emotionAlreadyPlaced[i].emotion == GetActiveRound().GetRounds()[j].emotion &&
+                    _emotionAlreadyPlaced[i].slot == GetActiveRound().GetRounds()[j].slot)
                 {
-                    _tempRound.RemoveAt(j);
+                    temp++;
                 }
             }
         }
 
-        if (_tempRound.Count == 0)
+        if (temp == GetActiveRound().GetRounds().Count)
+        {
             OnSuccess?.Invoke();
+            Debug.Log("Win");
+        }
+        else
+        {
+            Debug.Log("Lose");
+        }
     }
 
     #endregion
@@ -85,7 +97,7 @@ public class GameManager : MonoBehaviour
             {
                 if (_emotionAlreadyPlaced[i].slot == slot && _emotionAlreadyPlaced[i].emotion == emotion)
                 {
-                    _emotionAlreadyPlaced.Remove(_emotionAlreadyPlaced[i]);
+                    _emotionAlreadyPlaced.RemoveAt(i);
                     break;
                 }
             }

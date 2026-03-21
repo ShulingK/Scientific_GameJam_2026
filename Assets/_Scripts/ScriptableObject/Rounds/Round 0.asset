@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8688b2b0e4823b48a978b1e814c289f, type: 3}
-  m_Name: Round
+  m_Name: Round 0
   m_EditorClassIdentifier: Assembly-CSharp::Round
   _rounds:
-  - emotion: 0
+  - emotion: 1
     slot: 1
