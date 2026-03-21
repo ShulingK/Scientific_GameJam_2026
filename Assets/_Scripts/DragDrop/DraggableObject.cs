@@ -25,6 +25,8 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (GameManager.Instance.lockDrag) return;
+
         ReturnToParent();
         GetComponent<Image>().maskable = false;
         GetComponent<Image>().raycastTarget = false;
@@ -35,12 +37,16 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
     public void OnDrag(PointerEventData eventData)
     {
+        if (GameManager.Instance.lockDrag) return;
+
         RectTransformUtility.ScreenPointToWorldPointInRectangle(draggingPlane, eventData.position, eventData.pressEventCamera, out Vector3 globabPointerPosition);
         transform.position = globabPointerPosition;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (GameManager.Instance.lockDrag) return;
+
         GetComponent<Image>().raycastTarget = true;
         GetComponent<Image>().maskable = true;
 
