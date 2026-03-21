@@ -7,6 +7,7 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
     [SerializeField] private PlayerSlot slotID;
 
     [SerializeField] private GameObject leftHand;
+    private Image leftHandImage;
 
     private DraggableObject stockedEmotion;
 
@@ -53,7 +54,9 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
     {
         if (slotID == PlayerSlot.Main && leftHand != null)
         {
-            leftHand.GetComponent<Image>().sprite = stockedEmotion.GetObjectSprite();
+            leftHandImage = leftHand.GetComponent<Image>();
+            leftHandImage.sprite = stockedEmotion.GetObjectSprite();
+            leftHandImage.enabled = true;
         }
     }
 
@@ -61,7 +64,8 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
     {
         if (slotID == PlayerSlot.Main && leftHand != null)
         {
-            leftHand.GetComponent<Image>().sprite = null;
+            leftHandImage.enabled = false;
+            leftHandImage = null;
         }
     }
 
