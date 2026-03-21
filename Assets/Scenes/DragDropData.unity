@@ -128,7 +128,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 233073348}
-  - component: {fileID: 233073349}
   m_Layer: 5
   m_Name: JoieSlot
   m_TagString: Untagged
@@ -156,19 +155,6 @@ RectTransform:
   m_AnchoredPosition: {x: -297, y: -126}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &233073349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 233073347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81cb1cd5a39318a469869a41c98ae51d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BoardSlot
-  emotionSlotID: 1
 --- !u!1 &485122917
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,6 +841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8918a030240337342878bdff472b35e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  _round: {fileID: 11400000, guid: a348130a73cf3ad4eb86a40e31531fa8, type: 2}
   _placementEventChannel: {fileID: 11400000, guid: f4a218af9ee9ac64890bf5b5c47486fc, type: 2}
 --- !u!4 &1515732662
 Transform:
@@ -940,7 +927,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1701518608}
-  - component: {fileID: 1701518609}
   m_Layer: 5
   m_Name: JoieSlot (1)
   m_TagString: Untagged
@@ -968,19 +954,6 @@ RectTransform:
   m_AnchoredPosition: {x: -81, y: -126}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1701518609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1701518607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81cb1cd5a39318a469869a41c98ae51d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BoardSlot
-  emotionSlotID: 1
 --- !u!1 &1768537632
 GameObject:
   m_ObjectHideFlags: 0
