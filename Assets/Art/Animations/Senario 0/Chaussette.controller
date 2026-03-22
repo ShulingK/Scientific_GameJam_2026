@@ -43,7 +43,7 @@ AnimatorStateMachine:
     m_Position: {x: 450, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8976187915937245917}
-    m_Position: {x: 460, y: 220, z: 0}
+    m_Position: {x: 490, y: 210, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -113,13 +113,13 @@ AnimatorController:
   m_Name: Chaussette
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: OnEnterScene
+  - m_Name: OnWin
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: OnWin
+  - m_Name: OnEnterScene
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
