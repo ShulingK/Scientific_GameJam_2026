@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Linq;
 using UnityEditor.Animations;
@@ -14,6 +15,9 @@ public class ChaussetteController : MonoBehaviour
     private void Awake()
     {
         chaussetteAnimator = GetComponent<Animator>();
+
+        GameManager.Instance.OnSuccess += OnWinAnimation;
+        GameManager.Instance.OnBadEmotionSuccess += OnBadEmotionAnimation;
     }
 
     private void Start()
@@ -63,14 +67,16 @@ public class ChaussetteController : MonoBehaviour
         dialogue.SetActive(true);
     }
 
-    public void BadEndAnimation()
+    private void OnWinAnimation()
     {
-
+        chaussetteAnimator.SetTrigger("OnWin");
     }
 
-    public void WinAnimation()
+    private void OnBadEmotionAnimation(int obj)
     {
-
+        chaussetteAnimator.SetTrigger("OnBadAnimation" + obj);
     }
+
+
 
 }

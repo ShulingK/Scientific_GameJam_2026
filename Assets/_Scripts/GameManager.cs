@@ -97,7 +97,7 @@ public class GameManager : MonoBehaviour
     public void SetActiveBadEmotions(List<BadEmotion> badEmotions) => _currentBadEmotions = badEmotions;
     public List<BadEmotion> GetActiveBadEmotions() => _currentBadEmotions;
 
-    Action<int> OnBadEmotionSuccess;
+    public Action<int> OnBadEmotionSuccess;
 
     void CheckBadEmotions()
     {
