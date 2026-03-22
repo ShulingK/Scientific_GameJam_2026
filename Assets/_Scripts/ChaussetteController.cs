@@ -35,6 +35,8 @@ public class ChaussetteController : MonoBehaviour
 
         chaussetteAnimator.SetTrigger("OnEnterScene");
 
+        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._sceneEnter);
+
         yield return new WaitForSeconds(onEnterTime);
 
         GameManager.Instance.OnSuccess += OnWinAnimation;
@@ -74,6 +76,8 @@ public class ChaussetteController : MonoBehaviour
     {
         chaussetteAnimator.SetTrigger("OnWin");
 
+        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._goodEmotion);
+
         StartCoroutine(OnWinCoroutine());
     }
 
@@ -100,6 +104,8 @@ public class ChaussetteController : MonoBehaviour
     private void OnBadEmotionAnimation(int obj)
     {
         chaussetteAnimator.SetTrigger("OnBadAnimation" + obj);
+
+        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._badEmotion[obj]);
 
         StartCoroutine(OnBadEmotionAnimation());
     }
