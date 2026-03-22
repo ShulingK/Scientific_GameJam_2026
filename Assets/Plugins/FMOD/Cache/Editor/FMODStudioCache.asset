@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Sound/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639097839626935328
+  lastModified: 639097833352005580
   FileSizes: []
   Exists: 1
 --- !u!114 &-7499678552012670745
@@ -141,7 +141,7 @@ MonoBehaviour:
   Path: Assets/Sound/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639097839626875344
+  lastModified: 639097833351853069
   FileSizes: []
   Exists: 1
 --- !u!114 &-1516000501056209404
@@ -239,7 +239,7 @@ MonoBehaviour:
   - {fileID: 5265552520924462195}
   StringsBanks:
   - {fileID: 1027086876102410906}
-  cacheTime: 639097839627205468
+  cacheTime: 639097833352327676
   cacheVersion: 131635
 --- !u!114 &1009141314601216322
 MonoBehaviour:
@@ -283,7 +283,7 @@ MonoBehaviour:
   Path: Assets/Sound/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639097839626695481
+  lastModified: 639097833351634077
   FileSizes:
   - Name: 
     Value: 1738
@@ -411,7 +411,7 @@ MonoBehaviour:
   Path: Assets/Sound/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639096998512765799
+  lastModified: 639096977806331716
   FileSizes: []
   Exists: 1
 --- !u!114 &6027003967043832140
@@ -483,7 +483,7 @@ MonoBehaviour:
   Path: Assets/Sound/Voice.bank
   Name: Voice
   StudioPath: bank:/Voice
-  lastModified: 639097839627205468
+  lastModified: 639097833352327676
   FileSizes: []
   Exists: 1
 --- !u!114 &7375967694287716204
@@ -582,6 +582,6 @@ MonoBehaviour:
   Path: Assets/Sound/Ambiance.bank
   Name: Ambiance
   StudioPath: bank:/Ambiance
-  lastModified: 639096998512725502
+  lastModified: 639096977806310743
   FileSizes: []
   Exists: 1
