@@ -29,6 +29,7 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
             stockedEmotion = null;
         }
     }
+
     public void OnDrop(PointerEventData eventData)
     {
 
@@ -49,8 +50,10 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
         DuplicateOnLeftHand();
         placementEvent.RaiseEvent(stockedEmotion.GetEmotionID(), slotID, true);
 
-        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._dropEmotion);
+        stockedEmotion.GetComponent<Image>().raycastTarget = true;
+        stockedEmotion.GetComponent<Image>().maskable = true;
 
+        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._dropEmotion);
     }
 
     private void DuplicateOnLeftHand()
