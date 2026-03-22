@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using UnityEditor.VisionOS;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -98,41 +97,39 @@ public class GameManager : MonoBehaviour
     public void SetActiveBadEmotions(List<BadEmotion> badEmotions) => _currentBadEmotions = badEmotions;
     public List<BadEmotion> GetActiveBadEmotions() => _currentBadEmotions;
 
-    Action OnBadEmotionSuccess;
+    Action<int> OnBadEmotionSuccess;
 
     void CheckBadEmotions()
     {
-        foreach (BadEmotion badEmotion in GetActiveBadEmotions())
+        for (int i = 0; i < GetActiveBadEmotions().Count; i++)
         {
-
-            if (badEmotion.GetBadEmotions().Count != _emotionAlreadyPlaced.Count)
+            if (GetActiveBadEmotions()[i].GetBadEmotions().Count != _emotionAlreadyPlaced.Count)
                 return;
 
             int temp = 0;
 
-            for (int i = 0; i < _emotionAlreadyPlaced.Count; i++)
+            for (int k = 0; k < _emotionAlreadyPlaced.Count; k++)
             {
-                for (int j = 0; j < badEmotion.GetBadEmotions().Count; j++)
+                for (int j = 0; j < GetActiveBadEmotions()[i].GetBadEmotions().Count; j++)
                 {
-                    if (j > badEmotion.GetBadEmotions().Count)
+                    if (j > GetActiveBadEmotions()[i].GetBadEmotions().Count)
                         continue;
 
-                    if (_emotionAlreadyPlaced[i].emotion == badEmotion.GetBadEmotions()[j].emotion &&
-                        _emotionAlreadyPlaced[i].slot == badEmotion.GetBadEmotions()[j].slot)
+                    if (_emotionAlreadyPlaced[k].emotion == GetActiveBadEmotions()[i].GetBadEmotions()[j].emotion &&
+                        _emotionAlreadyPlaced[k].slot == GetActiveBadEmotions()[i].GetBadEmotions()[j].slot)
                     {
                         temp++;
                     }
                 }
             }
 
-            if (temp == badEmotion.GetBadEmotions().Count)
+            if (temp == GetActiveBadEmotions()[i].GetBadEmotions().Count)
             {
-                OnBadEmotionSuccess?.Invoke();
+                OnBadEmotionSuccess?.Invoke(i);
                 Debug.LogWarning("Bad EMOTION !!!!");
             }
         }
     }
-
 
     #endregion
 
