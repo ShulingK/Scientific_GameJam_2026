@@ -6936,18 +6936,67 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FMODEvents
   <_takeEmotion>k__BackingField:
     Guid:
-      Data1: 2076234331
-      Data2: 1286034955
-      Data3: -1399963755
-      Data4: 216046251
-    Path: event:/SFX/emotion take
+      Data1: 1533879943
+      Data2: 1155551050
+      Data3: -893589574
+      Data4: -1334581980
+    Path: event:/SFX/Colere
   <_dropEmotion>k__BackingField:
     Guid:
-      Data1: -1218380723
-      Data2: 1299782811
-      Data3: -814203247
-      Data4: 157738585
-    Path: event:/SFX/emotion drop
+      Data1: 770392401
+      Data2: 1309938315
+      Data3: -1841258091
+      Data4: -1677881147
+    Path: event:/SFX/Drag Drop Colere
+  <_takeJoie>k__BackingField:
+    Guid:
+      Data1: -897575927
+      Data2: 1332302751
+      Data3: 619750847
+      Data4: 2026257108
+    Path: event:/SFX/Joie
+  <_dropJoie>k__BackingField:
+    Guid:
+      Data1: 1945750286
+      Data2: 1134895001
+      Data3: 2016081047
+      Data4: -1343932287
+    Path: event:/SFX/Drag Drop Joie
+  <_takeColere>k__BackingField:
+    Guid:
+      Data1: 1533879943
+      Data2: 1155551050
+      Data3: -893589574
+      Data4: -1334581980
+    Path: event:/SFX/Colere
+  <_dropColere>k__BackingField:
+    Guid:
+      Data1: 770392401
+      Data2: 1309938315
+      Data3: -1841258091
+      Data4: -1677881147
+    Path: event:/SFX/Drag Drop Colere
+  <_takeTristesse>k__BackingField:
+    Guid:
+      Data1: 303205659
+      Data2: 1319421181
+      Data3: 1675174572
+      Data4: 1394492238
+    Path: event:/SFX/Tristesse
+  <_dropTristesse>k__BackingField:
+    Guid:
+      Data1: 381990792
+      Data2: 1217961437
+      Data3: 1975635902
+      Data4: -2048855330
+    Path: event:/SFX/Drag Drop Tritesse
+  <_finScene>k__BackingField:
+    Guid:
+      Data1: 1355355974
+      Data2: 1233416687
+      Data3: -1851720055
+      Data4: -961641871
+    Path: event:/SFX/end level
   <_clickButton>k__BackingField:
     Guid:
       Data1: 1709313331

@@ -53,7 +53,7 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
         stockedEmotion.GetComponent<Image>().raycastTarget = true;
         stockedEmotion.GetComponent<Image>().maskable = true;
 
-        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._dropEmotion);
+        //AudioManager.Instance.PlayOneShot(FMODEvents.Instance._dropEmotion);
     }
 
     private void DuplicateOnLeftHand()

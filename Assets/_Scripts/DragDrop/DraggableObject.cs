@@ -31,8 +31,34 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         GetComponent<Image>().maskable = false;
         GetComponent<Image>().raycastTarget = false;
 
+        PlayEmotionOnDrag();
         AudioManager.Instance.PlayOneShot(FMODEvents.Instance._takeEmotion);
         // transform.SetParent(panel);
+    }
+
+    private void PlayEmotionOnDrag()
+    {
+        switch (emotionID)
+        {
+            case Emotion.JoieTete:
+            case Emotion.JoiePoitrine:
+                AudioManager.Instance.PlayOneShot(FMODEvents.Instance._takeJoie);
+                break;
+
+            case Emotion.ColerePoitrine:
+            case Emotion.ColereBasTete:
+            case Emotion.ColereMain:
+                AudioManager.Instance.PlayOneShot(FMODEvents.Instance._takeColere);
+                break;
+
+            case Emotion.TristesseGorge:
+            case Emotion.TristesseMain:
+            case Emotion.TristesseYeux:
+            case Emotion.TristessePoitrine:
+                AudioManager.Instance.PlayOneShot(FMODEvents.Instance._takeTristesse);
+                break;
+        }
+        
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -55,6 +81,35 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
             ReturnToParent();
             LayoutRebuilder.ForceRebuildLayoutImmediate(parentBoardSlotTransform as RectTransform);
         }
+        else
+        {
+            PlayEmotionOnDrop();
+        }
+    }
+
+    private void PlayEmotionOnDrop()
+    {
+        switch (emotionID)
+        {
+            case Emotion.JoieTete:
+            case Emotion.JoiePoitrine:
+                AudioManager.Instance.PlayOneShot(FMODEvents.Instance._dropJoie);
+                break;
+
+            case Emotion.ColerePoitrine:
+            case Emotion.ColereBasTete:
+            case Emotion.ColereMain:
+                AudioManager.Instance.PlayOneShot(FMODEvents.Instance._dropColere);
+                break;
+
+            case Emotion.TristesseGorge:
+            case Emotion.TristesseMain:
+            case Emotion.TristesseYeux:
+            case Emotion.TristessePoitrine:
+                AudioManager.Instance.PlayOneShot(FMODEvents.Instance._dropTristesse);
+                break;
+        }
+
     }
 
     public Sprite GetObjectSprite()

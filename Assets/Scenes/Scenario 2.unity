@@ -7389,16 +7389,116 @@ PrefabInstance:
       value: 1083200539
       objectReference: {fileID: 0}
     - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropJoie>k__BackingField.Path
+      value: event:/SFX/Drag Drop Joie
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_finScene>k__BackingField.Path
+      value: event:/SFX/end level
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeJoie>k__BackingField.Path
+      value: event:/SFX/Joie
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropColere>k__BackingField.Path
+      value: event:/SFX/Drag Drop Colere
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
       propertyPath: <_sceneEnter>k__BackingField.Path
       value: event:/Dialogue/Niv2 Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeColere>k__BackingField.Path
+      value: event:/SFX/Colere
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropEmotion>k__BackingField.Path
+      value: event:/SFX/Drag Drop Colere
       objectReference: {fileID: 0}
     - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
       propertyPath: <_goodEmotion>k__BackingField.Path
       value: event:/Dialogue/Niv2 Tristesse
       objectReference: {fileID: 0}
     - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeEmotion>k__BackingField.Path
+      value: event:/SFX/Colere
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropTristesse>k__BackingField.Path
+      value: event:/SFX/Drag Drop Tritesse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeTristesse>k__BackingField.Path
+      value: event:/SFX/Tristesse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropJoie>k__BackingField.Guid.Data1
+      value: 1945750286
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropJoie>k__BackingField.Guid.Data2
+      value: 1134895001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropJoie>k__BackingField.Guid.Data3
+      value: 2016081047
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropJoie>k__BackingField.Guid.Data4
+      value: -1343932287
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_finScene>k__BackingField.Guid.Data1
+      value: 1355355974
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_finScene>k__BackingField.Guid.Data2
+      value: 1233416687
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_finScene>k__BackingField.Guid.Data3
+      value: -1851720055
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_finScene>k__BackingField.Guid.Data4
+      value: -961641871
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeJoie>k__BackingField.Guid.Data1
+      value: -897575927
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeJoie>k__BackingField.Guid.Data2
+      value: 1332302751
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeJoie>k__BackingField.Guid.Data3
+      value: 619750847
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeJoie>k__BackingField.Guid.Data4
+      value: 2026257108
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
       propertyPath: <_badEmotion>k__BackingField.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropColere>k__BackingField.Guid.Data1
+      value: 770392401
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropColere>k__BackingField.Guid.Data2
+      value: 1309938315
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropColere>k__BackingField.Guid.Data3
+      value: -1841258091
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropColere>k__BackingField.Guid.Data4
+      value: -1677881147
       objectReference: {fileID: 0}
     - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
       propertyPath: <_sceneEnter>k__BackingField.Guid.Data1
@@ -7417,6 +7517,38 @@ PrefabInstance:
       value: -1468160856
       objectReference: {fileID: 0}
     - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeColere>k__BackingField.Guid.Data1
+      value: 1533879943
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeColere>k__BackingField.Guid.Data2
+      value: 1155551050
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeColere>k__BackingField.Guid.Data3
+      value: -893589574
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeColere>k__BackingField.Guid.Data4
+      value: -1334581980
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropEmotion>k__BackingField.Guid.Data1
+      value: 770392401
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropEmotion>k__BackingField.Guid.Data2
+      value: 1309938315
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropEmotion>k__BackingField.Guid.Data3
+      value: -1841258091
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropEmotion>k__BackingField.Guid.Data4
+      value: -1677881147
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
       propertyPath: <_goodEmotion>k__BackingField.Guid.Data1
       value: -1277043268
       objectReference: {fileID: 0}
@@ -7431,6 +7563,54 @@ PrefabInstance:
     - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
       propertyPath: <_goodEmotion>k__BackingField.Guid.Data4
       value: 1523811185
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeEmotion>k__BackingField.Guid.Data1
+      value: 1533879943
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeEmotion>k__BackingField.Guid.Data2
+      value: 1155551050
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeEmotion>k__BackingField.Guid.Data3
+      value: -893589574
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeEmotion>k__BackingField.Guid.Data4
+      value: -1334581980
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropTristesse>k__BackingField.Guid.Data1
+      value: 381990792
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropTristesse>k__BackingField.Guid.Data2
+      value: 1217961437
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropTristesse>k__BackingField.Guid.Data3
+      value: 1975635902
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_dropTristesse>k__BackingField.Guid.Data4
+      value: -2048855330
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeTristesse>k__BackingField.Guid.Data1
+      value: 303205659
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeTristesse>k__BackingField.Guid.Data2
+      value: 1319421181
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeTristesse>k__BackingField.Guid.Data3
+      value: 1675174572
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_takeTristesse>k__BackingField.Guid.Data4
+      value: 1394492238
       objectReference: {fileID: 0}
     - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
       propertyPath: <_badEmotion>k__BackingField.Array.data[0].Path
