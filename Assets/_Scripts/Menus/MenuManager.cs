@@ -22,16 +22,16 @@ public class MenuManager : MonoBehaviour
         musicEventInstance.start();
     }
 
+    public void ButtonSound()
+    {
+        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._clickButton);
+    }
+
     public void Play()
     {
         _level.Reset();
         _level.Next();
         _sceneLoader.LoadScene(_level.level);
-    }
-
-    public void ButtonSound()
-    {
-        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._clickButton);
     }
 
     #region Settings
