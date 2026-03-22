@@ -460,11 +460,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1406968630}
+  m_Father: {fileID: 932484485}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -854, y: 437}
+  m_AnchoredPosition: {x: -853.4934, y: 438.92926}
   m_SizeDelta: {x: 120, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &30133899
@@ -3098,6 +3098,7 @@ RectTransform:
   - {fileID: 1087612740}
   - {fileID: 1011171575}
   - {fileID: 1334218560}
+  - {fileID: 30133898}
   m_Father: {fileID: 1590326923}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3655,7 +3656,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38
+  m_fontSize: 36.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4059,7 +4060,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1590326923}
-  - {fileID: 30133898}
   - {fileID: 930121935}
   m_Father: {fileID: 1503263609}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4240,7 +4240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7181256499523933015, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: timeBetweenScenes
-      value: 40
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

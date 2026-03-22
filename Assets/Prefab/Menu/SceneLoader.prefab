@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7eb4b12488f3ce4fb72c5079448f70d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
-  timeBetweenScenes: 2
+  timeBetweenScenes: 0
   _animator: {fileID: 2692006263461549396}
 --- !u!95 &2692006263461549396
 Animator:
