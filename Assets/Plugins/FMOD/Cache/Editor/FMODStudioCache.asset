@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Sound/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639096977806417788
+  lastModified: 639097358825192184
   FileSizes: []
   Exists: 1
 --- !u!114 &-7499678552012670745
@@ -45,80 +45,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1123
---- !u!114 &-6828306790342171632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/emotion take
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/SFX/emotion take
-  Guid:
-    Data1: 2076234331
-    Data2: 1286034955
-    Data3: -1399963755
-    Data4: 216046251
-  Banks:
-  - {fileID: 4049654834025173200}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 440
---- !u!114 &-6298898412903897280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Musique/Main theme
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Musique/Main theme
-  Guid:
-    Data1: 1769223667
-    Data2: 1237685723
-    Data3: -54955855
-    Data4: 828695604
-  Banks:
-  - {fileID: 472726955519042410}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1123
---- !u!114 &-4467549048286683202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: Assets/Sound/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 639097586834023173
-  FileSizes:
-  - Name: 
-    Value: 1310
-  Exists: 1
 --- !u!114 &-3984655338619019938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,36 +87,9 @@ MonoBehaviour:
   Path: Assets/Sound/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639096977806367413
+  lastModified: 639097358825166896
   FileSizes: []
   Exists: 1
---- !u!114 &-1946790965685293719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/refuser action
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/SFX/refuser action
-  Guid:
-    Data1: -1968008344
-    Data2: 1120632731
-    Data3: 824523951
-    Data4: 664082539
-  Banks:
-  - {fileID: 4049654834025173200}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 235
 --- !u!114 &-1284005695357578577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,60 +117,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 235
---- !u!114 &-816546846009815761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/button
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/SFX/button
-  Guid:
-    Data1: 1709313331
-    Data2: 1077199676
-    Data3: 1612852137
-    Data4: 486898859
-  Banks:
-  - {fileID: 4049654834025173200}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 235
---- !u!114 &-92439869078023294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/emotion drop
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/SFX/emotion drop
-  Guid:
-    Data1: -1218380723
-    Data2: 1299782811
-    Data3: -814203247
-    Data4: 157738585
-  Banks:
-  - {fileID: 4049654834025173200}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 650
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,44 +130,26 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EventCache
   EditorBanks:
-  - {fileID: -4467549048286683202}
-  - {fileID: 6958826025918379631}
-  - {fileID: 4649271633706662593}
-  - {fileID: 472726955519042410}
-  - {fileID: 4049654834025173200}
+  - {fileID: 1027086876102410906}
+  - {fileID: 8800929843077592203}
+  - {fileID: 5265552520924462195}
+  - {fileID: -2125689574033392311}
+  - {fileID: -9078214965508278866}
   EditorEvents:
-  - {fileID: 8570055987892356888}
-  - {fileID: -6298898412903897280}
-  - {fileID: -816546846009815761}
-  - {fileID: 5417426605138850990}
-  - {fileID: -92439869078023294}
-  - {fileID: -6828306790342171632}
-  - {fileID: -1946790965685293719}
+  - {fileID: 7892272790987245651}
+  - {fileID: -7499678552012670745}
+  - {fileID: -1284005695357578577}
+  - {fileID: 4039901368230145368}
+  - {fileID: 1009141314601216322}
+  - {fileID: -3984655338619019938}
+  - {fileID: 7375967694287716204}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 4649271633706662593}
+  - {fileID: 5265552520924462195}
   StringsBanks:
-  - {fileID: -4467549048286683202}
-  cacheTime: 639097586834083976
+  - {fileID: 1027086876102410906}
+  cacheTime: 639097358825192184
   cacheVersion: 131635
---- !u!114 &472726955519042410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: Assets/Sound/Music.bank
-  Name: Music
-  StudioPath: bank:/Music
-  lastModified: 639097586834058512
-  FileSizes: []
-  Exists: 1
 --- !u!114 &1009141314601216322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,7 +192,7 @@ MonoBehaviour:
   Path: Assets/Sound/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639096977806352367
+  lastModified: 639097358825151816
   FileSizes:
   - Name: 
     Value: 1310
@@ -397,42 +224,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 789
---- !u!114 &4049654834025173200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: Assets/Sound/SFX.bank
-  Name: SFX
-  StudioPath: bank:/SFX
-  lastModified: 639097586834083976
-  FileSizes: []
-  Exists: 1
---- !u!114 &4649271633706662593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: Assets/Sound/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 639097586834000461
-  FileSizes: []
-  Exists: 1
 --- !u!114 &5265552520924462195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,52 +239,7 @@ MonoBehaviour:
   Path: Assets/Sound/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639096977806331716
-  FileSizes: []
-  Exists: 1
---- !u!114 &5417426605138850990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/end level
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/SFX/end level
-  Guid:
-    Data1: 1355355974
-    Data2: 1233416687
-    Data3: -1851720055
-    Data4: -961641871
-  Banks:
-  - {fileID: 4049654834025173200}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 789
---- !u!114 &6958826025918379631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambiance.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: Assets/Sound/Ambiance.bank
-  Name: Ambiance
-  StudioPath: bank:/Ambiance
-  lastModified: 639097586833980392
+  lastModified: 639097358825136419
   FileSizes: []
   Exists: 1
 --- !u!114 &7375967694287716204
@@ -550,33 +296,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 180320
---- !u!114 &8570055987892356888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambiance/ambiance
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Ambiance/ambiance
-  Guid:
-    Data1: -1883482364
-    Data2: 1113045063
-    Data3: -1665198163
-    Data4: -1469264756
-  Banks:
-  - {fileID: 6958826025918379631}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 180320
 --- !u!114 &8800929843077592203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -592,6 +311,6 @@ MonoBehaviour:
   Path: Assets/Sound/Ambiance.bank
   Name: Ambiance
   StudioPath: bank:/Ambiance
-  lastModified: 639096977806310743
+  lastModified: 639097358825121362
   FileSizes: []
   Exists: 1
