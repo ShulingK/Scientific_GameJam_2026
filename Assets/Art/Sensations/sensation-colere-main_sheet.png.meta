@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 844bf19939026bf4d8f18cf3f51b836b
+guid: f9a74bd717c8d77479824a5b576ec746
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4039312553865233788
-    second: silhouette_spritesheet_0
+      213: -8681453356779689241
+    second: sensation-colere-main_sheet_0
   - first:
-      213: 6488327955776007302
-    second: silhouette_spritesheet_1
+      213: 923086772460955495
+    second: sensation-colere-main_sheet_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,45 +129,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: silhouette_spritesheet_0
+      name: sensation-colere-main_sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 836
-        height: 1082
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 19
+        y: 3
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48a361a22aa71f7c0800000000000000
-      internalID: -4039312553865233788
+      spriteID: 7ea26071b28458780800000000000000
+      internalID: -8681453356779689241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: silhouette_spritesheet_1
+      name: sensation-colere-main_sheet_1
       rect:
         serializedVersion: 2
-        x: 836
-        y: 0
-        width: 836
-        height: 1082
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 161
+        y: 1
+        width: 105
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68ce34e26eb2b0a50800000000000000
-      internalID: 6488327955776007302
+      spriteID: 767a56167867fcc00800000000000000
+      internalID: 923086772460955495
       vertices: []
       indices: 
       edges: []
@@ -176,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 88e3ebd196ca0d542940e93068af503c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -184,12 +184,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":836.0,"y":1082.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":1,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      silhouette_spritesheet_0: -4039312553865233788
-      silhouette_spritesheet_1: 6488327955776007302
+      sensation-colere-main_sheet_0: -8681453356779689241
+      sensation-colere-main_sheet_1: 923086772460955495
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

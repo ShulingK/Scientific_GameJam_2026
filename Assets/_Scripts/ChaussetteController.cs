@@ -30,7 +30,7 @@ public class ChaussetteController : MonoBehaviour
     {
         HideInventory();
 
-        chaussetteAnimator.SetTrigger("OnEnterScene");
+        //chaussetteAnimator.SetTrigger("OnEnterScene");
 
         yield return new WaitForSeconds(onEnterTime);
 

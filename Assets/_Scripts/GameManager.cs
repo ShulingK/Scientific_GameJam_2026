@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
-using UnityEditor.VisionOS;
+//using UnityEditor.VisionOS;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] Round _round;
+    [SerializeField] List<BadEmotion> _badEmotions;
     [SerializeField] Level _level;
     [SerializeField] SceneLoader _sceneLoader;
 
@@ -27,6 +28,7 @@ public class GameManager : MonoBehaviour
         if (_placementEventChannel != null)
             SubscribePlacementEventChannel();
         SetActiveRound(_round);
+        SetActiveBadEmotions(_badEmotions);
     }
 
 

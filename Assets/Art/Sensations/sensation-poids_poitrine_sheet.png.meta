@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 844bf19939026bf4d8f18cf3f51b836b
+guid: b3009604a7ce1484997d6091dc879d8a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4039312553865233788
-    second: silhouette_spritesheet_0
+      213: 3787948655865448506
+    second: sensation-poids_poitrine_sheet_0
   - first:
-      213: 6488327955776007302
-    second: silhouette_spritesheet_1
+      213: 5015422442184788582
+    second: sensation-poids_poitrine_sheet_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,45 +129,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: silhouette_spritesheet_0
+      name: sensation-poids_poitrine_sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 836
-        height: 1082
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 4
+        y: 4
+        width: 110
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48a361a22aa71f7c0800000000000000
-      internalID: -4039312553865233788
+      spriteID: a38474cab3f719430800000000000000
+      internalID: 3787948655865448506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: silhouette_spritesheet_1
+      name: sensation-poids_poitrine_sheet_1
       rect:
         serializedVersion: 2
-        x: 836
-        y: 0
-        width: 836
-        height: 1082
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 122
+        y: 4
+        width: 114
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68ce34e26eb2b0a50800000000000000
-      internalID: 6488327955776007302
+      spriteID: 66a42f8632c5a9540800000000000000
+      internalID: 5015422442184788582
       vertices: []
       indices: 
       edges: []
@@ -176,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 88e3ebd196ca0d542940e93068af503c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -184,12 +184,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":836.0,"y":1082.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":1,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      silhouette_spritesheet_0: -4039312553865233788
-      silhouette_spritesheet_1: 6488327955776007302
+      sensation-poids_poitrine_sheet_0: 3787948655865448506
+      sensation-poids_poitrine_sheet_1: 5015422442184788582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
