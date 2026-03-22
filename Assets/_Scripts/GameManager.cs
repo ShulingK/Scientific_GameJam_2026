@@ -151,10 +151,13 @@ public class GameManager : MonoBehaviour
 
     void CheckBadEmotions()
     {
+
+        Debug.Log("emotions already placed : " + _emotionAlreadyPlaced.Count);
+
         for (int i = 0; i < GetActiveBadEmotions().Count; i++)
         {
             if (GetActiveBadEmotions()[i].GetBadEmotions().Count != _emotionAlreadyPlaced.Count)
-                return;
+                continue;
 
             int temp = 0;
 
@@ -172,9 +175,6 @@ public class GameManager : MonoBehaviour
                     }
                 }
             }
-
-            Debug.Log("emotions already placed : " + _emotionAlreadyPlaced);
-            Debug.Log("temp : " + temp);
 
             if (temp == GetActiveBadEmotions()[i].GetBadEmotions().Count)
             {
