@@ -9,6 +9,15 @@ public class FMODEvents : MonoBehaviour
     [field: SerializeField] public EventReference _takeEmotion { get; private set; }
     [field: SerializeField] public EventReference _dropEmotion { get; private set; }
 
+    [field: SerializeField] public EventReference _takeJoie { get; private set; }
+    [field: SerializeField] public EventReference _dropJoie { get; private set; }
+    [field: SerializeField] public EventReference _takeColere { get; private set; }
+    [field: SerializeField] public EventReference _dropColere { get; private set; }
+    [field: SerializeField] public EventReference _takeTristesse { get; private set; }
+    [field: SerializeField] public EventReference _dropTristesse { get; private set; }
+
+    [field: SerializeField] public EventReference _finScene { get; private set; }
+
 
     [field: Header("UI")]
     [field: SerializeField] public EventReference _clickButton { get; private set; }
