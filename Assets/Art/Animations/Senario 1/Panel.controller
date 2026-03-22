@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: OnJoy
+    m_ConditionEvent: OnBadAnimation0
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4336792703843350474}
@@ -34,7 +34,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: OnJoy
+    m_ConditionEvent: OnBadAnimation0
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4336792703843350474}
@@ -64,10 +64,10 @@ AnimatorStateMachine:
     m_Position: {x: 290, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2314069818218446680}
-    m_Position: {x: 520, y: 120, z: 0}
+    m_Position: {x: 530, y: 20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3316976658814471061}
-    m_Position: {x: 530, y: 220, z: 0}
+    m_Position: {x: 540, y: 120, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -121,7 +121,13 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: OnJoy
+  - m_Name: OnBadAnimation0
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: OnWin
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -228,7 +234,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: OnJoy
+    m_ConditionEvent: OnBadAnimation0
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3316976658814471061}
