@@ -15,9 +15,36 @@ MonoBehaviour:
   Path: Assets/Sound/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639097833352005580
+  lastModified: 639097907869432236
   FileSizes: []
   Exists: 1
+--- !u!114 &-8903419914871541581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Joie
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Joie
+  Guid:
+    Data1: -897575927
+    Data2: 1332302751
+    Data3: 619750847
+    Data4: 2026257108
+  Banks:
+  - {fileID: -9078214965508278866}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3936
 --- !u!114 &-7499678552012670745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,8 +98,8 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 25330
---- !u!114 &-3984655338619019938
+  Length: 24977
+--- !u!114 &-5728843132167948547
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -82,14 +109,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/emotion take
+  m_Name: event:/SFX/Drag Drop Colere
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/SFX/emotion take
+  Path: event:/SFX/Drag Drop Colere
   Guid:
-    Data1: 2076234331
-    Data2: 1286034955
-    Data3: -1399963755
-    Data4: 216046251
+    Data1: 770392401
+    Data2: 1309938315
+    Data3: -1841258091
+    Data4: -1677881147
   Banks:
   - {fileID: -9078214965508278866}
   IsStream: 0
@@ -98,7 +125,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 440
+  Length: 1035
 --- !u!114 &-3153652025685560972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,6 +153,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 22876
+--- !u!114 &-3127958328210640026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Drag Drop Tritesse
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Drag Drop Tritesse
+  Guid:
+    Data1: 381990792
+    Data2: 1217961437
+    Data3: 1975635902
+    Data4: -2048855330
+  Banks:
+  - {fileID: -9078214965508278866}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1312
 --- !u!114 &-2125689574033392311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,7 +195,7 @@ MonoBehaviour:
   Path: Assets/Sound/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639097833351853069
+  lastModified: 639097839626875344
   FileSizes: []
   Exists: 1
 --- !u!114 &-1516000501056209404
@@ -222,8 +276,6 @@ MonoBehaviour:
   - {fileID: -7499678552012670745}
   - {fileID: -1284005695357578577}
   - {fileID: 4039901368230145368}
-  - {fileID: 1009141314601216322}
-  - {fileID: -3984655338619019938}
   - {fileID: 7375967694287716204}
   - {fileID: 3584482391723876656}
   - {fileID: -1516000501056209404}
@@ -234,40 +286,19 @@ MonoBehaviour:
   - {fileID: 2783577734933246393}
   - {fileID: 6027003967043832140}
   - {fileID: 7818315201665043519}
+  - {fileID: -8903419914871541581}
+  - {fileID: 5413034704281909061}
+  - {fileID: 7229510976685865323}
+  - {fileID: -5728843132167948547}
+  - {fileID: 2675266601793794600}
+  - {fileID: -3127958328210640026}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5265552520924462195}
   StringsBanks:
   - {fileID: 1027086876102410906}
-  cacheTime: 639097833352327676
+  cacheTime: 639097907869752226
   cacheVersion: 131635
---- !u!114 &1009141314601216322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/emotion drop
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/SFX/emotion drop
-  Guid:
-    Data1: -1218380723
-    Data2: 1299782811
-    Data3: -814203247
-    Data4: 157738585
-  Banks:
-  - {fileID: -9078214965508278866}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 650
 --- !u!114 &1027086876102410906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,11 +314,38 @@ MonoBehaviour:
   Path: Assets/Sound/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639097833351634077
+  lastModified: 639097907869332230
   FileSizes:
   - Name: 
-    Value: 1738
+    Value: 1882
   Exists: 1
+--- !u!114 &2675266601793794600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Colere
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Colere
+  Guid:
+    Data1: 1533879943
+    Data2: 1155551050
+    Data3: -893589574
+    Data4: -1334581980
+  Banks:
+  - {fileID: -9078214965508278866}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17492
 --- !u!114 &2783577734933246393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,9 +469,36 @@ MonoBehaviour:
   Path: Assets/Sound/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639096977806331716
+  lastModified: 639096998512765799
   FileSizes: []
   Exists: 1
+--- !u!114 &5413034704281909061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Drag Drop Joie
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Drag Drop Joie
+  Guid:
+    Data1: 1945750286
+    Data2: 1134895001
+    Data3: 2016081047
+    Data4: -1343932287
+  Banks:
+  - {fileID: -9078214965508278866}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800
 --- !u!114 &6027003967043832140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -467,7 +552,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 57046
+  Length: 54478
+--- !u!114 &7229510976685865323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Tristesse
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Tristesse
+  Guid:
+    Data1: 303205659
+    Data2: 1319421181
+    Data3: 1675174572
+    Data4: 1394492238
+  Banks:
+  - {fileID: -9078214965508278866}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21932
 --- !u!114 &7319898796440951236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,7 +595,7 @@ MonoBehaviour:
   Path: Assets/Sound/Voice.bank
   Name: Voice
   StudioPath: bank:/Voice
-  lastModified: 639097833352327676
+  lastModified: 639097907869752226
   FileSizes: []
   Exists: 1
 --- !u!114 &7375967694287716204
@@ -582,6 +694,6 @@ MonoBehaviour:
   Path: Assets/Sound/Ambiance.bank
   Name: Ambiance
   StudioPath: bank:/Ambiance
-  lastModified: 639096977806310743
+  lastModified: 639096998512725502
   FileSizes: []
   Exists: 1

@@ -48,7 +48,7 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         if (GameManager.Instance.lockDrag) return;
 
         GetComponent<Image>().raycastTarget = true;
-        GetComponent<Image>().maskable = true;
+        GetComponent<Image>().maskable = false;
 
         if (!transform.parent.CompareTag("PlayerLayer"))
         {
