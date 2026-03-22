@@ -11,9 +11,15 @@ public class MenuManager : MonoBehaviour
 
     private EventInstance musicEventInstance;
 
+    private static bool musicAlreadyStart = false;
+
     private void Start()
     {
-        InitializeMusic(FMODEvents.Instance._mainMenu);
+        if (musicAlreadyStart == false)
+        {
+            InitializeMusic(FMODEvents.Instance._mainMenu);
+            musicAlreadyStart = true;
+        }
     }
 
     public void InitializeMusic(EventReference musicEventReference)
