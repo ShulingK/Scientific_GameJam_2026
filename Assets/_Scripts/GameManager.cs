@@ -1,4 +1,7 @@
+using FMOD.Studio;
+using FMODUnity;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -30,6 +33,26 @@ public class GameManager : MonoBehaviour
         SetActiveBadEmotions(_badEmotion);
     }
 
+    #region Sound
+
+    private EventInstance musicEventInstance;
+
+    private void Start()
+    {
+        InitializeMusic(FMODEvents.Instance._mainMenu);
+    }
+
+    public void InitializeMusic(EventReference musicEventReference)
+    {
+        musicEventInstance = AudioManager.Instance.CreateInstance(musicEventReference);
+        musicEventInstance.start();
+    }
+
+    public void ButtonSound()
+    {
+        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._clickButton);
+    }
+    #endregion
 
     #region Rounds
     Round _currentRound;
@@ -84,8 +107,41 @@ public class GameManager : MonoBehaviour
             Debug.Log("Lose");
         }
     }
+    #endregion
+
+    #region Menu Pause
+    public void Home()
+    {
+        _sceneLoader.LoadScene(0);
+    }
+
+    [SerializeField] GameObject _menu;
+
+    public void Pause(bool isOpen)
+    {
+        if (isOpen) StartCoroutine(COpenPause());
+        else StartCoroutine(CClosePause());
+    }
 
 
+    IEnumerator COpenPause()
+    {
+        yield return null;
+
+        _menu.SetActive(true);
+    }
+    IEnumerator CClosePause()
+    {
+        yield return null;
+
+        _menu.SetActive(false);
+    }
+
+    public void Restart()
+    {
+        _sceneLoader.LoadScene(_level.level);
+    }
+    
     #endregion
 
     #region Bad Emotions
