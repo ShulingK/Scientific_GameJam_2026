@@ -96,9 +96,12 @@ public class ChaussetteController : MonoBehaviour
 
         yield return new WaitForSeconds(duration);
 
-        HideDialogue();
 
-        ShowInventory();
+        GameManager.Instance._level.Next();
+
+        Debug.LogWarning("Level To load : " + GameManager.Instance._level.level);
+
+        GameManager.Instance._sceneLoader.LoadScene(GameManager.Instance._level.level);
     }
 
     private void OnBadEmotionAnimation(int obj)
