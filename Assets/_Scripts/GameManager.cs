@@ -9,8 +9,8 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] Round _round;
     [SerializeField] List<BadEmotion> _badEmotion;
-    [SerializeField] Level _level;
-    [SerializeField] SceneLoader _sceneLoader;
+    [SerializeField] public Level _level;
+    [SerializeField] public SceneLoader _sceneLoader;
 
     [SerializeField] ChaussetteController chaussette;
 
@@ -96,8 +96,6 @@ public class GameManager : MonoBehaviour
         {
             OnSuccess?.Invoke();
 
-            _level.Next();
-            _sceneLoader.LoadScene(_level.level);
             lockDrag = true;
 
             Debug.Log("Win");

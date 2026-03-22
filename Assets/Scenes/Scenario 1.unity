@@ -267,7 +267,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Du sommet de la montagne, Chaussette aper\xE7oit ses chaussures qui s\u2019envolent
-    vers la for\xEAt. "
+    dans la for\xEAt. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -404,7 +404,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " Il se sent tellement heureux. Il peut d\xE9sormais escalader la montagne. "
+  m_text: "Il se sent tellement heureux. Il peut d\xE9sormais escalader la montagne
+    sans probl\xE8me."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -541,8 +542,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " Chaussette prend le grappin, respire profond\xE9ment, le lance. Il tient
-    ! Chaussette tire doucement dessus : "
+  m_text: "Il prend le grappin, respire profond\xE9ment, puis le lance. Il tire doucement
+    dessus pour v\xE9rifier."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -805,7 +806,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Chaussette se met en col\xE8re, vraiment en col\xE8re."
+  m_text: "Chaussette se met en col\xE8re. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1108,9 +1109,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " Mais en r\xE9alit\xE9, c'est bien plus difficile qu'il n'y para\xEEt.
-    Chaussette essaie encore et encore. Le grappin s'envole\u2026 puis glisse, encore
-    une fois. Et encore. Et encore. "
+  m_text: "Mais en r\xE9alit\xE9, c'est bien plus difficile qu'il n'y para\xEEt.
+    Chaussette essaie encore et encore. Et encore. Et encore."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1137,7 +1137,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 43.5
+  m_fontSize: 51.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1361,7 +1361,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xAB Heureusement, j\u2019ai apport\xE9 mon grappin. \xBB "
+  m_text: "\xAB Heureusement, j\u2019ai apport\xE9 mon grappin. \xBB"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1440,143 +1440,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 191664855}
-  m_CullTransparentMesh: 1
---- !u!1 &200212175
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 200212176}
-  - component: {fileID: 200212178}
-  - component: {fileID: 200212177}
-  m_Layer: 5
-  m_Name: Text (TMP) (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &200212176
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200212175}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 242766729}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7.6948853, y: -5.7710876}
-  m_SizeDelta: {x: -141.5603, y: -114.4925}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &200212177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200212175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'soupire Chaussette.  '
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &200212178
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200212175}
   m_CullTransparentMesh: 1
 --- !u!1 &220409466
 GameObject:
@@ -1830,7 +1693,6 @@ RectTransform:
   - {fileID: 1052814945}
   - {fileID: 324632372}
   - {fileID: 1054928005}
-  - {fileID: 200212176}
   - {fileID: 191664856}
   - {fileID: 1640364723}
   - {fileID: 1471988398}
@@ -2212,7 +2074,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Apr\xE8s une longue marche, Chaussette arrive au pied d\u2019une montagne. "
+  m_text: "Heureusement, Chaussette est arriv\xE9 au pied de la montagne."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2239,7 +2101,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 51.85
+  m_fontSize: 57.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2349,7 +2211,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Chaussette peut d\xE9sormais rassembler toute son \xE9nergie. "
+  m_text: "Alors, Chaussette rassemble toute sa force et s\u2019y met ! "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2487,7 +2349,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\xAB J\u2019ai vraiment besoin de mes chaussures ? Mes chaussettes sont
-    tr\xE8s bien."
+    tr\xE8s bien. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3149,7 +3011,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Mais non\u2026 La joie n\u2019est pas la bonne \xE9motion pour ce d\xE9fi.
-    R\xE9essaye !"
+    Aller R\xE9essaye !"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3951,7 +3813,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Chaussette a mal aux pieds et son petit ventre commence \xE0 gargouiller. "
+  m_text: "Apr\xE8s avoir bien march\xE9, Chaussette commence a avoir mal aux pieds
+    et son petit ventre n\u2019arr\xEAte pas de gargouiller. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4088,7 +3951,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xAB J\u2019avais oubli\xE9 que la montagne \xE9tait si grande ! \xBB "
+  m_text: "\xABOh\u2026 J\u2019avais oubli\xE9 que la montagne \xE9tait si grande
+    ! \xBB\nsoupire Chaussette."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4115,7 +3979,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70.35
+  m_fontSize: 51.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5118,7 +4982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ChaussetteController
   inventaire: {fileID: 177774902}
   dialogue: {fileID: 242766728}
-  onEnterTime: 14
+  onEnterTime: 35
 --- !u!95 &1406968634
 Animator:
   serializedVersion: 7
@@ -5977,7 +5841,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Son papa lui avait appris \xE0 s\u2019en servir. "
+  m_text: "Son papa lui avait appris \xE0 s\u2019en servir."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6276,127 +6140,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829198969}
   m_CullTransparentMesh: 1
---- !u!1001 &1937856824
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 271492208757062442, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 797.24646
-      objectReference: {fileID: 0}
-    - target: {fileID: 271492208757062442, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 555.66583
-      objectReference: {fileID: 0}
-    - target: {fileID: 271492208757062442, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 271492208757062442, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 271492208757062442, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 271492208757062442, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 271492208757062442, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 271492208757062442, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 271492208757062442, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 271492208757062442, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3097903261364727718, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: m_Name
-      value: FMODEvents
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_sceneEnter>k__BackingField.Path
-      value: event:/Dialogue/Niv1 Base
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_goodEmotion>k__BackingField.Path
-      value: "event:/Dialogue/Niv1 Col\xE8re"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_badEmotion>k__BackingField.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_sceneEnter>k__BackingField.Guid.Data1
-      value: 2028723408
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_sceneEnter>k__BackingField.Guid.Data2
-      value: 1318198709
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_sceneEnter>k__BackingField.Guid.Data3
-      value: -1315051346
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_sceneEnter>k__BackingField.Guid.Data4
-      value: 1083200539
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_goodEmotion>k__BackingField.Guid.Data1
-      value: -2014350653
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_goodEmotion>k__BackingField.Guid.Data2
-      value: 1099955319
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_goodEmotion>k__BackingField.Guid.Data3
-      value: 2047295873
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_goodEmotion>k__BackingField.Guid.Data4
-      value: -1465610557
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_badEmotion>k__BackingField.Array.data[0].Path
-      value: event:/Dialogue/Niv1 Joie
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_badEmotion>k__BackingField.Array.data[0].Guid.Data1
-      value: 1595789114
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_badEmotion>k__BackingField.Array.data[0].Guid.Data2
-      value: 1310643499
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_badEmotion>k__BackingField.Array.data[0].Guid.Data3
-      value: 585221011
-      objectReference: {fileID: 0}
-    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
-      propertyPath: <_badEmotion>k__BackingField.Array.data[0].Guid.Data4
-      value: -898396092
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7ba29d820069245429879f1897e5c484, type: 3}
 --- !u!1 &1974436698
 GameObject:
   m_ObjectHideFlags: 0
@@ -6711,6 +6454,21 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1810936284928222026, guid: 012bc0704fbb4d84b92ca357c4d0aaf3, type: 3}
   m_PrefabInstance: {fileID: 2131750899}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &271492209017184786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3097903260550985374}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 797.24646, y: 555.66583, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &468698983215051732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6822,7 +6580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5812369575473428328, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7181256499523933015, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: timeBetweenScenes
@@ -6844,6 +6602,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7eb4b12488f3ce4fb72c5079448f70d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+--- !u!1 &3097903260550985374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 271492209017184786}
+  - component: {fileID: 8344117181290667174}
+  m_Layer: 0
+  m_Name: FMODEvents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &4700123438710504118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7147,6 +6922,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 490ce2c77b8f17a4580b4ee5f2c61eb9, type: 3}
+--- !u!114 &8344117181290667174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3097903260550985374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8146b7c3ff6e6246b7126e78920ac50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODEvents
+  <_takeEmotion>k__BackingField:
+    Guid:
+      Data1: 2076234331
+      Data2: 1286034955
+      Data3: -1399963755
+      Data4: 216046251
+    Path: event:/SFX/emotion take
+  <_dropEmotion>k__BackingField:
+    Guid:
+      Data1: -1218380723
+      Data2: 1299782811
+      Data3: -814203247
+      Data4: 157738585
+    Path: event:/SFX/emotion drop
+  <_clickButton>k__BackingField:
+    Guid:
+      Data1: 1709313331
+      Data2: 1077199676
+      Data3: 1612852137
+      Data4: 486898859
+    Path: event:/SFX/button
+  <_mainMenu>k__BackingField:
+    Guid:
+      Data1: 1769223667
+      Data2: 1237685723
+      Data3: -54955855
+      Data4: 828695604
+    Path: event:/Musique/Main theme
+  <_sceneEnter>k__BackingField:
+    Guid:
+      Data1: 2028723408
+      Data2: 1318198709
+      Data3: -1315051346
+      Data4: 1083200539
+    Path: event:/Dialogue/Niv1 Base
+  <_goodEmotion>k__BackingField:
+    Guid:
+      Data1: -2014350653
+      Data2: 1099955319
+      Data3: 2047295873
+      Data4: -1465610557
+    Path: "event:/Dialogue/Niv1 Col\xE8re"
+  <_badEmotion>k__BackingField:
+  - Guid:
+      Data1: 1595789114
+      Data2: 1310643499
+      Data3: 585221011
+      Data4: -898396092
+    Path: event:/Dialogue/Niv1 Joie
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -7155,6 +6991,6 @@ SceneRoots:
   - {fileID: 1503263609}
   - {fileID: 906880019}
   - {fileID: 1974436701}
-  - {fileID: 1937856824}
+  - {fileID: 271492209017184786}
   - {fileID: 468698983215051732}
   - {fileID: 1912521145322806510}

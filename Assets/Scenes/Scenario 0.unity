@@ -631,8 +631,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Chaussette est tout excit\xE9 ! Il sent son corps s'animer, une chaleur
-    agr\xE9able envahir sa poitrine et une grande \xE9nergie le gagner. Il est soudainement
-    bien r\xE9veill\xE9 et pr\xEAt \xE0 passer \xE0 l'action."
+    agr\xE9able envahir sa poitrine et une grande \xE9nergie le gagner. Il se sens
+    maintenant bien r\xE9veill\xE9 et pr\xEAt \xE0 passer \xE0 l'action. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -970,8 +970,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Voici l'histoire de Chaussettes, qui raconte comment ses \xE9motions l'aident
-    \xE0 traverser une journ\xE9e pleine d'aventures."
+  m_text: Voici l'histoire de Chaussettes. Chaussette n'aime pas se lever. Le lit
+    est si douillet et chaud.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -2491,7 +2491,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "D\xE9place les sensations de Chaussette sur son corps pour d\xE9couvrir
+  m_text: "D\xE9place les sensations de Chaussette sur son corp  pour d\xE9couvrir
     ce qui va se passer ensuite !"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -3415,7 +3415,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2164202090136960037, guid: 6ff68d082b52805478d612f0776b50b1, type: 3}
+  m_Sprite: {fileID: 2279710702490039794, guid: 63f0e9afb68238945a2bd2661dd94e89, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3490,7 +3490,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Regarde les pieds de Chaussette : il n''a pas de chaussures ! '
+  m_text: 'Mais Regarde les pieds de Chaussette : il n''a pas de chaussures !'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -3627,9 +3627,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Il vient de se rappeler que c'est le week-end, et qu'une journ\xE9e enti\xE8re
-    d'aventures l'attend.\_ Chaussette saute rapidement hors du lit, s'habille, attrape
-    son sac d'aventure et court dehors."
+  m_text: "Et Chaussette vient de se rappeler que c'est le week-end, et qu'une journ\xE9e
+    enti\xE8re d'aventures l'attend.\_Alors Chaussette saute rapidement hors du lit,
+    s'habille, attrape son sac d'aventure et court dehors."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -4237,7 +4237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5812369575473428328, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7181256499523933015, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: timeBetweenScenes
@@ -4598,8 +4598,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -345.5349, y: 9.936707}
-  m_SizeDelta: {x: 335.8314, y: 319.8875}
+  m_AnchoredPosition: {x: -365, y: 34}
+  m_SizeDelta: {x: 462.5893, y: 440.6275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1646720318
 MonoBehaviour:
@@ -4814,8 +4814,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Chaussette n'aime pas se lever. Il fait d\xE9j\xE0 jour dehors, mais le
-    lit est si douillet et chaud. Il remonte sa couette sur sa t\xEAte. "
+  m_text: "Il fait d\xE9j\xE0 jour dehors pourtant,  Il remonte sa couette sur sa
+    t\xEAte."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -5452,8 +5452,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -355.60034, y: 34.29071}
-  m_SizeDelta: {x: 169.7993, y: 277.4186}
+  m_AnchoredPosition: {x: -378.8645, y: 67.546265}
+  m_SizeDelta: {x: 233.8892, y: 382.1289}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1943286156
 MonoBehaviour:
