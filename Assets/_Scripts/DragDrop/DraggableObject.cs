@@ -32,7 +32,7 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         GetComponent<Image>().raycastTarget = false;
 
         PlayEmotionOnDrag();
-        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._takeEmotion);
+        //AudioManager.Instance.PlayOneShot(FMODEvents.Instance._takeEmotion);
         // transform.SetParent(panel);
     }
 
