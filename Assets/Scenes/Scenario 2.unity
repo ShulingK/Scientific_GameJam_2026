@@ -4454,7 +4454,7 @@ GameObject:
   - component: {fileID: 989956573}
   - component: {fileID: 989956572}
   m_Layer: 5
-  m_Name: Placeholder - Heart (1)
+  m_Name: Placeholder - Gorge
   m_TagString: PlayerLayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6246,7 +6246,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: 247.32996}
+  m_AnchoredPosition: {x: 1, y: 275}
   m_SizeDelta: {x: 212.6435, y: 203.7399}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1571527100
@@ -8055,7 +8055,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5812369575473428328, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7181256499523933015, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: timeBetweenScenes
