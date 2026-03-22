@@ -974,7 +974,7 @@ MonoBehaviour:
     \xE0 traverser une journ\xE9e pleine d'aventures."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2059,7 +2059,7 @@ MonoBehaviour:
   m_text: "\xAB Chaussette , il est vraiment l'heure ! \xBB,\r\n lui lance maman."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2495,7 +2495,7 @@ MonoBehaviour:
     ce qui va se passer ensuite !"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2519,7 +2519,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69.05
+  m_fontSize: 54.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3149,7 +3149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   inventaire: {fileID: 177774902}
   dialogue: {fileID: 0}
-  onEnterTime: 22
+  onEnterTime: 22.6
 --- !u!1 &1011171574
 GameObject:
   m_ObjectHideFlags: 0
@@ -3517,7 +3517,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 60.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3628,8 +3628,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Il vient de se rappeler que c'est le week-end, et qu'une journ\xE9e enti\xE8re
-    d'aventures l'a ttend.\_ Chaussette saute rapidement hors du lit, s'habille,
-    attrape son sac d'aventure et court dehors."
+    d'aventures l'attend.\_ Chaussette saute rapidement hors du lit, s'habille, attrape
+    son sac d'aventure et court dehors."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -4241,7 +4241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7181256499523933015, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: timeBetweenScenes
-      value: 5
+      value: 43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4818,7 +4818,7 @@ MonoBehaviour:
     lit est si douillet et chaud. Il remonte sa couette sur sa t\xEAte. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4955,7 +4955,7 @@ MonoBehaviour:
   m_text: "\xAB Laisse-moi tranquille ! \xBB"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5775,6 +5775,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: FMODEvents
       objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_sceneEnter>k__BackingField.Path
+      value: event:/Dialogue/Niv0 Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_goodEmotion>k__BackingField.Path
+      value: event:/Dialogue/Niv0 Joie
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_sceneEnter>k__BackingField.Guid.Data1
+      value: -446651545
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_sceneEnter>k__BackingField.Guid.Data2
+      value: 1275183257
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_sceneEnter>k__BackingField.Guid.Data3
+      value: 1208591505
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_sceneEnter>k__BackingField.Guid.Data4
+      value: 875669225
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_goodEmotion>k__BackingField.Guid.Data1
+      value: -1070994707
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_goodEmotion>k__BackingField.Guid.Data2
+      value: 1295822997
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_goodEmotion>k__BackingField.Guid.Data3
+      value: 520258964
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_goodEmotion>k__BackingField.Guid.Data4
+      value: 1920904014
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5866,7 +5906,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54.75
+  m_fontSize: 48.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

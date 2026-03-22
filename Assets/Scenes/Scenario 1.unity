@@ -6328,6 +6328,70 @@ PrefabInstance:
       propertyPath: m_Name
       value: FMODEvents
       objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_sceneEnter>k__BackingField.Path
+      value: event:/Dialogue/Niv1 Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_goodEmotion>k__BackingField.Path
+      value: "event:/Dialogue/Niv1 Col\xE8re"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_badEmotion>k__BackingField.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_sceneEnter>k__BackingField.Guid.Data1
+      value: 2028723408
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_sceneEnter>k__BackingField.Guid.Data2
+      value: 1318198709
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_sceneEnter>k__BackingField.Guid.Data3
+      value: -1315051346
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_sceneEnter>k__BackingField.Guid.Data4
+      value: 1083200539
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_goodEmotion>k__BackingField.Guid.Data1
+      value: -2014350653
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_goodEmotion>k__BackingField.Guid.Data2
+      value: 1099955319
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_goodEmotion>k__BackingField.Guid.Data3
+      value: 2047295873
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_goodEmotion>k__BackingField.Guid.Data4
+      value: -1465610557
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_badEmotion>k__BackingField.Array.data[0].Path
+      value: event:/Dialogue/Niv1 Joie
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_badEmotion>k__BackingField.Array.data[0].Guid.Data1
+      value: 1595789114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_badEmotion>k__BackingField.Array.data[0].Guid.Data2
+      value: 1310643499
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_badEmotion>k__BackingField.Array.data[0].Guid.Data3
+      value: 585221011
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_badEmotion>k__BackingField.Array.data[0].Guid.Data4
+      value: -898396092
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

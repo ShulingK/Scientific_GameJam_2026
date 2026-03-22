@@ -345,6 +345,7 @@ MonoBehaviour:
   - Ambiance
   - Music
   - SFX
+  - Voice
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
