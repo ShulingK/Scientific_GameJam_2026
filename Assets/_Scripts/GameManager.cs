@@ -175,6 +175,9 @@ public class GameManager : MonoBehaviour
                 }
             }
 
+            Debug.Log("emotions already placed : " + _emotionAlreadyPlaced);
+            Debug.Log("temp : " + temp);
+
             if (temp == GetActiveBadEmotions()[i].GetBadEmotions().Count)
             {
                 OnBadEmotionSuccess?.Invoke(i);
