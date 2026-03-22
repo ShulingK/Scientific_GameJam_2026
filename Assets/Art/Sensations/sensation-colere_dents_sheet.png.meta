@@ -138,12 +138,12 @@ TextureImporter:
       name: sensation-colere_dents_sheet_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 27
-        width: 213
-        height: 78
+        x: 0
+        y: 0
+        width: 233
+        height: 228
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: sensation-colere_dents_sheet_1
       rect:
         serializedVersion: 2
-        x: 227
-        y: 80
-        width: 18
-        height: 21
+        x: 233
+        y: 0
+        width: 233
+        height: 228
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,55 +178,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: sensation-colere_dents_sheet_2
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 27
-        width: 196
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5727986a31936b4c0800000000000000
-      internalID: -4272164439953149323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sensation-colere_dents_sheet_3
-      rect:
-        serializedVersion: 2
-        x: 460
-        y: 77
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3030ed712fee608c0800000000000000
-      internalID: -4033273692713778429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: aa34ba956578f2d4a80782ae31baa849
     internalID: 0
     vertices: []
     indices: 
@@ -234,12 +190,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":233.0,"y":228.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       sensation-colere_dents_sheet_0: 3022633715449583314
       sensation-colere_dents_sheet_1: 7628183674528876367
-      sensation-colere_dents_sheet_2: -4272164439953149323
-      sensation-colere_dents_sheet_3: -4033273692713778429
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
