@@ -6343,7 +6343,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1974436701}
   - component: {fileID: 1974436700}
-  - component: {fileID: 1974436699}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6351,20 +6350,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1974436699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974436698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7eb4b12488f3ce4fb72c5079448f70d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
-  timeBetweenScenes: 5
-  _animator: {fileID: 0}
 --- !u!114 &1974436700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6381,7 +6366,7 @@ MonoBehaviour:
   _badEmotion:
   - {fileID: 11400000, guid: 9041fd98b59ed9b418fbc1304385bd02, type: 2}
   _level: {fileID: 11400000, guid: efb94902452a27847b5a6ce289c1e751, type: 2}
-  _sceneLoader: {fileID: 1974436699}
+  _sceneLoader: {fileID: 1912521145322806511}
   chaussette: {fileID: 1406968633}
   lockDrag: 0
   _menu: {fileID: 780064603}
@@ -6773,13 +6758,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5812369575473428328, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7181256499523933015, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
+      propertyPath: timeBetweenScenes
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
+--- !u!114 &1912521145322806511 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7181256499523933015, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
+  m_PrefabInstance: {fileID: 1912521145322806510}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7eb4b12488f3ce4fb72c5079448f70d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
 --- !u!1001 &4700123438710504118
 PrefabInstance:
   m_ObjectHideFlags: 0

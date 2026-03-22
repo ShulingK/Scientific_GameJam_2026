@@ -17,10 +17,14 @@ public class SceneLoader : MonoBehaviour
 
     IEnumerator LoadSceneCoroutine(int index)
     {
-        if (_animator != null)
-            _animator.SetTrigger("Load");
-
         yield return new WaitForSeconds(timeBetweenScenes);
+
+        _animator.SetTrigger("Load");
+
+        AnimatorStateInfo stateInfo = _animator.GetCurrentAnimatorStateInfo(0);
+        float duration = stateInfo.length;
+
+        yield return new WaitForSeconds(duration);
 
         SceneManager.LoadScene(index);
     }

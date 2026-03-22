@@ -82,11 +82,11 @@ public class ChaussetteController : MonoBehaviour
 
     IEnumerator OnWinCoroutine()
     {
-        yield return new WaitForSeconds(10);
-
         HideInventory();
 
         ShowDialogue();
+
+        yield return new WaitForSeconds(0.5f);
 
         AnimatorStateInfo stateInfo = chaussetteAnimator.GetCurrentAnimatorStateInfo(0);
         float duration = stateInfo.length;
