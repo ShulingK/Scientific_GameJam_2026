@@ -132,12 +132,12 @@ TextureImporter:
       name: sensation-coeur_sheet_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 7
-        width: 79
-        height: 110
+        x: 0
+        y: 0
+        width: 119
+        height: 123
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -154,12 +154,12 @@ TextureImporter:
       name: sensation-coeur_sheet_1
       rect:
         serializedVersion: 2
-        x: 136
-        y: 16
-        width: 91
-        height: 91
+        x: 119
+        y: 0
+        width: 119
+        height: 123
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -176,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2acca982ad9134d428949b34b8d86f58
     internalID: 0
     vertices: []
     indices: 
@@ -184,7 +184,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":119.0,"y":123.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       sensation-coeur_sheet_0: -9176846787931028379
       sensation-coeur_sheet_1: -3569488367937179181

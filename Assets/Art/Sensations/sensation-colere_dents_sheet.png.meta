@@ -138,10 +138,10 @@ TextureImporter:
       name: sensation-colere_dents_sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 233
-        height: 228
+        x: 9
+        y: 28
+        width: 211
+        height: 76
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,23 +157,23 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sensation-colere_dents_sheet_1
+      name: sensation-colere_dents_sheet_2
       rect:
         serializedVersion: 2
-        x: 233
-        y: 0
-        width: 233
-        height: 228
+        x: 243
+        y: 27
+        width: 206
+        height: 76
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f474ab9d2a0ccd960800000000000000
-      internalID: 7628183674528876367
+      spriteID: fec20357e89206d4a94659d270bbcad3
+      internalID: -1923625040
       vertices: []
       indices: 
       edges: []
@@ -192,10 +192,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":233.0,"y":228.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       sensation-colere_dents_sheet_0: 3022633715449583314
       sensation-colere_dents_sheet_1: 7628183674528876367
+      sensation-colere_dents_sheet_2: -1923625040
+      sensation-colere_dents_sheet_3: -613979586
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
