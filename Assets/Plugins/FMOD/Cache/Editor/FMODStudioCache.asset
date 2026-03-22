@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Sound/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639097907869432236
+  lastModified: 639097947801110203
   FileSizes: []
   Exists: 1
 --- !u!114 &-7499678552012670745
@@ -119,13 +119,13 @@ MonoBehaviour:
     Data4: 2026257108
   Banks:
   - {fileID: -9078214965508278866}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 3936
+  Length: 21769
 --- !u!114 &-4483321207598559327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,7 +195,7 @@ MonoBehaviour:
   Path: Assets/Sound/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639097839626875344
+  lastModified: 639097947801023468
   FileSizes: []
   Exists: 1
 --- !u!114 &-1516000501056209404
@@ -319,12 +319,13 @@ MonoBehaviour:
   - {fileID: -6073684580154485169}
   - {fileID: 6921639848632582897}
   - {fileID: -4483321207598559327}
+  - {fileID: 2605624896095733201}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5265552520924462195}
   StringsBanks:
   - {fileID: 1027086876102410906}
-  cacheTime: 639097907869752226
+  cacheTime: 639097947801110203
   cacheVersion: 131635
 --- !u!114 &1027086876102410906
 MonoBehaviour:
@@ -341,11 +342,38 @@ MonoBehaviour:
   Path: Assets/Sound/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639097907869332230
+  lastModified: 639097947800840346
   FileSizes:
   - Name: 
-    Value: 1882
+    Value: 1934
   Exists: 1
+--- !u!114 &2605624896095733201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musique/Menu Theme
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Musique/Menu Theme
+  Guid:
+    Data1: 465180515
+    Data2: 1185022829
+    Data3: -2034574965
+    Data4: -2077661087
+  Banks:
+  - {fileID: -2125689574033392311}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19200
 --- !u!114 &2783577734933246393
 MonoBehaviour:
   m_ObjectHideFlags: 0

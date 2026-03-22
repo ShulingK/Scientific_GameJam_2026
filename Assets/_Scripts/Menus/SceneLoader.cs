@@ -17,6 +17,7 @@ public class SceneLoader : MonoBehaviour
 
     IEnumerator LoadSceneCoroutine(int index)
     {
+        AudioManager.Instance.PlayOneShot(FMODEvents.Instance._finScene);
         yield return new WaitForSeconds(timeBetweenScenes);
 
         _animator.SetTrigger("Load");
