@@ -1,5 +1,6 @@
 using FMOD.Studio;
 using FMODUnity;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class FMODEvents : MonoBehaviour
@@ -14,7 +15,6 @@ public class FMODEvents : MonoBehaviour
 
     [field: Header("Musics")]
     [field: SerializeField] public EventReference _mainMenu { get; private set; }
-
     public static FMODEvents Instance { get; private set;}
 
     private void Awake()
