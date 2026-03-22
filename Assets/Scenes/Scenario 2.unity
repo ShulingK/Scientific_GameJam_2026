@@ -1191,8 +1191,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mais sa col\xE8re l\u2019emp\xEAche d\u2019\xEAtre prudent : l\u2019arbre
-    est trop haut et sa cime trop fragile. "
+  m_text: "Mais sa col\xE8re l\u2019emp\xEAche d\u2019\xEAtre prudent :"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -1466,7 +1465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "R\xE9essaye !"
+  m_text: "Aller R\xE9essaye !"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -2992,7 +2991,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ce n\u2019\xE9tait peut-\xEAtre pas une si bonne id\xE9e, apr\xE8s tout. "
+  m_text: "Ce n\u2019\xE9tait peut-\xEAtre pas une si bonne id\xE9e, apr\xE8s tout."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -3446,7 +3445,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Il grimpe encore plus haut mais l\u2019arbre commence \xE0 craquer sous
+  m_text: "Il grimpe de plus en plus haut, mais l\u2019arbre commence a craquer sous
     son poids."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -3848,6 +3847,10 @@ PrefabInstance:
     - target: {fileID: 6111492565777104558, guid: 78fe900c690a53d47b9dc84d1fe3a715, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720152101362164595, guid: 78fe900c690a53d47b9dc84d1fe3a715, type: 3}
+      propertyPath: m_Maskable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8748732798697383890, guid: 78fe900c690a53d47b9dc84d1fe3a715, type: 3}
       propertyPath: m_Name
@@ -7933,6 +7936,10 @@ PrefabInstance:
       propertyPath: parentBoardSlotTransform
       value: 
       objectReference: {fileID: 661112771}
+    - target: {fileID: 5479335498945982755, guid: 012bc0704fbb4d84b92ca357c4d0aaf3, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8350044177960088139, guid: 012bc0704fbb4d84b92ca357c4d0aaf3, type: 3}
       propertyPath: m_Name
       value: Joie Poitrine
@@ -8058,7 +8065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5812369575473428328, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7181256499523933015, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: timeBetweenScenes
@@ -8185,6 +8192,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8363977595253197234, guid: f8b6793705b64b24e95a5fa0b9652be6, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8203,6 +8214,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 661112771}
     m_Modifications:
+    - target: {fileID: 2389704778351925607, guid: 10349a4fa88a03347b445c2e2b69a902, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3771613615882312214, guid: 10349a4fa88a03347b445c2e2b69a902, type: 3}
       propertyPath: m_Name
       value: Colere Main
@@ -8388,6 +8403,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2589646790409509200, guid: 1900082e6dcc52d4d9caf76c84f5af4c, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5594083869083380431, guid: 1900082e6dcc52d4d9caf76c84f5af4c, type: 3}
       propertyPath: emotionID
       value: 7
@@ -8417,6 +8436,10 @@ PrefabInstance:
       propertyPath: parentBoardSlotTransform
       value: 
       objectReference: {fileID: 661112771}
+    - target: {fileID: 8586554133676064427, guid: 19aa0155d14318f4f8691f84bbc1c450, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8804916835337815494, guid: 19aa0155d14318f4f8691f84bbc1c450, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -8602,6 +8625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tristesse Gorge
       objectReference: {fileID: 0}
+    - target: {fileID: 9122578318427488106, guid: 5f3f4dcb32957d643a380c192ae89992, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8703,6 +8730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tristesse Main
       objectReference: {fileID: 0}
+    - target: {fileID: 9058914781486713607, guid: 2f2869a128ad53e4691ca1292cbd7e2d, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8724,6 +8755,10 @@ PrefabInstance:
       propertyPath: parentBoardSlotTransform
       value: 
       objectReference: {fileID: 661112771}
+    - target: {fileID: 8451054282881715417, guid: 490ce2c77b8f17a4580b4ee5f2c61eb9, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8637841703642682147, guid: 490ce2c77b8f17a4580b4ee5f2c61eb9, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
