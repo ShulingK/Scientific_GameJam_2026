@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] Round _round;
+    [SerializeField] List<BadEmotion> _badEmotion;
     [SerializeField] Level _level;
     [SerializeField] SceneLoader _sceneLoader;
 
@@ -26,6 +27,7 @@ public class GameManager : MonoBehaviour
         if (_placementEventChannel != null)
             SubscribePlacementEventChannel();
         SetActiveRound(_round);
+        SetActiveBadEmotions(_badEmotion);
     }
 
 
@@ -69,8 +71,6 @@ public class GameManager : MonoBehaviour
 
         if (temp == GetActiveRound().GetRounds().Count)
         {
-            
-
             OnSuccess?.Invoke();
 
             _level.Next();
@@ -85,10 +85,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /*private litleEmotion FoundEmotion()
-    {
-        
-    }*/
 
     #endregion
 

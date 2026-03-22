@@ -16,13 +16,12 @@ public class ChaussetteController : MonoBehaviour
     {
         chaussetteAnimator = GetComponent<Animator>();
 
-        GameManager.Instance.OnSuccess += OnWinAnimation;
-        GameManager.Instance.OnBadEmotionSuccess += OnBadEmotionAnimation;
     }
 
     private void Start()
     {
         OnEnterSceneAnimation();
+
     }
 
 
@@ -40,6 +39,9 @@ public class ChaussetteController : MonoBehaviour
         chaussetteAnimator.SetTrigger("OnEnterScene");
 
         yield return new WaitForSeconds(onEnterTime);
+
+        GameManager.Instance.OnSuccess += OnWinAnimation;
+        GameManager.Instance.OnBadEmotionSuccess += OnBadEmotionAnimation;
 
         HideDialogue();
 
@@ -70,13 +72,58 @@ public class ChaussetteController : MonoBehaviour
     private void OnWinAnimation()
     {
         chaussetteAnimator.SetTrigger("OnWin");
+
+        StartCoroutine(OnWinCoroutine());
+    }
+
+    IEnumerator OnWinCoroutine()
+    {
+        yield return new WaitForSeconds(10);
+
+        HideInventory();
+
+        ShowDialogue();
+
+        AnimatorStateInfo stateInfo = chaussetteAnimator.GetCurrentAnimatorStateInfo(0);
+        float duration = stateInfo.length;
+
+        Debug.Log("Animation Duration : " + duration);
+
+        yield return new WaitForSeconds(duration);
+
+        HideDialogue();
+
+        ShowInventory();
     }
 
     private void OnBadEmotionAnimation(int obj)
     {
         chaussetteAnimator.SetTrigger("OnBadAnimation" + obj);
+
+        StartCoroutine(OnBadEmotionAnimation());
     }
 
+
+    IEnumerator OnBadEmotionAnimation()
+    {
+        HideInventory();
+
+        ShowDialogue();
+
+        yield return new WaitForSeconds(0.5f);
+
+        AnimatorStateInfo stateInfo = chaussetteAnimator.GetCurrentAnimatorStateInfo(0);
+        float duration = stateInfo.length;
+
+        Debug.Log("Animation Duration : " + duration);
+
+        yield return new WaitForSeconds(duration);
+
+
+        HideDialogue();
+
+        ShowInventory();
+    }
 
 
 }
