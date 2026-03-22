@@ -59,6 +59,7 @@ public class PlayerDroppableSlot : MonoBehaviour, IDropHandler
         {
             leftHandImage = leftHand.GetComponent<Image>();
             leftHandImage.sprite = stockedEmotion.GetObjectSprite();
+            leftHandImage.preserveAspect = true;
             leftHandImage.enabled = true;
         }
     }

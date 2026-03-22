@@ -51,22 +51,26 @@ public class ChaussetteController : MonoBehaviour
 
     private void HideInventory()
     {
-        inventaire.SetActive(false);
+        if (inventaire != null)
+            inventaire.SetActive(false);
     }
 
     private void ShowInventory()
     {
-        inventaire.SetActive(true);
+        if (inventaire != null)
+            inventaire.SetActive(true);
     }
 
     private void HideDialogue()
     {
-        dialogue.SetActive(false);
+        if (dialogue != null)
+            dialogue.SetActive(false);
     }
 
     private void ShowDialogue()
     {
-        dialogue.SetActive(true);
+        if (dialogue != null)
+            dialogue.SetActive(true);
     }
 
     private void OnWinAnimation()
