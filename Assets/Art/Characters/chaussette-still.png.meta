@@ -129,12 +129,12 @@ TextureImporter:
       name: chaussette-still_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 19
-        width: 213
-        height: 348
+        x: 152
+        y: 0
+        width: 237
+        height: 372
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ae0343b844d767448b5cf93db8fbcaa0
     internalID: 0
     vertices: []
     indices: 
