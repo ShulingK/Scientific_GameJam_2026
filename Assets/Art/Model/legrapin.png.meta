@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 844bf19939026bf4d8f18cf3f51b836b
+guid: fe91d5854e996cd4698c54e07f7f5239
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4039312553865233788
-    second: silhouette_spritesheet_0
-  - first:
-      213: 6488327955776007302
-    second: silhouette_spritesheet_1
+      213: -6395619478902619449
+    second: legrapin_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -87,7 +84,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,7 +110,33 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -129,45 +152,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: silhouette_spritesheet_0
+      name: legrapin_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 836
-        height: 1082
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 60
+        y: 242
+        width: 714
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48a361a22aa71f7c0800000000000000
-      internalID: -4039312553865233788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: silhouette_spritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 836
-        y: 0
-        width: 836
-        height: 1082
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68ce34e26eb2b0a50800000000000000
-      internalID: 6488327955776007302
+      spriteID: 7c2c07928f13e37a0800000000000000
+      internalID: -6395619478902619449
       vertices: []
       indices: 
       edges: []
@@ -176,7 +177,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 88e3ebd196ca0d542940e93068af503c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -184,12 +185,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":836.0,"y":1082.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":1,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      silhouette_spritesheet_0: -4039312553865233788
-      silhouette_spritesheet_1: 6488327955776007302
+      legrapin_0: -6395619478902619449
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

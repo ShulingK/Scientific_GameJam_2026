@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using UnityEditor.VisionOS;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] Round _round;
+    [SerializeField] List<BadEmotion> _badEmotion;
     [SerializeField] Level _level;
     [SerializeField] SceneLoader _sceneLoader;
 
@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
         if (_placementEventChannel != null)
             SubscribePlacementEventChannel();
         SetActiveRound(_round);
+        SetActiveBadEmotions(_badEmotion);
     }
 
 
@@ -36,6 +37,15 @@ public class GameManager : MonoBehaviour
     public Round GetActiveRound() => _currentRound;
 
     public Action OnSuccess; 
+
+    private enum litleEmotion
+    {
+        JOIE, 
+        COLERE,
+        PEUR,
+        TRISTESSE
+    }
+
 
     void CheckSuccessRound()
     {
@@ -83,41 +93,39 @@ public class GameManager : MonoBehaviour
     public void SetActiveBadEmotions(List<BadEmotion> badEmotions) => _currentBadEmotions = badEmotions;
     public List<BadEmotion> GetActiveBadEmotions() => _currentBadEmotions;
 
-    Action OnBadEmotionSuccess;
+    public Action<int> OnBadEmotionSuccess;
 
     void CheckBadEmotions()
     {
-        foreach (BadEmotion badEmotion in GetActiveBadEmotions())
+        for (int i = 0; i < GetActiveBadEmotions().Count; i++)
         {
-
-            if (badEmotion.GetBadEmotions().Count != _emotionAlreadyPlaced.Count)
+            if (GetActiveBadEmotions()[i].GetBadEmotions().Count != _emotionAlreadyPlaced.Count)
                 return;
 
             int temp = 0;
 
-            for (int i = 0; i < _emotionAlreadyPlaced.Count; i++)
+            for (int k = 0; k < _emotionAlreadyPlaced.Count; k++)
             {
-                for (int j = 0; j < badEmotion.GetBadEmotions().Count; j++)
+                for (int j = 0; j < GetActiveBadEmotions()[i].GetBadEmotions().Count; j++)
                 {
-                    if (j > badEmotion.GetBadEmotions().Count)
+                    if (j > GetActiveBadEmotions()[i].GetBadEmotions().Count)
                         continue;
 
-                    if (_emotionAlreadyPlaced[i].emotion == badEmotion.GetBadEmotions()[j].emotion &&
-                        _emotionAlreadyPlaced[i].slot == badEmotion.GetBadEmotions()[j].slot)
+                    if (_emotionAlreadyPlaced[k].emotion == GetActiveBadEmotions()[i].GetBadEmotions()[j].emotion &&
+                        _emotionAlreadyPlaced[k].slot == GetActiveBadEmotions()[i].GetBadEmotions()[j].slot)
                     {
                         temp++;
                     }
                 }
             }
 
-            if (temp == badEmotion.GetBadEmotions().Count)
+            if (temp == GetActiveBadEmotions()[i].GetBadEmotions().Count)
             {
-                OnBadEmotionSuccess?.Invoke();
+                OnBadEmotionSuccess?.Invoke(i);
                 Debug.LogWarning("Bad EMOTION !!!!");
             }
         }
     }
-
 
     #endregion
 
@@ -150,7 +158,7 @@ public class GameManager : MonoBehaviour
 
         if (isDropped)
         {
-            // verifier s'il y en a pas déjà 1 ? 
+            // verifier s'il y en a pas dï¿½jï¿½ 1 ? 
             _emotionAlreadyPlaced.Add(item);
         }
         else
