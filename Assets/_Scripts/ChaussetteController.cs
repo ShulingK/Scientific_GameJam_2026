@@ -1,7 +1,4 @@
-using System;
 using System.Collections;
-using System.Linq;
-using UnityEditor.Animations;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
