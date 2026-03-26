@@ -458,6 +458,294 @@ AnimationClip:
     classID: 1
     script: {fileID: 0}
     flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 45.433334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 49.683334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: "Panel - GameView/Chausette le goat qu'il pense \xEAtre ce bg/_.."
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 548
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 28.55
+        value: 548
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 30.933332
+        value: 102.15
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 40.633335
+        value: 102.15
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 41.266666
+        value: 221
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 44.233334
+        value: -71
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AnchoredPosition.y
+    path: Panel - GameView/Le piaf
+    classID: 224
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 843
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 28.55
+        value: 843
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 30.933332
+        value: 467
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 40.633335
+        value: 467
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 41.266666
+        value: 329
+        inSlope: -102.500046
+        outSlope: -102.500046
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 44.233334
+        value: 98
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AnchoredPosition.x
+    path: Panel - GameView/Le piaf
+    classID: 224
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 32.183334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 38.783333
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Panel - GameView/Le piaf/_.. Le piaf
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 221
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 41.283333
+        value: 221
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 44.233334
+        value: -117.47
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AnchoredPosition.y
+    path: Panel - GameView/Image
+    classID: 224
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 233.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 41.283333
+        value: 233.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 44.233334
+        value: 25
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AnchoredPosition.x
+    path: Panel - GameView/Image
+    classID: 224
+    script: {fileID: 0}
+    flags: 0
   m_PPtrCurves:
   - serializedVersion: 2
     curve:
@@ -7388,6 +7676,178 @@ AnimationClip:
     classID: 114
     script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
     flags: 2
+  - serializedVersion: 2
+    curve:
+    - time: 45.433334
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 45.6
+      value: {fileID: -7122480046037882012, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 45.766666
+      value: {fileID: 7350307962415764981, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 45.933334
+      value: {fileID: -2901002119847859848, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 46.1
+      value: {fileID: -1971846679284512474, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 46.266666
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 46.433334
+      value: {fileID: -7122480046037882012, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 46.6
+      value: {fileID: 7350307962415764981, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 46.766666
+      value: {fileID: -2901002119847859848, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 46.933334
+      value: {fileID: -1971846679284512474, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 47.1
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 47.266666
+      value: {fileID: -7122480046037882012, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 47.433334
+      value: {fileID: 7350307962415764981, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 47.6
+      value: {fileID: -2901002119847859848, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 47.766666
+      value: {fileID: -1971846679284512474, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 47.933334
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 48.1
+      value: {fileID: -7122480046037882012, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 48.266666
+      value: {fileID: 7350307962415764981, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 48.433334
+      value: {fileID: -2901002119847859848, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 48.6
+      value: {fileID: -1971846679284512474, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 48.8
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 48.966667
+      value: {fileID: -7122480046037882012, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 49.133335
+      value: {fileID: 7350307962415764981, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 49.3
+      value: {fileID: -2901002119847859848, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 49.466667
+      value: {fileID: -1971846679284512474, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 49.633335
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    attribute: m_Sprite
+    path: "Panel - GameView/Chausette le goat qu'il pense \xEAtre ce bg/_.."
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+    flags: 2
+  - serializedVersion: 2
+    curve:
+    - time: 32.183334
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 32.35
+      value: {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 32.516666
+      value: {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 32.683334
+      value: {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 32.85
+      value: {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 33.016666
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 33.183334
+      value: {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 33.35
+      value: {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 33.516666
+      value: {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 33.683334
+      value: {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 33.85
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 34.016666
+      value: {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 34.183334
+      value: {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 34.35
+      value: {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 34.516666
+      value: {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 34.683334
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 34.85
+      value: {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 35.016666
+      value: {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 35.183334
+      value: {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 35.35
+      value: {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 35.516666
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 35.683334
+      value: {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 35.85
+      value: {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 36.016666
+      value: {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 36.183334
+      value: {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 36.35
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 36.516666
+      value: {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 36.683334
+      value: {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 36.85
+      value: {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 37.016666
+      value: {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 37.183334
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 37.35
+      value: {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 37.516666
+      value: {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 37.683334
+      value: {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 37.85
+      value: {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 38.016666
+      value: {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 38.183334
+      value: {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 38.35
+      value: {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 38.516666
+      value: {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - time: 38.683334
+      value: {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    attribute: m_Sprite
+    path: Panel - GameView/Le piaf/_.. Le piaf
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+    flags: 2
+  - serializedVersion: 2
+    curve:
+    - time: 0
+      value: {fileID: -3365227545370118141, guid: 36576624797dc514cb8718af6eb92020, type: 3}
+    - time: 44.233334
+      value: {fileID: -9171908316282872811, guid: 49395635068ade34382abd466384be23, type: 3}
+    attribute: m_Sprite
+    path: Panel - GameView/Le piaf
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+    flags: 2
+  - serializedVersion: 2
+    curve:
+    - time: 0
+      value: {fileID: 6269247953099543190, guid: a5277941581a481478f6696d65ce516e, type: 3}
+    - time: 28.566668
+      value: {fileID: -4808478384432499378, guid: 86e4662a629ffa24cae96d259a500a93, type: 3}
+    - time: 45.45
+      value: {fileID: 7736322878507605292, guid: 47fe8c1c96c1bb0438b4886544081d48, type: 3}
+    - time: 49.7
+      value: {fileID: -4808478384432499378, guid: 86e4662a629ffa24cae96d259a500a93, type: 3}
+    attribute: m_Sprite
+    path: "Panel - GameView/Chausette le goat qu'il pense \xEAtre ce bg"
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+    flags: 2
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -7504,7 +7964,97 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
+      path: 1273803173
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 3470413055
+      attribute: 538195251
+      script: {fileID: 0}
+      typeID: 224
+      customType: 28
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 3470413055
+      attribute: 1460864421
+      script: {fileID: 0}
+      typeID: 224
+      customType: 28
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 617086543
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 3070097518
+      attribute: 538195251
+      script: {fileID: 0}
+      typeID: 224
+      customType: 28
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 3070097518
+      attribute: 1460864421
+      script: {fileID: 0}
+      typeID: 224
+      customType: 28
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
       path: 3417447932
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1273803173
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 617086543
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 3470413055
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1197077138
       attribute: 2015549526
       script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
       typeID: 114
@@ -10974,6 +11524,78 @@ AnimationClip:
     - {fileID: -6735300985908894656, guid: c9459d80a78ac3f45b89ac41ba8ebc1c, type: 3}
     - {fileID: 3316957103146718280, guid: c9459d80a78ac3f45b89ac41ba8ebc1c, type: 3}
     - {fileID: -7688326115662599249, guid: c9459d80a78ac3f45b89ac41ba8ebc1c, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7122480046037882012, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 7350307962415764981, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -2901002119847859848, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1971846679284512474, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7122480046037882012, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 7350307962415764981, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -2901002119847859848, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1971846679284512474, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7122480046037882012, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 7350307962415764981, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -2901002119847859848, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1971846679284512474, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7122480046037882012, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 7350307962415764981, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -2901002119847859848, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1971846679284512474, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7122480046037882012, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 7350307962415764981, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -2901002119847859848, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1971846679284512474, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -1482211417564386882, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 2777404044998865100, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -7338587892193027287, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5410788215816240628, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: 5845060209866764684, guid: 903cb3648ea437c4b8735ed123d7791a, type: 3}
+    - {fileID: -3365227545370118141, guid: 36576624797dc514cb8718af6eb92020, type: 3}
+    - {fileID: -9171908316282872811, guid: 49395635068ade34382abd466384be23, type: 3}
+    - {fileID: 6269247953099543190, guid: a5277941581a481478f6696d65ce516e, type: 3}
+    - {fileID: -4808478384432499378, guid: 86e4662a629ffa24cae96d259a500a93, type: 3}
+    - {fileID: 7736322878507605292, guid: 47fe8c1c96c1bb0438b4886544081d48, type: 3}
+    - {fileID: -4808478384432499378, guid: 86e4662a629ffa24cae96d259a500a93, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -11434,6 +12056,294 @@ AnimationClip:
     attribute: m_IsActive
     path: Pause Button
     classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 45.433334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 49.683334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: "Panel - GameView/Chausette le goat qu'il pense \xEAtre ce bg/_.."
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 548
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 28.55
+        value: 548
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 30.933332
+        value: 102.15
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 40.633335
+        value: 102.15
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 41.266666
+        value: 221
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 44.233334
+        value: -71
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AnchoredPosition.y
+    path: Panel - GameView/Le piaf
+    classID: 224
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 843
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 28.55
+        value: 843
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 30.933332
+        value: 467
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 40.633335
+        value: 467
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 41.266666
+        value: 329
+        inSlope: -102.500046
+        outSlope: -102.500046
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 44.233334
+        value: 98
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AnchoredPosition.x
+    path: Panel - GameView/Le piaf
+    classID: 224
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 32.183334
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 38.783333
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Panel - GameView/Le piaf/_.. Le piaf
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 221
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 41.283333
+        value: 221
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 44.233334
+        value: -117.47
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AnchoredPosition.y
+    path: Panel - GameView/Image
+    classID: 224
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 233.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 41.283333
+        value: 233.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 44.233334
+        value: 25
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AnchoredPosition.x
+    path: Panel - GameView/Image
+    classID: 224
     script: {fileID: 0}
     flags: 0
   m_EulerEditorCurves: []

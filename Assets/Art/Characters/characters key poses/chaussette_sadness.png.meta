@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fce7bc4140eefce4eabf6520f1966876
+guid: a5277941581a481478f6696d65ce516e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6853637921556322065
-    second: grappin_pose2_2_0
+      213: 6269247953099543190
+    second: chaussette_sadness_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +84,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,33 +110,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -152,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: grappin_pose2_2_0
+      name: chaussette_sadness_0
       rect:
         serializedVersion: 2
-        x: 67
-        y: 19
-        width: 244
-        height: 733
+        x: 144
+        y: 5
+        width: 274
+        height: 328
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 168, z: 0, w: 227}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 117d285a0630d1f50800000000000000
-      internalID: 6853637921556322065
+      spriteID: 692d7552cc7d00750800000000000000
+      internalID: 6269247953099543190
       vertices: []
       indices: 
       edges: []
@@ -177,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: dc8a373139aa7ca4eb84c446562b6f85
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -187,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      grappin_pose2_2_0: 6853637921556322065
+      chaussette_sadness_0: 6269247953099543190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

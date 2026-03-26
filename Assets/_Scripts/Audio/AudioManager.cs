@@ -1,6 +1,7 @@
 using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
+using System.Collections;
 
 
 public class AudioManager : MonoBehaviour
@@ -11,10 +12,25 @@ public class AudioManager : MonoBehaviour
     {
         if (Instance != null)
         {
-            Debug.Log("Found plusieurs AudioManager");
+            Destroy(gameObject);
+            return;
         }
         Instance = this;
+    }
 
+    private IEnumerator Start()
+    {
+        // Charge les banks explicitement
+        RuntimeManager.LoadBank("Master");
+        RuntimeManager.LoadBank("Master.strings");
+
+        // Attendre que FMOD soit prêt
+        yield return new WaitForSeconds(0.5f);
+
+        InitBuses();
+    }
+    private void InitBuses()
+    {
         _masterBus = RuntimeManager.GetBus("bus:/");
         _musicBus = RuntimeManager.GetBus("bus:/Musique");
         _ambienceBus = RuntimeManager.GetBus("bus:/Ambiance");
@@ -23,6 +39,8 @@ public class AudioManager : MonoBehaviour
 
     private void Update()
     {
+        if (!_masterBus.isValid()) return;
+
         _masterBus.setVolume(_masterVolume);
         _musicBus.setVolume(_musicVolume);
         _ambienceBus.setVolume(_ambienceVolume);
