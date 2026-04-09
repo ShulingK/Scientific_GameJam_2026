@@ -2,6 +2,7 @@ using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
 using System.Collections;
+using FMOD;
 
 
 public class AudioManager : MonoBehaviour
@@ -33,8 +34,9 @@ public class AudioManager : MonoBehaviour
     {
         _masterBus = RuntimeManager.GetBus("bus:/");
         _musicBus = RuntimeManager.GetBus("bus:/Musique");
-        _ambienceBus = RuntimeManager.GetBus("bus:/Ambiance");
         _SFXBus = RuntimeManager.GetBus("bus:/SFX");
+        _ambianceBus = RuntimeManager.GetBus("bus:/Ambiance");
+        _voiceBus = RuntimeManager.GetBus("bus:/Dialogue");
     }
 
     private void Update()
@@ -43,7 +45,8 @@ public class AudioManager : MonoBehaviour
 
         _masterBus.setVolume(_masterVolume);
         _musicBus.setVolume(_musicVolume);
-        _ambienceBus.setVolume(_ambienceVolume);
+        _voiceBus.setVolume(_voiceVolume);
+        _ambianceBus.setVolume(_ambienceVolume);
         _SFXBus.setVolume(_SFXVolume);
     }
 
@@ -53,13 +56,16 @@ public class AudioManager : MonoBehaviour
     [Range(0, 1)]
     public float _musicVolume = 1;
     [Range(0, 1)]
+    public float _voiceVolume = 1;
+    [Range(0, 1)]
     public float _ambienceVolume = 1;
     [Range(0, 1)]
     public float _SFXVolume = 1;
 
     private Bus _masterBus;
     private Bus _musicBus;
-    private Bus _ambienceBus;
+    private Bus _voiceBus;
+    private Bus _ambianceBus;
     private Bus _SFXBus;
 
 

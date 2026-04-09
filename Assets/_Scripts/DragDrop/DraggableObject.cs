@@ -10,7 +10,7 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
     private RectTransform draggingPlane;
 
-
+    private int activePointerId = -999; // default value
     private void Awake()
     {
         draggingPlane = GetComponent<RectTransform>();
@@ -27,13 +27,15 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     {
         if (GameManager.Instance.lockDrag) return;
 
+        if (activePointerId != -999) return;
+
+        activePointerId = eventData.pointerId;
+
         ReturnToParent();
         GetComponent<Image>().maskable = false;
         GetComponent<Image>().raycastTarget = false;
 
         PlayEmotionOnDrag();
-        //AudioManager.Instance.PlayOneShot(FMODEvents.Instance._takeEmotion);
-        // transform.SetParent(panel);
     }
 
     private void PlayEmotionOnDrag()
@@ -64,6 +66,7 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     public void OnDrag(PointerEventData eventData)
     {
         if (GameManager.Instance.lockDrag) return;
+        if (eventData.pointerId != activePointerId) return;
 
         RectTransformUtility.ScreenPointToWorldPointInRectangle(draggingPlane, eventData.position, eventData.pressEventCamera, out Vector3 globabPointerPosition);
         transform.position = globabPointerPosition;
@@ -72,7 +75,10 @@ public class DraggableObject : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     public void OnEndDrag(PointerEventData eventData)
     {
         if (GameManager.Instance.lockDrag) return;
+        if (eventData.pointerId != activePointerId) return;
 
+        activePointerId = -999;
+        
         GetComponent<Image>().raycastTarget = true;
         GetComponent<Image>().maskable = false;
 
