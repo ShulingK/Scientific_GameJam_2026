@@ -5632,7 +5632,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " Sur ces mots, ils s\u2019envolent vers le sommet de l\u2019arbre \u2013
+  m_text: "Sur ces mots, ils s\u2019envolent vers le sommet de l\u2019arbre \u2013
     ce qui est facile pour un oiseau \u2013 et r\xE9cup\xE8rent ses chaussures."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
