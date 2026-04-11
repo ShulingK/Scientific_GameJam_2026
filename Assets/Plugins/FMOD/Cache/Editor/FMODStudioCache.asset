@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Sound/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639111586195817640
+  lastModified: 639098663371067048
   FileSizes: []
   Exists: 1
 --- !u!114 &-7499678552012670745
@@ -45,33 +45,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 116571
---- !u!114 &-6768106447675855868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambiance/ambiance niv 3
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Ambiance/ambiance niv 3
-  Guid:
-    Data1: -953655282
-    Data2: 1253578149
-    Data3: -327756671
-    Data4: 1556304941
-  Banks:
-  - {fileID: 8800929843077592203}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 60489
 --- !u!114 &-6446592425328229214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,33 +153,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1312
---- !u!114 &-3793941736948215051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Dialogue/Niv2 Tristessse
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Dialogue/Niv2 Tristessse
-  Guid:
-    Data1: -1277043268
-    Data2: 1153701690
-    Data3: 1360697260
-    Data4: 1523811185
-  Banks:
-  - {fileID: 7319898796440951236}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 54478
 --- !u!114 &-3153652025685560972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,7 +195,7 @@ MonoBehaviour:
   Path: Assets/Sound/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639111586195741570
+  lastModified: 639098663370981995
   FileSizes: []
   Exists: 1
 --- !u!114 &-1516000501056209404
@@ -306,6 +252,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 235
+--- !u!114 &-1166930283718202724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Niv2 Tristessse
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Dialogue/Niv2 Tristessse
+  Guid:
+    Data1: -1277043268
+    Data2: 1153701690
+    Data3: 1360697260
+    Data4: 1523811185
+  Banks:
+  - {fileID: 7319898796440951236}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54478
 --- !u!114 &-1025629122987060037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,15 +345,15 @@ MonoBehaviour:
   - {fileID: 6921639848632582897}
   - {fileID: -4483321207598559327}
   - {fileID: 2605624896095733201}
-  - {fileID: 5604500045419837299}
-  - {fileID: -6768106447675855868}
-  - {fileID: -3793941736948215051}
+  - {fileID: 1116295152422038173}
+  - {fileID: 5480538005882523435}
+  - {fileID: -1166930283718202724}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5265552520924462195}
   StringsBanks:
   - {fileID: 1027086876102410906}
-  cacheTime: 639115125844341594
+  cacheTime: 639113727067491631
   cacheVersion: 131635
 --- !u!114 &1027086876102410906
 MonoBehaviour:
@@ -397,11 +370,38 @@ MonoBehaviour:
   Path: Assets/Sound/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639115125844125822
+  lastModified: 639113727067195837
   FileSizes:
   - Name: 
     Value: 1984
   Exists: 1
+--- !u!114 &1116295152422038173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambiance/ambiance niv 2
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambiance/ambiance niv 2
+  Guid:
+    Data1: -1883482364
+    Data2: 1113045063
+    Data3: -1665198163
+    Data4: -1469264756
+  Banks:
+  - {fileID: 8800929843077592203}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 180320
 --- !u!114 &2605624896095733201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -579,10 +579,10 @@ MonoBehaviour:
   Path: Assets/Sound/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639097586834000461
+  lastModified: 639097358825136419
   FileSizes: []
   Exists: 1
---- !u!114 &5604500045419837299
+--- !u!114 &5480538005882523435
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -592,14 +592,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambiance/ambiance niv 2
+  m_Name: event:/Ambiance/ambiance niv 3
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Ambiance/ambiance niv 2
+  Path: event:/Ambiance/ambiance niv 3
   Guid:
-    Data1: -1883482364
-    Data2: 1113045063
-    Data3: -1665198163
-    Data4: -1469264756
+    Data1: -953655282
+    Data2: 1253578149
+    Data3: -327756671
+    Data4: 1556304941
   Banks:
   - {fileID: 8800929843077592203}
   IsStream: 1
@@ -608,7 +608,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 180320
+  Length: 60489
 --- !u!114 &6027003967043832140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,7 +678,7 @@ MonoBehaviour:
   Path: Assets/Sound/Voice.bank
   Name: Voice
   StudioPath: bank:/Voice
-  lastModified: 639115125844341594
+  lastModified: 639113727067491631
   FileSizes: []
   Exists: 1
 --- !u!114 &7375967694287716204
@@ -750,6 +750,6 @@ MonoBehaviour:
   Path: Assets/Sound/Ambiance.bank
   Name: Ambiance
   StudioPath: bank:/Ambiance
-  lastModified: 639115125844110695
+  lastModified: 639113727067130790
   FileSizes: []
   Exists: 1

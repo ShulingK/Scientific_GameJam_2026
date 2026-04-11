@@ -4666,7 +4666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5812369575473428328, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7181256499523933015, guid: ea1a34ef73356d147a1ccc22657687b3, type: 3}
       propertyPath: timeBetweenScenes
@@ -5476,6 +5476,10 @@ PrefabInstance:
     - target: {fileID: 3141205596326599442, guid: e283fa30fc097154291fdb98b88229c3, type: 3}
       propertyPath: m_Name
       value: SFXVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004976427861794626, guid: e283fa30fc097154291fdb98b88229c3, type: 3}
+      propertyPath: _volumeType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4289713652153444531, guid: e283fa30fc097154291fdb98b88229c3, type: 3}
       propertyPath: m_Pivot.x

@@ -8,6 +8,7 @@ public class VolumeSlider : MonoBehaviour
         MASTER, 
         MUSIC, 
         VOICE, 
+        AMBIANCE, 
         SFX
     }
 
@@ -36,6 +37,9 @@ public class VolumeSlider : MonoBehaviour
             case VolumeType.SFX:
                 _volumeSlider.value = AudioManager.Instance._SFXVolume;
                 break;
+            case VolumeType.AMBIANCE:
+                _volumeSlider.value = AudioManager.Instance._ambienceVolume;
+                break;
             default:
                 Debug.LogWarning("VolumeType non valide");
                 break;
@@ -59,9 +63,14 @@ public class VolumeSlider : MonoBehaviour
             case VolumeType.SFX:
                 AudioManager.Instance._SFXVolume = _volumeSlider.value;
                 break;
+            case VolumeType.AMBIANCE:
+                AudioManager.Instance._ambienceVolume = _volumeSlider.value;
+                break;
             default:
                 Debug.LogWarning("VolumeType non valide");
                 break;
         }
+
+        AudioManager.Instance.SaveVolumes();
     }
 }
