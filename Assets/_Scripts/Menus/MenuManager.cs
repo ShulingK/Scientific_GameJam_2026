@@ -9,14 +9,10 @@ public class MenuManager : MonoBehaviour
 
     [SerializeField] Level _level;
 
-    private static bool musicAlreadyStart = false;
-
-    private void Start()
+    private IEnumerator Start()
     {
-        if (musicAlreadyStart == false)
-        {
-            AudioManager.Instance.PlayMusic(FMODEvents.Instance._mainMenu);
-        }
+        yield return new WaitForSeconds(0.5f);
+        AudioManager.Instance.PlayMusic(FMODEvents.Instance._mainMenu);
     }
 
     public void ButtonSound()

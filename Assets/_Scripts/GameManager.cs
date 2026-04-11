@@ -31,10 +31,18 @@ public class GameManager : MonoBehaviour
             SubscribePlacementEventChannel();
         SetActiveRound(_round);
         SetActiveBadEmotions(_badEmotion);
+    }
 
-        AudioManager.Instance.PlayMusic(FMODEvents.Instance._mainMenu);
+    private IEnumerator Start()
+    {
+        yield return new WaitForSeconds(0.5f);
 
-        AudioManager.Instance.PlayAmbiance(FMODEvents.Instance._ambiance);
+        if (!FMODEvents.Instance._mainMenu.IsNull)
+            AudioManager.Instance.PlayMusic(FMODEvents.Instance._mainMenu);
+
+        if (!FMODEvents.Instance._ambiance.IsNull)
+            AudioManager.Instance.PlayAmbiance(FMODEvents.Instance._ambiance);
+
     }
 
     #region Sound

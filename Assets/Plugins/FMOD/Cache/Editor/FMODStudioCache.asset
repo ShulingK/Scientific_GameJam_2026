@@ -222,7 +222,7 @@ MonoBehaviour:
   Path: Assets/Sound/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639098663370981995
+  lastModified: 639115226895668179
   FileSizes: []
   Exists: 1
 --- !u!114 &-1516000501056209404
@@ -381,7 +381,7 @@ MonoBehaviour:
   - {fileID: 5265552520924462195}
   StringsBanks:
   - {fileID: 1027086876102410906}
-  cacheTime: 639115194563762231
+  cacheTime: 639115226895668179
   cacheVersion: 131635
 --- !u!114 &1027086876102410906
 MonoBehaviour:
