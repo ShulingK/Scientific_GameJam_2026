@@ -6,9 +6,6 @@ using UnityEngine;
 public class FMODEvents : MonoBehaviour
 {
     [field: Header("Emotions")]
-    [field: SerializeField] public EventReference _takeEmotion { get; private set; }
-    [field: SerializeField] public EventReference _dropEmotion { get; private set; }
-
     [field: SerializeField] public EventReference _takeJoie { get; private set; }
     [field: SerializeField] public EventReference _dropJoie { get; private set; }
     [field: SerializeField] public EventReference _takeColere { get; private set; }
@@ -24,11 +21,16 @@ public class FMODEvents : MonoBehaviour
 
     [field: Header("Musics")]
     [field: SerializeField] public EventReference _mainMenu { get; private set; }
+    [field: SerializeField] public EventReference _ambiance { get; private set; }
 
     [field: Header("Narration")]
     [field: SerializeField] public EventReference _sceneEnter { get; private set; }
     [field: SerializeField] public EventReference _goodEmotion { get; private set; }
     [field: SerializeField] public List<EventReference> _badEmotion { get; private set; }
+
+    [field: Header("Snapshots")]
+    [field: SerializeField] public EventReference _snapshotVoice { get; private set; }
+
     public static FMODEvents Instance { get; private set;}
 
     private void Awake()

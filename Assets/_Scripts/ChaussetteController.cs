@@ -37,15 +37,18 @@ public class ChaussetteController : MonoBehaviour
 
         AudioManager.Instance.PlayOneShot(FMODEvents.Instance._sceneEnter);
 
+
+        AudioManager.Instance.StartDialogueSnapshot(FMODEvents.Instance._snapshotVoice);
+
         yield return new WaitForSeconds(onEnterTime);
 
         GameManager.Instance.OnSuccess += OnWinAnimation;
         GameManager.Instance.OnBadEmotionSuccess += OnBadEmotionAnimation;
 
         HideDialogue();
-
         ShowInventory();
-
+        
+        AudioManager.Instance.StopDialogueSnapshot();
     }
 
     private void HideInventory()
@@ -78,6 +81,8 @@ public class ChaussetteController : MonoBehaviour
 
         AudioManager.Instance.PlayOneShot(FMODEvents.Instance._goodEmotion);
 
+        AudioManager.Instance.StartDialogueSnapshot(FMODEvents.Instance._snapshotVoice);
+        
         StartCoroutine(OnWinCoroutine());
     }
 
@@ -92,10 +97,9 @@ public class ChaussetteController : MonoBehaviour
         AnimatorStateInfo stateInfo = chaussetteAnimator.GetCurrentAnimatorStateInfo(0);
         float duration = stateInfo.length;
 
-        Debug.Log("Animation Duration : " + duration);
-
         yield return new WaitForSeconds(duration);
 
+        AudioManager.Instance.StopDialogueSnapshot();
 
         GameManager.Instance._level.Next();
 
@@ -109,6 +113,8 @@ public class ChaussetteController : MonoBehaviour
         chaussetteAnimator.SetTrigger("OnBadAnimation" + obj);
 
         AudioManager.Instance.PlayOneShot(FMODEvents.Instance._badEmotion[obj]);
+
+        AudioManager.Instance.StartDialogueSnapshot(FMODEvents.Instance._snapshotVoice);
 
         StartCoroutine(OnBadEmotionAnimation());
     }
@@ -129,6 +135,7 @@ public class ChaussetteController : MonoBehaviour
 
         yield return new WaitForSeconds(duration);
 
+        AudioManager.Instance.StopDialogueSnapshot();
 
         HideDialogue();
 
