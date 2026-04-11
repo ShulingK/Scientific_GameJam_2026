@@ -26,6 +26,8 @@ public class SceneLoader : MonoBehaviour
         float duration = stateInfo.length;
 
         yield return new WaitForSeconds(duration);
+        
+        AudioManager.Instance.StopMusic();
 
         SceneManager.LoadScene(index);
     }

@@ -9,23 +9,14 @@ public class MenuManager : MonoBehaviour
 
     [SerializeField] Level _level;
 
-    private EventInstance musicEventInstance;
-
     private static bool musicAlreadyStart = false;
 
     private void Start()
     {
         if (musicAlreadyStart == false)
         {
-            InitializeMusic(FMODEvents.Instance._mainMenu);
-            musicAlreadyStart = true;
+            AudioManager.Instance.PlayMusic(FMODEvents.Instance._mainMenu);
         }
-    }
-
-    public void InitializeMusic(EventReference musicEventReference)
-    {
-        musicEventInstance = AudioManager.Instance.CreateInstance(musicEventReference);
-        musicEventInstance.start();
     }
 
     public void ButtonSound()

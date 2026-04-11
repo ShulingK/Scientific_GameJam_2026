@@ -112,7 +112,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 682, y: 29}
+  m_SizeDelta: {x: 650, y: 29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3503685222815913220
 MonoBehaviour:
@@ -177,6 +177,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8416114786773110426}
+        m_TargetAssemblyTypeName: VolumeSlider, Assembly-CSharp
+        m_MethodName: OnSliderValueChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3194719408062665317
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,8 +221,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2437558468366653526}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.469, y: 0}
+  m_AnchorMax: {x: 0.469, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 60, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -262,6 +274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1143223992588090569}
   - component: {fileID: 4698329321569773690}
+  - component: {fileID: 8416114786773110426}
   m_Layer: 5
   m_Name: MusicVolume
   m_TagString: Untagged
@@ -302,6 +315,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VolumeSlider
   _volumeType: 1
+--- !u!114 &8416114786773110426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3270168218332381263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640249a969cb12c42856060593afc1d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VolumeSlider
+  _volumeType: 3
 --- !u!1 &3861676323009994512
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +397,7 @@ RectTransform:
   m_Father: {fileID: 755791905027537466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.469, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

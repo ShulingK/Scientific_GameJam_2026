@@ -110,4 +110,68 @@ public class AudioManager : MonoBehaviour
         EventInstance eventInstance = RuntimeManager.CreateInstance(eventReference);
         return eventInstance;
     }
+
+    private EventInstance _musicInstance;
+
+    public void PlayMusic(EventReference musicEvent)
+    {
+        // Stop ancienne musique si besoin
+        if (_musicInstance.isValid())
+        {
+            _musicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            _musicInstance.release();
+        }
+
+        _musicInstance = RuntimeManager.CreateInstance(musicEvent);
+        _musicInstance.start();
+    }
+    public void StopMusic()
+    {
+        if (!_musicInstance.isValid()) return;
+
+        _musicInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        _musicInstance.release();
+    }
+
+    private EventInstance _ambianceInstance;
+
+    public void PlayAmbiance(EventReference musicEvent)
+    {
+        // Stop ancienne musique si besoin
+        if (_ambianceInstance.isValid())
+        {
+            _ambianceInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            _ambianceInstance.release();
+        }
+
+        _ambianceInstance = RuntimeManager.CreateInstance(musicEvent);
+        _ambianceInstance.start();
+    }
+    public void StopAmbiance()
+    {
+        if (!_ambianceInstance.isValid()) return;
+
+        _ambianceInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        _ambianceInstance.release();
+    }
+
+    private EventInstance _dialogueSnapshot;
+
+    public void StartDialogueSnapshot(EventReference dialogue)
+    {
+        if (_dialogueSnapshot.isValid()) return;
+
+        _dialogueSnapshot = RuntimeManager.CreateInstance(dialogue);
+        _dialogueSnapshot.start();
+    }
+
+    public void StopDialogueSnapshot()
+    {
+        if (!_dialogueSnapshot.isValid()) return;
+
+        _dialogueSnapshot.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        _dialogueSnapshot.release();
+        _dialogueSnapshot.clearHandle();
+    }
+
 }

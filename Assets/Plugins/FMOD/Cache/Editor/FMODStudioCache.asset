@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Sound/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639098663371067048
+  lastModified: 639115194563506686
   FileSizes: []
   Exists: 1
 --- !u!114 &-7499678552012670745
@@ -45,6 +45,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 116571
+--- !u!114 &-6646841263653216677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Dialogue Mix
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/Dialogue Mix
+  Guid:
+    Data1: 1273681223
+    Data2: 1323785994
+    Data3: -220782935
+    Data4: -1971657626
+  Banks:
+  - {fileID: 5265552520924462195}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-6446592425328229214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,12 +375,13 @@ MonoBehaviour:
   - {fileID: 1116295152422038173}
   - {fileID: 5480538005882523435}
   - {fileID: -1166930283718202724}
+  - {fileID: -6646841263653216677}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5265552520924462195}
   StringsBanks:
   - {fileID: 1027086876102410906}
-  cacheTime: 639113727067491631
+  cacheTime: 639115194563762231
   cacheVersion: 131635
 --- !u!114 &1027086876102410906
 MonoBehaviour:
@@ -370,10 +398,10 @@ MonoBehaviour:
   Path: Assets/Sound/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639113727067195837
+  lastModified: 639115194563388749
   FileSizes:
   - Name: 
-    Value: 1984
+    Value: 2078
   Exists: 1
 --- !u!114 &1116295152422038173
 MonoBehaviour:
@@ -579,7 +607,7 @@ MonoBehaviour:
   Path: Assets/Sound/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639097358825136419
+  lastModified: 639115194563333394
   FileSizes: []
   Exists: 1
 --- !u!114 &5480538005882523435
@@ -678,7 +706,7 @@ MonoBehaviour:
   Path: Assets/Sound/Voice.bank
   Name: Voice
   StudioPath: bank:/Voice
-  lastModified: 639113727067491631
+  lastModified: 639115194563762231
   FileSizes: []
   Exists: 1
 --- !u!114 &7375967694287716204
