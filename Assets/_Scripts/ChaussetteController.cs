@@ -114,7 +114,7 @@ public class ChaussetteController : MonoBehaviour
 
         AudioManager.Instance.PlayOneShot(FMODEvents.Instance._badEmotion[obj]);
 
-        AudioManager.Instance.StopDialogueSnapshot();
+        AudioManager.Instance.StartDialogueSnapshot(FMODEvents.Instance._snapshotVoice);
 
         StartCoroutine(OnBadEmotionAnimation());
     }
@@ -135,7 +135,7 @@ public class ChaussetteController : MonoBehaviour
 
         yield return new WaitForSeconds(duration);
 
-        AudioManager.Instance.StartDialogueSnapshot(FMODEvents.Instance._snapshotVoice);
+        AudioManager.Instance.StopDialogueSnapshot();
 
         HideDialogue();
 

@@ -7817,6 +7817,10 @@ PrefabInstance:
       value: 1083200539
       objectReference: {fileID: 0}
     - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_ambiance>k__BackingField.Path
+      value: event:/Ambiance/ambiance niv 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
       propertyPath: <_dropJoie>k__BackingField.Path
       value: event:/SFX/Drag Drop Joie
       objectReference: {fileID: 0}
@@ -7857,8 +7861,28 @@ PrefabInstance:
       value: event:/SFX/Drag Drop Tritesse
       objectReference: {fileID: 0}
     - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_snapshotVoice>k__BackingField.Path
+      value: snapshot:/Dialogue Mix
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
       propertyPath: <_takeTristesse>k__BackingField.Path
       value: event:/SFX/Tristesse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_ambiance>k__BackingField.Guid.Data1
+      value: -953655282
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_ambiance>k__BackingField.Guid.Data2
+      value: 1253578149
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_ambiance>k__BackingField.Guid.Data3
+      value: -327756671
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_ambiance>k__BackingField.Guid.Data4
+      value: 1556304941
       objectReference: {fileID: 0}
     - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
       propertyPath: <_dropJoie>k__BackingField.Guid.Data1
@@ -8023,6 +8047,22 @@ PrefabInstance:
     - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
       propertyPath: <_dropTristesse>k__BackingField.Guid.Data4
       value: -2048855330
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_snapshotVoice>k__BackingField.Guid.Data1
+      value: 1273681223
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_snapshotVoice>k__BackingField.Guid.Data2
+      value: 1323785994
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_snapshotVoice>k__BackingField.Guid.Data3
+      value: -220782935
+      objectReference: {fileID: 0}
+    - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
+      propertyPath: <_snapshotVoice>k__BackingField.Guid.Data4
+      value: -1971657626
       objectReference: {fileID: 0}
     - target: {fileID: 8344117183127815582, guid: 7ba29d820069245429879f1897e5c484, type: 3}
       propertyPath: <_takeTristesse>k__BackingField.Guid.Data1

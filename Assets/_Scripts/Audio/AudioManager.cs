@@ -11,7 +11,11 @@ public class AudioManager : MonoBehaviour
     private const string VOICE_KEY = "volume_voice";
     private const string AMBIENCE_KEY = "volume_ambience";
     private const string SFX_KEY = "volume_sfx";
-    private const float MUSIC_AMBIENCE_MULTIPLIER = 0.5f;
+
+    private const float AMBIENCE_MULTIPLIER = 0.2f;
+    private const float MUSIC_MULTIPLIER = 0.4f;
+    private const float SFX_MULTIPLIER = 0.5f;
+    private const float VOICE_MULTIPLIER = 1f;
 
     public static AudioManager Instance { get; private set; }
 
@@ -43,7 +47,7 @@ public class AudioManager : MonoBehaviour
         _masterVolume = PlayerPrefs.GetFloat(MASTER_KEY, 1f);
         _musicVolume = PlayerPrefs.GetFloat(MUSIC_KEY, 0.4f);
         _voiceVolume = PlayerPrefs.GetFloat(VOICE_KEY, 0.8f);
-        _ambienceVolume = PlayerPrefs.GetFloat(AMBIENCE_KEY, 0.8f);
+        _ambienceVolume = PlayerPrefs.GetFloat(AMBIENCE_KEY, 0.4f);
         _SFXVolume = PlayerPrefs.GetFloat(SFX_KEY, 0.8f);
     }
     public void SaveVolumes()
@@ -75,10 +79,10 @@ public class AudioManager : MonoBehaviour
         if (!_masterBus.isValid()) return;
 
         _masterBus.setVolume(_masterVolume);
-        _musicBus.setVolume(_musicVolume * MUSIC_AMBIENCE_MULTIPLIER);
-        _ambianceBus.setVolume(_ambienceVolume * MUSIC_AMBIENCE_MULTIPLIER);
-        _voiceBus.setVolume(_voiceVolume);
-        _SFXBus.setVolume(_SFXVolume);
+        _musicBus.setVolume(_musicVolume * MUSIC_MULTIPLIER);
+        _ambianceBus.setVolume(_ambienceVolume * AMBIENCE_MULTIPLIER);
+        _voiceBus.setVolume(_voiceVolume * VOICE_MULTIPLIER);
+        _SFXBus.setVolume(_SFXVolume * SFX_MULTIPLIER);
     }
 
     [Header("Volume")]
