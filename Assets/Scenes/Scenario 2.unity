@@ -334,10 +334,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.65
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -56.42981, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -473,10 +473,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.3
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -512,7 +512,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -39.971085, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -611,10 +611,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.8
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -39.971085, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -694,6 +694,7 @@ RectTransform:
   m_Children:
   - {fileID: 1903541093}
   - {fileID: 342174877}
+  - {fileID: 517160716}
   - {fileID: 736973847}
   - {fileID: 29165446}
   m_Father: {fileID: 242766729}
@@ -962,9 +963,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ses yeux gonflent de plus en plus. Il se met \xE0 pleurer, d'abord par
-    de petits sanglots, puis de plus en plus fort, jusqu'\xE0 ce qu\u2019on entende
-    ses pleures dans toute la for\xEAt."
+  m_text: "Il se met \xE0 pleurer, d'abord par de petits sanglots, puis de plus en
+    plus fort, jusqu'\xE0 ce qu\u2019on entende ses pleures dans toute la for\xEAt."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -991,10 +991,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.3
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1030,7 +1030,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -37.61989, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1219,10 +1219,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.65
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1258,7 +1258,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -47.024857, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1356,10 +1356,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.65
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1395,7 +1395,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -56.429825, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1493,10 +1493,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.65
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1532,7 +1532,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -44.6736, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1569,7 +1569,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &177774903
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2279,8 +2279,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Sans prendre le temps de v\xE9rifier s\u2019il peut continuer en toute
-    s\xE9curit\xE9, Chaussette grimpe le plus haut possible. Mais sous son poids,
-    l\u2019arbre commence \xE0 faire des petit bruit de craquement."
+    s\xE9curit\xE9, Chaussette grimpe le plus haut possible."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -2307,10 +2306,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.3
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -2346,7 +2345,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -49.37622, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2445,10 +2444,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.9
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -2484,7 +2483,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -39.971085, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2738,10 +2737,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 57.3
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -2777,7 +2776,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -44.6736, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2790,6 +2789,144 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503708792}
+  m_CullTransparentMesh: 1
+--- !u!1 &517160715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 517160716}
+  - component: {fileID: 517160718}
+  - component: {fileID: 517160717}
+  m_Layer: 5
+  m_Name: Text (TMP) (1bis)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &517160716
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517160715}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 50638329}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 7.6948853, y: -5.7710876}
+  m_SizeDelta: {x: 1418.4397, y: 17.567497}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &517160717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517160715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Mais sous son poids, l\u2019arbre commence \xE0 faire des petit bruit
+    de craquement."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
+  m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 50
+  m_fontSizeBase: 50
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -49.37622, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &517160718
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517160715}
   m_CullTransparentMesh: 1
 --- !u!1 &527435760
 GameObject:
@@ -2848,7 +2985,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Chaussette essaie de grimper \xE0 l\u2019arbre, mais au bout de 5 minutes,
+  m_text: "Chaussette essaie de grimper \xE0 l\u2019arbre. Mais au bout de 5 minutes
     il regarde en bas, ne sachant vraiment pas si c\u2019est une bonne id\xE9e de
     continuer. "
   m_isRightToLeft: 0
@@ -2877,10 +3014,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.3
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -2916,7 +3053,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -54.07863, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3019,10 +3156,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.6
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -3058,7 +3195,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -47.024857, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3171,7 +3308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chaussette sent son estomac se nouer ; il a froid et se sent seul.
+  m_text: Chaussette sent son estomac se nouer. Il a froid et se sent seul.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -3198,10 +3335,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 57.9
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -3237,7 +3374,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -44.6736, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3336,10 +3473,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52.6
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -3375,7 +3512,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -51.72731, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3474,10 +3611,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 46.65
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -3513,7 +3650,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -47.024796, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3715,7 +3852,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 186.4005}
+  m_SizeDelta: {x: 159.21472, y: 186.4005}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &661112772
 MonoBehaviour:
@@ -3831,7 +3968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6111492565777104558, guid: 78fe900c690a53d47b9dc84d1fe3a715, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 206
       objectReference: {fileID: 0}
     - target: {fileID: 6111492565777104558, guid: 78fe900c690a53d47b9dc84d1fe3a715, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3952,10 +4089,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -3991,7 +4128,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -58.781082, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4729,10 +4866,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64.6
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -4768,7 +4905,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -39.971085, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4958,10 +5095,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.25
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -4997,7 +5134,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -58.781082, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5068,8 +5205,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Il ne voit pas comment il pourrait s'en sortir tout seul. Une grande tristesse
-    l'envahit.
+  m_text: 'Il ne voit pas comment il pourrait s''en sortir tout seul. Une grande
+    tristesse l''envahit. Ses yeux gonflent de plus en plus. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
   m_sharedMaterial: {fileID: -2259615785098490939, guid: 7095c7d8098581d4395f8b53e3af8a4d, type: 2}
@@ -5096,10 +5233,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 43.8
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -5135,7 +5272,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -42.322403, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5309,10 +5446,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.65
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -5348,7 +5485,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -37.61989, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5523,10 +5660,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.3
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -5562,7 +5699,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -37.61989, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6683,10 +6820,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.6
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -6722,7 +6859,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -56.429825, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6900,10 +7037,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 47.9
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -6939,7 +7076,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -54.07863, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7037,10 +7174,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.65
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -7076,7 +7213,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -54.07863, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7174,10 +7311,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.65
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -7213,7 +7350,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -54.078506, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7530,10 +7667,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.35
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -7569,7 +7706,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -56.42981, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8257,10 +8394,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.65
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -8296,7 +8433,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.000076293945, y: 0, z: 0, w: 0}
+  m_margin: {x: -37.61989, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8380,7 +8517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1810936284928222026, guid: 012bc0704fbb4d84b92ca357c4d0aaf3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 371.5
       objectReference: {fileID: 0}
     - target: {fileID: 1810936284928222026, guid: 012bc0704fbb4d84b92ca357c4d0aaf3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -8592,7 +8729,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5710676960321277625, guid: f8b6793705b64b24e95a5fa0b9652be6, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5710676960321277625, guid: f8b6793705b64b24e95a5fa0b9652be6, type: 3}
       propertyPath: m_AnchorMin.x
@@ -8600,7 +8737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5710676960321277625, guid: f8b6793705b64b24e95a5fa0b9652be6, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5710676960321277625, guid: f8b6793705b64b24e95a5fa0b9652be6, type: 3}
       propertyPath: m_SizeDelta.x
@@ -8640,11 +8777,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5710676960321277625, guid: f8b6793705b64b24e95a5fa0b9652be6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1311
       objectReference: {fileID: 0}
     - target: {fileID: 5710676960321277625, guid: f8b6793705b64b24e95a5fa0b9652be6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -93.20025
       objectReference: {fileID: 0}
     - target: {fileID: 5710676960321277625, guid: f8b6793705b64b24e95a5fa0b9652be6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8706,7 +8843,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6634200292545428794, guid: 10349a4fa88a03347b445c2e2b69a902, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6634200292545428794, guid: 10349a4fa88a03347b445c2e2b69a902, type: 3}
       propertyPath: m_AnchorMin.x
@@ -8714,7 +8851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6634200292545428794, guid: 10349a4fa88a03347b445c2e2b69a902, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6634200292545428794, guid: 10349a4fa88a03347b445c2e2b69a902, type: 3}
       propertyPath: m_SizeDelta.x
@@ -8754,11 +8891,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6634200292545428794, guid: 10349a4fa88a03347b445c2e2b69a902, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 733
       objectReference: {fileID: 0}
     - target: {fileID: 6634200292545428794, guid: 10349a4fa88a03347b445c2e2b69a902, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -93.20025
       objectReference: {fileID: 0}
     - target: {fileID: 6634200292545428794, guid: 10349a4fa88a03347b445c2e2b69a902, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8803,7 +8940,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1800718770367294181, guid: 1900082e6dcc52d4d9caf76c84f5af4c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1800718770367294181, guid: 1900082e6dcc52d4d9caf76c84f5af4c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -8811,7 +8948,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1800718770367294181, guid: 1900082e6dcc52d4d9caf76c84f5af4c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1800718770367294181, guid: 1900082e6dcc52d4d9caf76c84f5af4c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -8851,11 +8988,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1800718770367294181, guid: 1900082e6dcc52d4d9caf76c84f5af4c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1126
       objectReference: {fileID: 0}
     - target: {fileID: 1800718770367294181, guid: 1900082e6dcc52d4d9caf76c84f5af4c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -93.20025
       objectReference: {fileID: 0}
     - target: {fileID: 1800718770367294181, guid: 1900082e6dcc52d4d9caf76c84f5af4c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8920,7 +9057,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8804916835337815494, guid: 19aa0155d14318f4f8691f84bbc1c450, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8804916835337815494, guid: 19aa0155d14318f4f8691f84bbc1c450, type: 3}
       propertyPath: m_AnchorMin.x
@@ -8928,7 +9065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8804916835337815494, guid: 19aa0155d14318f4f8691f84bbc1c450, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8804916835337815494, guid: 19aa0155d14318f4f8691f84bbc1c450, type: 3}
       propertyPath: m_SizeDelta.x
@@ -8968,11 +9105,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8804916835337815494, guid: 19aa0155d14318f4f8691f84bbc1c450, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 556.5
       objectReference: {fileID: 0}
     - target: {fileID: 8804916835337815494, guid: 19aa0155d14318f4f8691f84bbc1c450, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -93.20025
       objectReference: {fileID: 0}
     - target: {fileID: 8804916835337815494, guid: 19aa0155d14318f4f8691f84bbc1c450, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9021,7 +9158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7840306375343274582, guid: 5f3f4dcb32957d643a380c192ae89992, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7840306375343274582, guid: 5f3f4dcb32957d643a380c192ae89992, type: 3}
       propertyPath: m_AnchorMin.x
@@ -9029,7 +9166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7840306375343274582, guid: 5f3f4dcb32957d643a380c192ae89992, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7840306375343274582, guid: 5f3f4dcb32957d643a380c192ae89992, type: 3}
       propertyPath: m_SizeDelta.x
@@ -9069,11 +9206,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7840306375343274582, guid: 5f3f4dcb32957d643a380c192ae89992, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 997
       objectReference: {fileID: 0}
     - target: {fileID: 7840306375343274582, guid: 5f3f4dcb32957d643a380c192ae89992, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -93.20025
       objectReference: {fileID: 0}
     - target: {fileID: 7840306375343274582, guid: 5f3f4dcb32957d643a380c192ae89992, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9126,7 +9263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5929797919034353750, guid: 2f2869a128ad53e4691ca1292cbd7e2d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5929797919034353750, guid: 2f2869a128ad53e4691ca1292cbd7e2d, type: 3}
       propertyPath: m_AnchorMin.x
@@ -9134,7 +9271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5929797919034353750, guid: 2f2869a128ad53e4691ca1292cbd7e2d, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5929797919034353750, guid: 2f2869a128ad53e4691ca1292cbd7e2d, type: 3}
       propertyPath: m_SizeDelta.x
@@ -9174,11 +9311,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5929797919034353750, guid: 2f2869a128ad53e4691ca1292cbd7e2d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1495.5
       objectReference: {fileID: 0}
     - target: {fileID: 5929797919034353750, guid: 2f2869a128ad53e4691ca1292cbd7e2d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -93.20025
       objectReference: {fileID: 0}
     - target: {fileID: 5929797919034353750, guid: 2f2869a128ad53e4691ca1292cbd7e2d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9239,7 +9376,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637841703642682147, guid: 490ce2c77b8f17a4580b4ee5f2c61eb9, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8637841703642682147, guid: 490ce2c77b8f17a4580b4ee5f2c61eb9, type: 3}
       propertyPath: m_AnchorMin.x
@@ -9247,7 +9384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637841703642682147, guid: 490ce2c77b8f17a4580b4ee5f2c61eb9, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8637841703642682147, guid: 490ce2c77b8f17a4580b4ee5f2c61eb9, type: 3}
       propertyPath: m_SizeDelta.x
@@ -9287,11 +9424,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8637841703642682147, guid: 490ce2c77b8f17a4580b4ee5f2c61eb9, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 863.5
       objectReference: {fileID: 0}
     - target: {fileID: 8637841703642682147, guid: 490ce2c77b8f17a4580b4ee5f2c61eb9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -93.20025
       objectReference: {fileID: 0}
     - target: {fileID: 8637841703642682147, guid: 490ce2c77b8f17a4580b4ee5f2c61eb9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
