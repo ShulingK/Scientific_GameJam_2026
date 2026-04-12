@@ -129,12 +129,12 @@ TextureImporter:
       name: chaussette_sadness_0
       rect:
         serializedVersion: 2
-        x: 144
-        y: 5
-        width: 274
-        height: 328
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,11 +147,517 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2d4844882b6e6468c1cbbe877f4bda
+      internalID: 224311927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_2
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2577043411c2d084dbcd9f40dfbf05eb
+      internalID: 1363592743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_3
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee875b2931fd2244a83eeaafe6df728
+      internalID: 2078450420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_4
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe1960cad730db4e86d84194251a85d
+      internalID: 466673991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_5
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892efde58d654b04ba1c1cca681744d6
+      internalID: 1603577801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_6
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ab0ffa94423b541ad56794643fe697
+      internalID: -659041660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_7
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b973220f1e9f444805ed514fdd6bfd
+      internalID: 1988546260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_8
+      rect:
+        serializedVersion: 2
+        x: 4240
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c2516656d79ca4ebf56f215c217364
+      internalID: -353126322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_9
+      rect:
+        serializedVersion: 2
+        x: 4770
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd69bb16c936b8640ba9d77c28ff5319
+      internalID: -1723107287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_10
+      rect:
+        serializedVersion: 2
+        x: 5300
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecf85dac11be4845ae401d4a701cb92
+      internalID: -1507295499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_11
+      rect:
+        serializedVersion: 2
+        x: 5830
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c565e9cfdcadd342a4440844ed4ac61
+      internalID: 862942705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_12
+      rect:
+        serializedVersion: 2
+        x: 6360
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf720f8bdab8cc14092ea29ebe07e0ca
+      internalID: -1615656359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_13
+      rect:
+        serializedVersion: 2
+        x: 6890
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ec16c967361f54198a141725e28b1f
+      internalID: -1685064258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_14
+      rect:
+        serializedVersion: 2
+        x: 7420
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb14e87c0ce16d2419a550dd357835e2
+      internalID: 442533097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_15
+      rect:
+        serializedVersion: 2
+        x: 7950
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd82f55b306fb324a8bf998b2216a0d8
+      internalID: 555780620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_16
+      rect:
+        serializedVersion: 2
+        x: 8480
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1288a1e15b9a23b4aab59fe28d32b6cd
+      internalID: -672083406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_17
+      rect:
+        serializedVersion: 2
+        x: 9010
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe4c5ed866d84e4b9bc8ee8eef7c393
+      internalID: 2048732262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_18
+      rect:
+        serializedVersion: 2
+        x: 9540
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5337e20083aa2064aaf5d7a8d1ad3b5c
+      internalID: -870328242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_19
+      rect:
+        serializedVersion: 2
+        x: 10070
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ffe6ef39f1f4c4ca231f2435f6d7ce
+      internalID: 542889386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_20
+      rect:
+        serializedVersion: 2
+        x: 10600
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a48dad24cd3ea14087f198b26408f2a
+      internalID: 1095315061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_21
+      rect:
+        serializedVersion: 2
+        x: 11130
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554c50debe631ee4a99e70df8e91b771
+      internalID: -1129267808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_22
+      rect:
+        serializedVersion: 2
+        x: 11660
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16245f544032064282eb4fd0b51f54e
+      internalID: 647245404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_sadness_23
+      rect:
+        serializedVersion: 2
+        x: 12190
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c32dfb326251ca4bbcd3af0ba0b46be
+      internalID: -458278096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3b72d4c8885c9a84dbbfa937fccc5501
     internalID: 0
     vertices: []
     indices: 
@@ -159,9 +665,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":24.0,"y":1.0},"gridSpriteSize":{"x":530.0,"y":407.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       chaussette_sadness_0: 6269247953099543190
+      chaussette_sadness_1: 224311927
+      chaussette_sadness_10: -1507295499
+      chaussette_sadness_11: 862942705
+      chaussette_sadness_12: -1615656359
+      chaussette_sadness_13: -1685064258
+      chaussette_sadness_14: 442533097
+      chaussette_sadness_15: 555780620
+      chaussette_sadness_16: -672083406
+      chaussette_sadness_17: 2048732262
+      chaussette_sadness_18: -870328242
+      chaussette_sadness_19: 542889386
+      chaussette_sadness_2: 1363592743
+      chaussette_sadness_20: 1095315061
+      chaussette_sadness_21: -1129267808
+      chaussette_sadness_22: 647245404
+      chaussette_sadness_23: -458278096
+      chaussette_sadness_3: 2078450420
+      chaussette_sadness_4: 466673991
+      chaussette_sadness_5: 1603577801
+      chaussette_sadness_6: -659041660
+      chaussette_sadness_7: 1988546260
+      chaussette_sadness_8: -353126322
+      chaussette_sadness_9: -1723107287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
