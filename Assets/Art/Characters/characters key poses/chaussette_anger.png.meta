@@ -129,12 +129,12 @@ TextureImporter:
       name: chaussette_anger_0
       rect:
         serializedVersion: 2
-        x: 162
-        y: 2
-        width: 222
-        height: 337
+        x: 0
+        y: 0
+        width: 530
+        height: 407
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,11 +147,495 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a5d706a81978d45b0a575e2adcf20a
+      internalID: -290615826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_2
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fef1e6138ca3f4c8b8a1e2c682a892
+      internalID: 1523084512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_3
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed66f4dbcbf196541b0f6d414139f800
+      internalID: 977948595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_4
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d4df339299ed4479db1bca3cd069d3
+      internalID: 565771904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_5
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3749cfd1254d6cb458ac001e474d415b
+      internalID: -1294308352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_6
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac39a40442e9224b83aca33fc24596e
+      internalID: 1310387629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_7
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5b75f1d45a06a48ab9147d6f3e1879
+      internalID: -189703775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_8
+      rect:
+        serializedVersion: 2
+        x: 4240
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55352f950df79a84094218cb2899fd8c
+      internalID: 688948091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_9
+      rect:
+        serializedVersion: 2
+        x: 4770
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5315ea0a8bca32344b8a121a484ff372
+      internalID: 1371297481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_10
+      rect:
+        serializedVersion: 2
+        x: 5300
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070878d79e69fb540ac5030899d6b18f
+      internalID: -194953864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_11
+      rect:
+        serializedVersion: 2
+        x: 5830
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac81ebcfa6c27340aece676cf9f2a8d
+      internalID: -776241778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_12
+      rect:
+        serializedVersion: 2
+        x: 6360
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ebfb7d81f502441886d72e702a22cc
+      internalID: -1406757089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_13
+      rect:
+        serializedVersion: 2
+        x: 6890
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece65423d07158244a78212c545fa5f6
+      internalID: -1734686310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_14
+      rect:
+        serializedVersion: 2
+        x: 7420
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433a71381f7545b4c8303b567596cb4e
+      internalID: -1985332882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_15
+      rect:
+        serializedVersion: 2
+        x: 7950
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f075aa183c50d47b302cb462ed2e88
+      internalID: -411374998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_16
+      rect:
+        serializedVersion: 2
+        x: 8480
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752064ddf68bedc4281b9741a71b9e48
+      internalID: -431966780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_17
+      rect:
+        serializedVersion: 2
+        x: 9010
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1334724c7bbfd54997a4dd6f790485c
+      internalID: 2027189433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_18
+      rect:
+        serializedVersion: 2
+        x: 9540
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa0f077f2837cd40b0e211cc7181d69
+      internalID: 612261045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_19
+      rect:
+        serializedVersion: 2
+        x: 10070
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b63783d967a00458f738dc2376f618
+      internalID: -401821725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_20
+      rect:
+        serializedVersion: 2
+        x: 10600
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bd34643f286b8498cfd21a4526676e
+      internalID: 363487698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_21
+      rect:
+        serializedVersion: 2
+        x: 11130
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e2348d81671ac4c827eb60294e51a1
+      internalID: -1717468799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette_anger_22
+      rect:
+        serializedVersion: 2
+        x: 11660
+        y: 0
+        width: 530
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fc203e8ce0ab1469c66b0715e56c9c
+      internalID: 1436113050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 95088a286a210a94b85840d419163507
     internalID: 0
     vertices: []
     indices: 
@@ -159,9 +643,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":23.0,"y":1.0},"gridSpriteSize":{"x":530.0,"y":407.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       chaussette_anger_0: -5297359250738250341
+      chaussette_anger_1: -290615826
+      chaussette_anger_10: -194953864
+      chaussette_anger_11: -776241778
+      chaussette_anger_12: -1406757089
+      chaussette_anger_13: -1734686310
+      chaussette_anger_14: -1985332882
+      chaussette_anger_15: -411374998
+      chaussette_anger_16: -431966780
+      chaussette_anger_17: 2027189433
+      chaussette_anger_18: 612261045
+      chaussette_anger_19: -401821725
+      chaussette_anger_2: 1523084512
+      chaussette_anger_20: 363487698
+      chaussette_anger_21: -1717468799
+      chaussette_anger_22: 1436113050
+      chaussette_anger_3: 977948595
+      chaussette_anger_4: 565771904
+      chaussette_anger_5: -1294308352
+      chaussette_anger_6: 1310387629
+      chaussette_anger_7: -189703775
+      chaussette_anger_8: 688948091
+      chaussette_anger_9: 1371297481
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

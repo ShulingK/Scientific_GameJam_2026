@@ -129,12 +129,12 @@ TextureImporter:
       name: chaussette-still_0
       rect:
         serializedVersion: 2
-        x: 162
-        y: 5
-        width: 221
-        height: 357
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,11 +147,385 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: chaussette-still_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb62281b087a154898a78429a00c9a2
+      internalID: -715402843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_2
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120d0a0a9075a5543b37efaf57165a61
+      internalID: -1732729138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_3
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1fba6e897fc6942ba61a2ce6d00c86
+      internalID: 235667981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_4
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b48c77f0059254c863d44054da0035
+      internalID: -1717480142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_5
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d18114055b13d46bd2fa3158a54c46
+      internalID: -1295673954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_6
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e2e8b75dc9ba64c89e2a84820b9d6b
+      internalID: 1449084355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_7
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35023ee30aa9bd044b585488b69318a5
+      internalID: 544029048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_8
+      rect:
+        serializedVersion: 2
+        x: 4240
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c36ecb7e71f544a816f8994ab314f4
+      internalID: -1112529194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_9
+      rect:
+        serializedVersion: 2
+        x: 4770
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84617970c2acef45b8bb4f00ce2cde5
+      internalID: 1795548037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_10
+      rect:
+        serializedVersion: 2
+        x: 5300
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb2c880873ec4649a4825d9b2a707d3
+      internalID: 1925618723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_11
+      rect:
+        serializedVersion: 2
+        x: 5830
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183496681f3b43445bf674cdea7b6abd
+      internalID: 2105836299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_12
+      rect:
+        serializedVersion: 2
+        x: 6360
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d131a1f9e171a41b36876e97ffa386
+      internalID: 762095337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_13
+      rect:
+        serializedVersion: 2
+        x: 6890
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c55b918dbf706242ac701ce3d5c9af6
+      internalID: -115204126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_14
+      rect:
+        serializedVersion: 2
+        x: 7420
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdc884601df38d4aa14ebecdc154191
+      internalID: -730427825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_15
+      rect:
+        serializedVersion: 2
+        x: 7950
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a101f6e6527ead4d9271fe9bc6288c3
+      internalID: 922745493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_16
+      rect:
+        serializedVersion: 2
+        x: 8480
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5160483d59366a44a8ae6fd8cf46480
+      internalID: -167221970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chaussette-still_17
+      rect:
+        serializedVersion: 2
+        x: 9010
+        y: 0
+        width: 530
+        height: 407
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88528184f802bc14099cf7bf87791048
+      internalID: 94864087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 51eafec0044c78b45b00d42336edc94b
     internalID: 0
     vertices: []
     indices: 
@@ -159,9 +533,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":18.0,"y":1.0},"gridSpriteSize":{"x":530.0,"y":407.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       chaussette-still_0: -4808478384432499378
+      chaussette-still_1: -715402843
+      chaussette-still_10: 1925618723
+      chaussette-still_11: 2105836299
+      chaussette-still_12: 762095337
+      chaussette-still_13: -115204126
+      chaussette-still_14: -730427825
+      chaussette-still_15: 922745493
+      chaussette-still_16: -167221970
+      chaussette-still_17: 94864087
+      chaussette-still_2: -1732729138
+      chaussette-still_3: 235667981
+      chaussette-still_4: -1717480142
+      chaussette-still_5: -1295673954
+      chaussette-still_6: 1449084355
+      chaussette-still_7: 544029048
+      chaussette-still_8: -1112529194
+      chaussette-still_9: 1795548037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
