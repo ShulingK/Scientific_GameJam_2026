@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 96
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -129,10 +129,10 @@ TextureImporter:
       name: chaussette_anger_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 150
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,10 +151,10 @@ TextureImporter:
       name: chaussette_anger_1
       rect:
         serializedVersion: 2
-        x: 530
+        x: 680
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: chaussette_anger_2
       rect:
         serializedVersion: 2
-        x: 1060
+        x: 1210
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: chaussette_anger_3
       rect:
         serializedVersion: 2
-        x: 1590
+        x: 1740
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +217,10 @@ TextureImporter:
       name: chaussette_anger_4
       rect:
         serializedVersion: 2
-        x: 2120
+        x: 2270
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: chaussette_anger_5
       rect:
         serializedVersion: 2
-        x: 2650
+        x: 2800
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +261,10 @@ TextureImporter:
       name: chaussette_anger_6
       rect:
         serializedVersion: 2
-        x: 3180
+        x: 3330
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: chaussette_anger_7
       rect:
         serializedVersion: 2
-        x: 3710
+        x: 3860
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: chaussette_anger_8
       rect:
         serializedVersion: 2
-        x: 4240
+        x: 4390
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: chaussette_anger_9
       rect:
         serializedVersion: 2
-        x: 4770
+        x: 4920
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: chaussette_anger_10
       rect:
         serializedVersion: 2
-        x: 5300
+        x: 5450
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: chaussette_anger_11
       rect:
         serializedVersion: 2
-        x: 5830
+        x: 5980
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: chaussette_anger_12
       rect:
         serializedVersion: 2
-        x: 6360
+        x: 6510
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: chaussette_anger_13
       rect:
         serializedVersion: 2
-        x: 6890
+        x: 7040
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,10 +437,10 @@ TextureImporter:
       name: chaussette_anger_14
       rect:
         serializedVersion: 2
-        x: 7420
+        x: 7570
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +459,10 @@ TextureImporter:
       name: chaussette_anger_15
       rect:
         serializedVersion: 2
-        x: 7950
+        x: 8100
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +481,10 @@ TextureImporter:
       name: chaussette_anger_16
       rect:
         serializedVersion: 2
-        x: 8480
+        x: 8630
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,10 +503,10 @@ TextureImporter:
       name: chaussette_anger_17
       rect:
         serializedVersion: 2
-        x: 9010
+        x: 9160
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: chaussette_anger_18
       rect:
         serializedVersion: 2
-        x: 9540
+        x: 9690
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +547,10 @@ TextureImporter:
       name: chaussette_anger_19
       rect:
         serializedVersion: 2
-        x: 10070
+        x: 10220
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: chaussette_anger_20
       rect:
         serializedVersion: 2
-        x: 10600
+        x: 10750
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: chaussette_anger_21
       rect:
         serializedVersion: 2
-        x: 11130
+        x: 11280
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +613,10 @@ TextureImporter:
       name: chaussette_anger_22
       rect:
         serializedVersion: 2
-        x: 11660
+        x: 11810
         y: 0
-        width: 530
-        height: 407
+        width: 250
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -645,7 +645,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":23.0,"y":1.0},"gridSpriteSize":{"x":530.0,"y":407.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":250.0,"y":390.0},"gridSpriteOffset":{"x":150.0,"y":17.0},"gridSpritePadding":{"x":280.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       chaussette_anger_0: -5297359250738250341
       chaussette_anger_1: -290615826
