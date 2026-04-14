@@ -3203,6 +3203,15 @@ AnimationClip:
     classID: 114
     script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
     flags: 2
+  - serializedVersion: 2
+    curve:
+    - time: 0
+      value: {fileID: 7736322878507605292, guid: 47fe8c1c96c1bb0438b4886544081d48, type: 3}
+    attribute: m_Sprite
+    path: "Panel - GameView/Chausette le goat qu'il pense \xEAtre ce bg"
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+    flags: 2
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -3275,6 +3284,15 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3417447932
+      attribute: 2015549526
+      script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1197077138
       attribute: 2015549526
       script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
       typeID: 114
@@ -4749,6 +4767,7 @@ AnimationClip:
     - {fileID: -6695388297740606068, guid: 3a202f062699be14eba2d43c9300f1c1, type: 3}
     - {fileID: -5476122898256350626, guid: 3a202f062699be14eba2d43c9300f1c1, type: 3}
     - {fileID: -9012724325692522884, guid: 3a202f062699be14eba2d43c9300f1c1, type: 3}
+    - {fileID: 7736322878507605292, guid: 47fe8c1c96c1bb0438b4886544081d48, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

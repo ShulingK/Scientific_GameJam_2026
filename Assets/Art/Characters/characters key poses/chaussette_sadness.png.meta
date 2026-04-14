@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 96
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -129,12 +129,12 @@ TextureImporter:
       name: chaussette_sadness_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 89
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,12 +151,12 @@ TextureImporter:
       name: chaussette_sadness_1
       rect:
         serializedVersion: 2
-        x: 530
+        x: 619
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -173,12 +173,12 @@ TextureImporter:
       name: chaussette_sadness_2
       rect:
         serializedVersion: 2
-        x: 1060
+        x: 1149
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -195,12 +195,12 @@ TextureImporter:
       name: chaussette_sadness_3
       rect:
         serializedVersion: 2
-        x: 1590
+        x: 1679
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -217,12 +217,12 @@ TextureImporter:
       name: chaussette_sadness_4
       rect:
         serializedVersion: 2
-        x: 2120
+        x: 2209
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -239,12 +239,12 @@ TextureImporter:
       name: chaussette_sadness_5
       rect:
         serializedVersion: 2
-        x: 2650
+        x: 2739
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -261,12 +261,12 @@ TextureImporter:
       name: chaussette_sadness_6
       rect:
         serializedVersion: 2
-        x: 3180
+        x: 3269
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -283,12 +283,12 @@ TextureImporter:
       name: chaussette_sadness_7
       rect:
         serializedVersion: 2
-        x: 3710
+        x: 3799
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -305,12 +305,12 @@ TextureImporter:
       name: chaussette_sadness_8
       rect:
         serializedVersion: 2
-        x: 4240
+        x: 4329
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -327,12 +327,12 @@ TextureImporter:
       name: chaussette_sadness_9
       rect:
         serializedVersion: 2
-        x: 4770
+        x: 4859
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -349,12 +349,12 @@ TextureImporter:
       name: chaussette_sadness_10
       rect:
         serializedVersion: 2
-        x: 5300
+        x: 5389
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -371,12 +371,12 @@ TextureImporter:
       name: chaussette_sadness_11
       rect:
         serializedVersion: 2
-        x: 5830
+        x: 5919
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -393,12 +393,12 @@ TextureImporter:
       name: chaussette_sadness_12
       rect:
         serializedVersion: 2
-        x: 6360
+        x: 6449
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -415,12 +415,12 @@ TextureImporter:
       name: chaussette_sadness_13
       rect:
         serializedVersion: 2
-        x: 6890
+        x: 6979
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -437,12 +437,12 @@ TextureImporter:
       name: chaussette_sadness_14
       rect:
         serializedVersion: 2
-        x: 7420
+        x: 7509
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -459,12 +459,12 @@ TextureImporter:
       name: chaussette_sadness_15
       rect:
         serializedVersion: 2
-        x: 7950
+        x: 8039
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -481,12 +481,12 @@ TextureImporter:
       name: chaussette_sadness_16
       rect:
         serializedVersion: 2
-        x: 8480
+        x: 8569
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -503,12 +503,12 @@ TextureImporter:
       name: chaussette_sadness_17
       rect:
         serializedVersion: 2
-        x: 9010
+        x: 9099
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -525,12 +525,12 @@ TextureImporter:
       name: chaussette_sadness_18
       rect:
         serializedVersion: 2
-        x: 9540
+        x: 9629
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -547,12 +547,12 @@ TextureImporter:
       name: chaussette_sadness_19
       rect:
         serializedVersion: 2
-        x: 10070
+        x: 10159
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -569,12 +569,12 @@ TextureImporter:
       name: chaussette_sadness_20
       rect:
         serializedVersion: 2
-        x: 10600
+        x: 10689
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -591,12 +591,12 @@ TextureImporter:
       name: chaussette_sadness_21
       rect:
         serializedVersion: 2
-        x: 11130
+        x: 11219
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -613,12 +613,12 @@ TextureImporter:
       name: chaussette_sadness_22
       rect:
         serializedVersion: 2
-        x: 11660
+        x: 11749
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -635,12 +635,12 @@ TextureImporter:
       name: chaussette_sadness_23
       rect:
         serializedVersion: 2
-        x: 12190
+        x: 12279
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 406
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -667,7 +667,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":24.0,"y":1.0},"gridSpriteSize":{"x":530.0,"y":407.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":406.0,"y":390.0},"gridSpriteOffset":{"x":89.0,"y":17.0},"gridSpritePadding":{"x":124.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       chaussette_sadness_0: 6269247953099543190
       chaussette_sadness_1: 224311927
