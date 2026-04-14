@@ -37,12 +37,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -51,9 +51,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 96
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -129,12 +129,12 @@ TextureImporter:
       name: chaussette-still_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 148
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,12 +151,12 @@ TextureImporter:
       name: chaussette-still_1
       rect:
         serializedVersion: 2
-        x: 530
+        x: 678
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -173,12 +173,12 @@ TextureImporter:
       name: chaussette-still_2
       rect:
         serializedVersion: 2
-        x: 1060
+        x: 1208
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -195,12 +195,12 @@ TextureImporter:
       name: chaussette-still_3
       rect:
         serializedVersion: 2
-        x: 1590
+        x: 1738
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -217,12 +217,12 @@ TextureImporter:
       name: chaussette-still_4
       rect:
         serializedVersion: 2
-        x: 2120
+        x: 2268
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -239,12 +239,12 @@ TextureImporter:
       name: chaussette-still_5
       rect:
         serializedVersion: 2
-        x: 2650
+        x: 2798
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -261,12 +261,12 @@ TextureImporter:
       name: chaussette-still_6
       rect:
         serializedVersion: 2
-        x: 3180
+        x: 3328
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -283,12 +283,12 @@ TextureImporter:
       name: chaussette-still_7
       rect:
         serializedVersion: 2
-        x: 3710
+        x: 3858
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -305,12 +305,12 @@ TextureImporter:
       name: chaussette-still_8
       rect:
         serializedVersion: 2
-        x: 4240
+        x: 4388
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -327,12 +327,12 @@ TextureImporter:
       name: chaussette-still_9
       rect:
         serializedVersion: 2
-        x: 4770
+        x: 4918
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -349,12 +349,12 @@ TextureImporter:
       name: chaussette-still_10
       rect:
         serializedVersion: 2
-        x: 5300
+        x: 5448
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -371,12 +371,12 @@ TextureImporter:
       name: chaussette-still_11
       rect:
         serializedVersion: 2
-        x: 5830
+        x: 5978
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -393,12 +393,12 @@ TextureImporter:
       name: chaussette-still_12
       rect:
         serializedVersion: 2
-        x: 6360
+        x: 6508
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -415,12 +415,12 @@ TextureImporter:
       name: chaussette-still_13
       rect:
         serializedVersion: 2
-        x: 6890
+        x: 7038
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -437,12 +437,12 @@ TextureImporter:
       name: chaussette-still_14
       rect:
         serializedVersion: 2
-        x: 7420
+        x: 7568
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -459,12 +459,12 @@ TextureImporter:
       name: chaussette-still_15
       rect:
         serializedVersion: 2
-        x: 7950
+        x: 8098
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -481,12 +481,12 @@ TextureImporter:
       name: chaussette-still_16
       rect:
         serializedVersion: 2
-        x: 8480
+        x: 8628
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -503,12 +503,12 @@ TextureImporter:
       name: chaussette-still_17
       rect:
         serializedVersion: 2
-        x: 9010
+        x: 9158
         y: 0
-        width: 530
-        height: 407
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 250
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -535,7 +535,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":18.0,"y":1.0},"gridSpriteSize":{"x":530.0,"y":407.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":18.0,"y":1.0},"gridSpriteSize":{"x":250.0,"y":390.0},"gridSpriteOffset":{"x":148.0,"y":17.0},"gridSpritePadding":{"x":280.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       chaussette-still_0: -4808478384432499378
       chaussette-still_1: -715402843

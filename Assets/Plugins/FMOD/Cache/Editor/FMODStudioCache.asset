@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Sound/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639115194252342721
+  lastModified: 639117460917102428
   FileSizes: []
   Exists: 1
 --- !u!114 &-7499678552012670745
@@ -152,7 +152,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 21769
+  Length: 2485
 --- !u!114 &-4483321207598559327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,7 +222,7 @@ MonoBehaviour:
   Path: Assets/Sound/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639115223187778663
+  lastModified: 639117460917040928
   FileSizes: []
   Exists: 1
 --- !u!114 &-1516000501056209404
@@ -381,7 +381,7 @@ MonoBehaviour:
   - {fileID: 5265552520924462195}
   StringsBanks:
   - {fileID: 1027086876102410906}
-  cacheTime: 639115223187778663
+  cacheTime: 639117460917102428
   cacheVersion: 131635
 --- !u!114 &1027086876102410906
 MonoBehaviour:
@@ -456,7 +456,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 19200
+  Length: 19636
 --- !u!114 &2783577734933246393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -591,7 +591,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 21932
+  Length: 2400
 --- !u!114 &5265552520924462195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -607,7 +607,7 @@ MonoBehaviour:
   Path: Assets/Sound/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639115194252250203
+  lastModified: 639117460916884934
   FileSizes: []
   Exists: 1
 --- !u!114 &5480538005882523435
@@ -690,7 +690,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 17492
+  Length: 1979
 --- !u!114 &7319898796440951236
 MonoBehaviour:
   m_ObjectHideFlags: 0
