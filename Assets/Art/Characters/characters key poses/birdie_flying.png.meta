@@ -129,12 +129,12 @@ TextureImporter:
       name: birdie_flying_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 60
-        width: 429
-        height: 345
+        x: 0
+        y: 0
+        width: 530
+        height: 479
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,11 +147,341 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: birdie_flying_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4356f9f61fbd84ab8a94bb9cd3315e
+      internalID: -386536169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_2
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031a831664dde5a479dc6053c2a0dec1
+      internalID: 769301945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_3
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d44d2004bf70874289828d709e07381
+      internalID: -1538381618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_4
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de644a965ef65a6498dcec17b1554723
+      internalID: 550499050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_5
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac2fdd586292df4b8f1301875651b95
+      internalID: -317975013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_6
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7a7159a68b98b4ab986bb03cdcf822
+      internalID: 1750252362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_7
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a93620299a01694e90fb4de2a5dd6d1
+      internalID: -445925977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_8
+      rect:
+        serializedVersion: 2
+        x: 4240
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbd85994afd3d744b24b75520266cdb
+      internalID: -35280993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_9
+      rect:
+        serializedVersion: 2
+        x: 4770
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4391d65347ba2441be2b418d88bb696
+      internalID: -470835571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_10
+      rect:
+        serializedVersion: 2
+        x: 5300
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6e8595cca45ad459984844bd1853ff
+      internalID: -1008248698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_11
+      rect:
+        serializedVersion: 2
+        x: 5830
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe8ed70b42e55b47a90685b214816ab
+      internalID: -791930424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_12
+      rect:
+        serializedVersion: 2
+        x: 6360
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abeeaab1d40d27e4d876e52c13d2f4f9
+      internalID: -557480681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_13
+      rect:
+        serializedVersion: 2
+        x: 6890
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaadbab176f34a469a3646dda81eaa8
+      internalID: -1262787351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_14
+      rect:
+        serializedVersion: 2
+        x: 7420
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f15b4a9e9c7624383169e520b2cc21
+      internalID: 1327017620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdie_flying_15
+      rect:
+        serializedVersion: 2
+        x: 7950
+        y: 0
+        width: 530
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94c1f1d6b4d1d741b8d9ef70f320157
+      internalID: -1435977734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 113a95bfcf300a247b15aa0d5b97052e
     internalID: 0
     vertices: []
     indices: 
@@ -159,9 +489,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":16.0,"y":1.0},"gridSpriteSize":{"x":530.0,"y":479.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       birdie_flying_0: -3365227545370118141
+      birdie_flying_1: -386536169
+      birdie_flying_10: -1008248698
+      birdie_flying_11: -791930424
+      birdie_flying_12: -557480681
+      birdie_flying_13: -1262787351
+      birdie_flying_14: 1327017620
+      birdie_flying_15: -1435977734
+      birdie_flying_2: 769301945
+      birdie_flying_3: -1538381618
+      birdie_flying_4: 550499050
+      birdie_flying_5: -317975013
+      birdie_flying_6: 1750252362
+      birdie_flying_7: -445925977
+      birdie_flying_8: -35280993
+      birdie_flying_9: -470835571
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
