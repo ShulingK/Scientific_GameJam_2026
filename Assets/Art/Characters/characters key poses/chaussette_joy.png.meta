@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 96
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -129,10 +129,10 @@ TextureImporter:
       name: chaussette_joy_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 530
-        height: 443
+        x: 180
+        y: 12
+        width: 258
+        height: 338
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,10 +151,10 @@ TextureImporter:
       name: chaussette_joy_1
       rect:
         serializedVersion: 2
-        x: 530
-        y: 0
-        width: 530
-        height: 443
+        x: 710
+        y: 12
+        width: 257
+        height: 338
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: chaussette_joy_2
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 0
-        width: 530
-        height: 443
+        x: 1239
+        y: 12
+        width: 258
+        height: 338
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: chaussette_joy_3
       rect:
         serializedVersion: 2
-        x: 1590
-        y: 0
-        width: 530
-        height: 443
+        x: 1770
+        y: 12
+        width: 258
+        height: 338
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +217,10 @@ TextureImporter:
       name: chaussette_joy_4
       rect:
         serializedVersion: 2
-        x: 2120
-        y: 0
-        width: 530
-        height: 443
+        x: 2300
+        y: 12
+        width: 257
+        height: 338
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: chaussette_joy_5
       rect:
         serializedVersion: 2
-        x: 2650
-        y: 0
-        width: 530
-        height: 443
+        x: 2829
+        y: 12
+        width: 258
+        height: 338
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +261,10 @@ TextureImporter:
       name: chaussette_joy_6
       rect:
         serializedVersion: 2
-        x: 3180
-        y: 0
-        width: 530
-        height: 443
+        x: 3360
+        y: 12
+        width: 258
+        height: 338
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: chaussette_joy_7
       rect:
         serializedVersion: 2
-        x: 3710
-        y: 0
-        width: 530
-        height: 443
+        x: 3890
+        y: 12
+        width: 257
+        height: 338
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: chaussette_joy_8
       rect:
         serializedVersion: 2
-        x: 4240
-        y: 0
-        width: 530
-        height: 443
+        x: 4397
+        y: 64
+        width: 250
+        height: 365
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: chaussette_joy_9
       rect:
         serializedVersion: 2
-        x: 4770
-        y: 0
-        width: 530
-        height: 443
+        x: 4928
+        y: 64
+        width: 249
+        height: 365
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: chaussette_joy_10
       rect:
         serializedVersion: 2
-        x: 5300
-        y: 0
-        width: 530
-        height: 443
+        x: 5458
+        y: 64
+        width: 248
+        height: 365
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: chaussette_joy_11
       rect:
         serializedVersion: 2
-        x: 5830
-        y: 0
-        width: 530
-        height: 443
+        x: 5987
+        y: 64
+        width: 250
+        height: 365
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: chaussette_joy_12
       rect:
         serializedVersion: 2
-        x: 6360
-        y: 0
-        width: 530
-        height: 443
+        x: 6518
+        y: 64
+        width: 249
+        height: 365
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: chaussette_joy_13
       rect:
         serializedVersion: 2
-        x: 6890
-        y: 0
-        width: 530
-        height: 443
+        x: 7048
+        y: 64
+        width: 248
+        height: 365
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,10 +437,10 @@ TextureImporter:
       name: chaussette_joy_14
       rect:
         serializedVersion: 2
-        x: 7420
-        y: 0
-        width: 530
-        height: 443
+        x: 7577
+        y: 64
+        width: 250
+        height: 365
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +459,10 @@ TextureImporter:
       name: chaussette_joy_15
       rect:
         serializedVersion: 2
-        x: 7950
-        y: 0
-        width: 530
-        height: 443
+        x: 8108
+        y: 64
+        width: 249
+        height: 365
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +481,10 @@ TextureImporter:
       name: chaussette_joy_16
       rect:
         serializedVersion: 2
-        x: 8480
-        y: 0
-        width: 530
-        height: 443
+        x: 8624
+        y: 65
+        width: 248
+        height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,10 +503,10 @@ TextureImporter:
       name: chaussette_joy_17
       rect:
         serializedVersion: 2
-        x: 9010
-        y: 0
-        width: 530
-        height: 443
+        x: 9153
+        y: 65
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: chaussette_joy_18
       rect:
         serializedVersion: 2
-        x: 9540
-        y: 0
-        width: 530
-        height: 443
+        x: 9684
+        y: 65
+        width: 249
+        height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +547,10 @@ TextureImporter:
       name: chaussette_joy_19
       rect:
         serializedVersion: 2
-        x: 10070
-        y: 0
-        width: 530
-        height: 443
+        x: 10214
+        y: 65
+        width: 248
+        height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: chaussette_joy_20
       rect:
         serializedVersion: 2
-        x: 10600
-        y: 0
-        width: 530
-        height: 443
+        x: 10743
+        y: 65
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: chaussette_joy_21
       rect:
         serializedVersion: 2
-        x: 11130
-        y: 0
-        width: 530
-        height: 443
+        x: 11274
+        y: 65
+        width: 249
+        height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +613,10 @@ TextureImporter:
       name: chaussette_joy_22
       rect:
         serializedVersion: 2
-        x: 11660
-        y: 0
-        width: 530
-        height: 443
+        x: 11804
+        y: 65
+        width: 248
+        height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,10 +635,10 @@ TextureImporter:
       name: chaussette_joy_23
       rect:
         serializedVersion: 2
-        x: 12190
-        y: 0
-        width: 530
-        height: 443
+        x: 12333
+        y: 65
+        width: 250
+        height: 370
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -667,7 +667,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":24.0,"y":1.0},"gridSpriteSize":{"x":530.0,"y":443.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       chaussette_joy_0: 7736322878507605292
       chaussette_joy_1: 1460371020
