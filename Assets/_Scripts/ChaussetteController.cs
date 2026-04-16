@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Animator))]
 public class ChaussetteController : MonoBehaviour
@@ -8,6 +9,8 @@ public class ChaussetteController : MonoBehaviour
     [SerializeField] private GameObject inventaire;
     [SerializeField] private GameObject dialogue;
     [SerializeField] float onEnterTime;
+
+    [SerializeField] GameObject _endScreen; 
 
     private void Awake()
     {
@@ -105,7 +108,14 @@ public class ChaussetteController : MonoBehaviour
 
         Debug.LogWarning("Level To load : " + GameManager.Instance._level.level);
 
-        GameManager.Instance._sceneLoader.LoadScene(GameManager.Instance._level.level);
+        if (SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            _endScreen.SetActive(true);
+        }
+        else
+        {
+            GameManager.Instance._sceneLoader.LoadScene(GameManager.Instance._level.level);
+        }
     }
 
     private void OnBadEmotionAnimation(int obj)
